@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+	<listeners>
+		<listener class-name="com.liono360.utility.Reporting" />
+	</listeners>
+	
+  <test thread-count="5" name="Test" preserve-order="true">
+    <classes>
+      <class name="com.liono360.opportunities.TC_001CreateOpportunity"/>
+      <class name="com.liono360.opportunities.TC_002ViewOpportunity"/>
+      <class name="com.liono360.opportunities.TC_003EditOpportunity"/>
+      <class name="com.liono360.opportunities.TC_004DeleteOpportunity"/>
+      <class name="com.liono360.opportunities.TC_005CreateWithRequireds"/>
+      <class name="com.liono360.opportunities.TC_006EditRequiredsOnly"/>
+      <class name="com.liono360.opportunities.TC_007GlobalSearch"/>
+      <class name="com.liono360.opportunities.TC_008CloneOpportunity"/>
+      <class name="com.liono360.opportunities.TC_009StageChanges"/>
+      <class name="com.liono360.opportunities.TC_010InactiveOpportunity"/>
+     <!--<class name="com.liono360.opportunities.TC_011CreateOnOtherChannel"/>
+      <class name="com.liono360.opportunities.TC_012CreateWithCustom"/>-->
+      <class name="com.liono360.opportunities.TC_013CountsOpportunityTest"/>
+      <class name="com.liono360.opportunities.TC_014VerifyCountsInBothView"/>
+    <!--  <class name="com.liono360.opportunities.TC_015StageChangesInKanbanView"/>-->
+  
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

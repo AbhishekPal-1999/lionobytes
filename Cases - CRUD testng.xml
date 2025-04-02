@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <listeners>
+        <listener class-name="com.liono360.utility.ExtentListeners"/>
+    </listeners>
+ 
+    <!-- 🟢 ACCOUNT SCENARIO -->
+    <test name="Case_Account Scenario">
+        <classes>
+            <class name="com.liono360.cases.TC_001CreateCaseForAccountWithAllFields">
+                <methods>
+                    <include name="TC_001CreateCaseWithAccount"/>
+                </methods>
+            </class>
+ 
+            <class name="com.liono360.cases.TC_005ViewCases">
+                <methods>
+                    <include name="TC_005viewCasesTest"/>
+                </methods>
+            </class>
+ 
+            <class name="com.liono360.cases.TC_006EditCase">
+                <methods>
+                    <include name="TC_006EditCases"/>
+                </methods>
+            </class>
+ 
+            <class name="com.liono360.cases.TC_007DeleteCases">
+                <methods>
+                    <include name="TC_007DeleteCasesTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+ 
+    <!-- 🔵 LEAD SCENARIO -->
+    <test name="Case_Lead Scenario">
+        <classes>
+            <class name="com.liono360.cases.TC_002CreateCaseForLeadWithAllFields">
+                <methods>
+                    <include name="TC_002CreateCaseWithLead"/>
+                </methods>
+            </class>
+ 
+            <class name="com.liono360.cases.TC_005ViewCases">
+                <methods>
+                    <include name="TC_005viewCasesTest"/>
+                </methods>
+            </class>
+ 
+            <class name="com.liono360.cases.TC_006EditCase">
+                <methods>
+                    <include name="TC_006EditCases"/>
+                </methods>
+            </class>
+ 
+            <class name="com.liono360.cases.TC_007DeleteCases">
+                <methods>
+                    <include name="TC_007DeleteCasesTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+ 
+    <!-- 🔴 ORGANIZATION SCENARIO -->
+    <test name="Case_Organization Scenario">
+        <classes>
+            <class name="com.liono360.cases.TC_004CreateCaseForOrganizationWithAllFields">
+                <methods>
+                    <include name="TC_004CreateCaseWithOrganization"/>
+                </methods>
+            </class>
+ 
+            <class name="com.liono360.cases.TC_005ViewCases">
+                <methods>
+                    <include name="TC_005viewCasesTest"/>
+                </methods>
+            </class>
+ 
+            <class name="com.liono360.cases.TC_006EditCase">
+                <methods>
+                    <include name="TC_006EditCases"/>
+                </methods>
+            </class>
+ 
+            <class name="com.liono360.cases.TC_007DeleteCases">
+                <methods>
+                    <include name="TC_007DeleteCasesTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+ 
+</suite>

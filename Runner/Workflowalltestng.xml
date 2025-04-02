@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.liono360.LeadWorkFlow.TC_052CreateEventBasedWorkFlow_Created_MultipleRule2"/>
+      <class name="com.liono360.LeadWorkFlow.TC_059CreateEventBasedWorkFlow_Created_ManualMultipleRuleAndSaveSearch"/>
+      <class name="com.liono360.LeadWorkFlow.TC_077CreateEventBasedWorkFlow_EveryTimeEdited_SaveSearch_UpdateField"/>
+      <class name="com.liono360.LeadWorkFlow.TC_049CreateTimeBasedWorkFlow_MultipleRule3"/>
+      <class name="com.liono360.LeadWorkFlow.TC_078CreateEventBasedWorkFlow_MeetsCriteria_SaveSearch_UpdateField"/>
+      <class name="com.liono360.LeadWorkFlow.TC_002CreateWorkFlowWithLeadNameRule"/>
+      <class name="com.liono360.LeadWorkFlow.TC_055CreateEventBasedWorkFlow_EverytimeEdited_SingleSearch"/>
+      <class name="com.liono360.LeadWorkFlow.TC_048CreateTimeBasedWorkFlow_MultipleRule2"/>
+      <class name="com.liono360.LeadWorkFlow.TC_039CreateEventBasedWorkFlowCEE_MultipleRule1"/>
+      <class name="com.liono360.LeadWorkFlow.TC_043CreateEventBasedWorkFlowMeetsCriteria_MultipleRule1"/>
+      <class name="com.liono360.LeadWorkFlow.TC_038CreateEventBasedWorkFlowCEE_LeadNumber"/>
+      <class name="com.liono360.LeadWorkFlow.TC_061CreateEventBasedWorkFlow_Created_LeadFirstNameAssociatedRule"/>
+      <class name="com.liono360.LeadWorkFlow.TC_057CreateTimeBasedWorkFlow_SingleSaveSearch"/>
+      <class name="com.liono360.LeadWorkFlow.TC_056CreateEventBasedWorkFlow_MeetsCriteria_SingleSaveSearch"/>
+      <class name="com.liono360.LeadWorkFlow.TC_068CreateTimeBasedWorkFlow_MultipleAssociatedRule"/>
+      <class name="com.liono360.LeadWorkFlow.TC_060CheckActionStatusInExstingLeadsFor_CreatedCriteria"/>
+      <class name="com.liono360.LeadWorkFlow.TC_053CreateEventBasedWorkFlow_Created_MultipleRule3"/>
+      <class name="com.liono360.LeadWorkFlow.TC_051CreateEventBasedWorkFlow_Created_MultipleRule1"/>
+      <class name="com.liono360.LeadWorkFlow.TC_058WorkFlowToCreateTaskAndEmailFor10User"/>
+      <class name="com.liono360.LeadWorkFlow.TC_072CreateEventBasedWorkFlow_Created_UpdateField"/>
+      <class name="com.liono360.LeadWorkFlow.TC_079CreateTimeBasedWorkFlow_SaveSearch_UpdateField"/>
+      <class name="com.liono360.LeadWorkFlow.TC_069ViewWorkFlow"/>
+      <class name="com.liono360.LeadWorkFlow.TC_062CreateEventBasedWorkFlow_Created_MultipleAssociatedRule"/>
+      <class name="com.liono360.LeadWorkFlow.TC_067CreateTimeBasedWorkFlow_LeadFirstNameAssociatedRule"/>
+      <class name="com.liono360.LeadWorkFlow.TC_066CreateEventBasedWorkFlow_MeetsCriteria_MultipleAssociatedRule"/>
+      <class name="com.liono360.LeadWorkFlow.TC_047CreateTimeBasedWorkFlow_MultipleRule1"/>
+      <class name="com.liono360.LeadWorkFlow.TC_071DeleteWorkFlow"/>
+      <class name="com.liono360.LeadWorkFlow.TC_044CreateEventBasedWorkFlowMeetsCriteria_MultipleRule2"/>
+      <class name="com.liono360.LeadWorkFlow.TC_063CreateEventBasedWorkFlow_EveryTimeEdited_LeadFirstNameAssociatedRule"/>
+      <class name="com.liono360.LeadWorkFlow.TC_065CreateEventBasedWorkFlow_MeetsCriteria_LeadFirstNameAssociatedRule"/>
+      <class name="com.liono360.LeadWorkFlow.TC_045CreateEventBasedWorkFlowMeetsCriteria_MultipleRule3"/>
+      <class name="com.liono360.LeadWorkFlow.TC_064CreateEventBasedWorkFlow_EveryTimeEdited_MultipleAssociatedRule"/>
+      <class name="com.liono360.LeadWorkFlow.TC_075CreateTimeBasedWorkFlow_UpdateField"/>
+      <class name="com.liono360.LeadWorkFlow.TC_054CreateEventBasedWorkFlow_Created_SingleSaveSearch"/>
+      <class name="com.liono360.LeadWorkFlow.TC_050CreateEventBasedWorkFlow_Created_LeadNumber"/>
+      <class name="com.liono360.LeadWorkFlow.TC_070EditWorkFlow"/>
+      <class name="com.liono360.LeadWorkFlow.TC_073CreateEventBasedWorkFlow_EveryTimeEdited_UpdateField"/>
+      <class name="com.liono360.LeadWorkFlow.TC_040CreateEventBasedWorkFlowCEE_MultipleRule2"/>
+      <class name="com.liono360.LeadWorkFlow.TC_046CreateTimeBasedWorkFlow_LeadNumber"/>
+      <class name="com.liono360.LeadWorkFlow.TC_042CreateEventBasedWorkFlowMeetsCriteria_LeadNumber"/>
+      <class name="com.liono360.LeadWorkFlow.TC_076CreateEventBasedWorkFlow_Created_SaveSearch_UpdateField"/>
+      <class name="com.liono360.LeadWorkFlow.TC_074CreateEventBasedWorkFlow_MeetsCriteria_UpdateField"/>
+      <class name="com.liono360.LeadWorkFlow.TC_041CreateEventBasedWorkFlowCEE_MultipleRule3"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

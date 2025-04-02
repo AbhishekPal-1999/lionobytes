@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.liono360.utility.ExtentListeners"/>
+		
+	</listeners>
+
+  <test thread-count="5" name="Test" preserve-order="true">
+    <classes>
+		      <class name="com.liono360.questionnaire.TC_001CreateChannel_LeadMultiFilter1"/>
+         <class name="com.liono360.questionnaire.TC_002CreateChannel_LeadMultiFilter2"/>
+         <class name="com.liono360.questionnaire.TC_003CreateChannel_LeadMultiFilter3"/>
+          <class name="com.liono360.questionnaire.TC_004CreateChannel_AccountMultiFilter1"/>
+            <class name="com.liono360.questionnaire.TC_007EditChannel"/>
+           <class name="com.liono360.questionnaire.TC_008DeleteChannel"/>
+     <class name="com.liono360.questionnaire.TC_009AddNewDropDownQuestion"/>
+      <class name="com.liono360.questionnaire.TC_010AddNewCheckBoxTypeQuestion"/>
+          <class name="com.liono360.questionnaire.TC_011AddNewRadioButtonTypeQuestion"/>
+             <class name="com.liono360.questionnaire.TC_012AddNewToggleButtonTypeQuestion"/>
+      <class name="com.liono360.questionnaire.TC_013AddNewPictureTypeQuestion"/>
+      <class name="com.liono360.questionnaire.TC_014FileUploadTypeQuestion"/>
+     <class name="com.liono360.questionnaire.TC_015RatingTypeQuestion"/>
+      <class name="com.liono360.questionnaire.TC_016InputBoxTypeQuestion"/>
+      <class name="com.liono360.questionnaire.TC_017EditQuestions"/>
+      <class name="com.liono360.questionnaire.TC_018DeleteQuestion"/>
+   
+  
+      
+      
+  
+    
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

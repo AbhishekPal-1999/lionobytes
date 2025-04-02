@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.liono360.invoicing.TC_015VerifyInvoiceDataShowingProperly"/>
+      <class name="com.liono360.invoicing.TC_006PaymentOptionOnCompleteStage"/>
+      <class name="com.liono360.invoicing.TC_004ViewInvoice"/>
+      <class name="com.liono360.invoicing.TC_010VerifyVoidStatus"/>
+      <class name="com.liono360.invoicing.TC_011CalculationItemProduct"/>
+      <class name="com.liono360.invoicing.TC_003DeleteInvoice"/>
+      <class name="com.liono360.invoicing.TC_002VerifyEditInvoive"/>
+      <class name="com.liono360.invoicing.TC_013VerifyActiveToInactiveInvoice"/>
+      <class name="com.liono360.invoicing.TC_012CreateInvoiceWithOtherChannnel"/>
+      <class name="com.liono360.invoicing.TC_014StageChangeHold"/>
+      <class name="com.liono360.invoicing.TC_007ReceivePaymentForInvoice"/>
+      <class name="com.liono360.invoicing.TC_005SearchInvoice"/>
+      <class name="com.liono360.invoicing.TC_001VerifyCreateInvoice"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

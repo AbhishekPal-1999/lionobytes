@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.liono360.utility.ExtentListeners"/>
+		
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+		 <class name="com.liono360.services.TC_001CreateServiceTest"/>
+		   <class name="com.liono360.services.TC_002ViewServiceTest"/>
+		    <class name="com.liono360.services.TC_005EditServiceTest"/>
+    
+      <class name="com.liono360.services.TC_004DeleteServiceTest"/>
+     
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

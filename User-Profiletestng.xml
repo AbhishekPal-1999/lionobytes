@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.liono360.utility.ExtentListeners" />
+	</listeners>
+
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.liono360.ConfigUser.TC_001CreateProfileWithRequiredFilds"/>
+      <class name="com.liono360.ConfigUser.TC_002CreateProfileWithPermission"/>
+      <class name="com.liono360.ConfigUser.TC_003InProfileUserAddAndRemove"/>
+      <class name="com.liono360.ConfigUser.TC_004CloneProfile"/>
+      <class name="com.liono360.ConfigUser.TC_005CopyProfile"/>
+      <class name="com.liono360.ConfigUser.TC_006EditProfile"/>
+      <class name="com.liono360.ConfigUser.TC_007DeleteProfile"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

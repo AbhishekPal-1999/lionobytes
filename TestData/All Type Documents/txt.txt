@@ -1,0 +1,37 @@
+Akash.............89
+
+//span[text()='Job Function']-----------------------------------------------//span[text()=' Super Admin ']
+
+//span[text()='CreatedDate']------------//span[text()='Between']------------//span[text()='15']
+
+//span[text()='Country']--------------------------------------------------//span[text()='USA']
+
+//span[text()='Payment Method']------------------------------------------//span[text()=' Credit Card ']
+
+//span[text()='Payment Term']-------------------------------------------//span[text()=' Due on Receipt ']
+
+//span[text()='Shipping Method']----------------------------------------//span[text()=' EasyPost ']
+
+//span[text()='Shipping Term']-----------------------------------------//span[text()=' Term1 ']
+
+//span[text()='UpdatedBy']---------------------------------------------//span[text()='Bill Gates']
+
+//span[text()='UpdatedDate']------------//span[text()='Between']------//span[text()='30']
+
+//span[text()='Street Address 1']---------------------------------- //span[text()='NoValue']
+
+//span[text()='Street Address 2']----------------------- ------ ---//span[text()='HasValue']
+
+//span[text()='Work Phone']---------------------------------------//span[text()='NoValue']
+
+//span[text()='Work Email']---------------------------------------//span[text()='HasValue']
+
+//span[text()='Title']-------------------------------------------//span[text()=' Mr ']
+
+//span[text()='CreatedDate']------------------------------------//span[text()='Between']
+
+
+
+
+
+
