@@ -28,7 +28,8 @@ public class TC_001CreateAccount extends Baseclass{
 		
 		
 		TryClick(account.clickAccounts());
-		logger.info("Clicked on Account Module ok");
+
+		logger.info("Clicked on Account Module");
 		
 		
 		waitUntilPageLoad();
@@ -36,6 +37,9 @@ public class TC_001CreateAccount extends Baseclass{
 		action.moveToElement(account.ActionButton()).build().perform();
 		logger.info("Mousehover on Action button");
 	
+		TryClick(account.NewButton());
+		logger.info("Clicked on new button");
+		
 		TryClick(account.NewButton());
 		logger.info("Clicked on new button");
 		
