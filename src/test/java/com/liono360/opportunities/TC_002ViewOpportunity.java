@@ -35,16 +35,6 @@ public void ViewOpportunityTest() throws InterruptedException, IOException {
 	logger.info("clicked on view option");
 	
 	
-	
-
-	/*
-	 * opp.waitUntilPageLoad(); if(opp.ViewOpportunityHeader().isDisplayed()) {
-	 * 
-	 * Assert.assertTrue(true); logger.info("View Opportunity test passed"); } else
-	 * { Assert.assertTrue(false); captureScreen(driver, "View Opportunity");
-	 * logger.info("View Opportunity test failed"); }
-	 */
-	
 	TryClick(opp.clickCancel());
 	logger.info("clicked on cancel");
 	

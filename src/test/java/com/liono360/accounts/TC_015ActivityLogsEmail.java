@@ -131,7 +131,10 @@ public class TC_015ActivityLogsEmail extends Baseclass {
         TryClick(account.YesDeleteLogs());
         logger.info("Click on Yes Button & Email Logs Deleted Successfully");
         
-	
+        waitUntilPageLoad();
+        Thread.sleep(1000);
+        TryClick(account.Corssbtn());
+        logger.info("Account Record is closed");
 	
 	}
 }

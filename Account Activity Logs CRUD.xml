@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.liono360.utility.ExtentListeners" />
+	</listeners>
+  <test thread-count="8" name="Test">
+    <classes>
+      <class name="com.liono360.accounts.TC_014ActivityLogsFieldVisit"/>
+      <class name="com.liono360.accounts.TC_015ActivityLogsEmail"/>
+      <class name="com.liono360.accounts.TC_016ActivityLogsNotes"/>
+      <class name="com.liono360.accounts.TC_028ActivityLogsMobile_InboundCall"/>
+      <class name="com.liono360.accounts.TC_029ActivityLogsMobile_OutboundCall"/>
+      <class name="com.liono360.accounts.TC_030ActivityLogsWork_InboundCall"/>
+      <class name="com.liono360.accounts.TC_031ActivityLogsWork_OutboundCall"/>
+      
+   
+  
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

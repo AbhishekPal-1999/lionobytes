@@ -77,6 +77,8 @@ public class OpportunitiesPage extends Baseclass {
 		return ListedOpportunity;
 	}
 
+
+	
 	@FindBy(xpath = "//span[text()='View']")
 	WebElement btnViewOpportunity;
 

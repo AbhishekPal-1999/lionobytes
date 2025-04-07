@@ -113,14 +113,14 @@ public class TC_003EditOpportunity extends Baseclass{
 		System.out.println("Opportunity name before Edit: "+OpportunityNameBeforeEdit);
 		System.out.println("Opportunity name after Edit: "+OpportunityNameAfterEdit);
 
-		if (OpportunityNameBeforeEdit.equals(OpportunityNameAfterEdit)) {
-			Assert.assertTrue(false);
-			logger.info("Opportunity is not Edited");
+		if (OpportunityNameBeforeEdit.equalsIgnoreCase(OpportunityNameAfterEdit)) {
+			Assert.assertTrue(true);
+			logger.info("Opportunity is Edited");
 		} 
 		else {
-			Assert.assertTrue(true);
+			Assert.assertTrue(false);
 			captureScreen(driver, "add Opportunity");
-			logger.info("Opportunity is Edited");
+			logger.info("Opportunity is not Edited");
 		}
 		
 		

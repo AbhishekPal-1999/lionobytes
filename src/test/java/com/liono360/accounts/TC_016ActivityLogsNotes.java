@@ -140,6 +140,11 @@ public class TC_016ActivityLogsNotes extends Baseclass {
         TryClick(account.YesDeleteLogs());
         logger.info("Click on Yes Button & Notes Logs Deleted Successfully");
         
+        waitUntilPageLoad();
+        Thread.sleep(1000);
+        TryClick(account.Corssbtn());
+        logger.info("Account Record is closed");
+        
 	
 	
 	}

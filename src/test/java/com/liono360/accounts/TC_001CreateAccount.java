@@ -15,6 +15,7 @@ import com.liono360.utility.ExcelDataProvider;
 
 public class TC_001CreateAccount extends Baseclass{
 
+	@SuppressWarnings("static-access")
 	@Test
 	public void TC001CreateAccount() throws InterruptedException, IOException {
 		

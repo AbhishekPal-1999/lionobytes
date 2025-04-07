@@ -1664,10 +1664,7 @@ public class AccountsPage extends Baseclass{
 
 	public WebElement DeleteListedCase() {
 		return DeleteListedCase;
-	}
-		
-
-	
+	}	
 	
 	//...........ActivityLogs.......................//
 
@@ -1702,6 +1699,15 @@ public WebElement SelectEmail() {
 }
 
 
+@FindBy(xpath = "//div[@class=\"btnBars\"]//i[@class=\"pi pi-times\"]")
+WebElement CloseAccountRecord;
+
+public WebElement Corssbtn() {
+	return CloseAccountRecord;
+}
+
+
+
 @FindBy(xpath = "//span[contains(@class,'btnBars')]//i[@class=\"pi pi-plus\"]")
 WebElement AddLogs;
 
@@ -1724,7 +1730,7 @@ public WebElement ListedOpportunityAccount() {
 	return ListedOpportunity;
 }
 
-@FindBy(xpath = "(//span[contains(@class,'btnBars')]//i[@class=\"pi pi-plus\"])[1]")
+@FindBy(xpath = "//span[contains(@class,'btnBars')]//i[@class=\"pi pi-plus\"]")
 WebElement AddOppty;
 
 public WebElement AddOpportunity() {
@@ -1737,6 +1743,14 @@ WebElement Oppty;
 public WebElement Opportunity() {
 	return Oppty;
 }
+
+@FindBy(xpath = "(//p-tabpanel[@header=\"Opportunities\"]//table//tbody//tr//td)[1]")
+WebElement ListedAccountOpportunity;
+
+public WebElement ListedAccountOpportunitys() {
+	return ListedAccountOpportunity;
+}
+
 
 @FindBy(xpath = "//span[contains(@class,'p-element')]//i[@class=\"pi pi-eye\"]")
 WebElement ViewOppty;
@@ -2922,6 +2936,44 @@ WebElement LogsNotes;
 public WebElement AddNotes() {
 	return LogsNotes;
 	}
+
+@FindBy(xpath="//p-dropdownitem[@class=\"p-element ng-star-inserted\"]//div[text()='Field Visit']")
+WebElement LogsFieldVisit;
+
+public WebElement LogsFieldVisits() {
+	return LogsFieldVisit;
+	}
+
+
+@FindBy(xpath="//p-dropdownitem[@class=\"p-element ng-star-inserted\"]//div[text()='Mobile']")
+WebElement LogsMobile;
+
+public WebElement LogsMobiles() {
+	return LogsMobile;
+	}
+
+@FindBy(xpath="//p-dropdownitem[@class=\"p-element ng-star-inserted\"]//div[text()='Work']")
+WebElement LogsWork;
+
+public WebElement LogsWorks() {
+	return LogsWork;
+	}
+
+
+@FindBy(xpath="//div[@id=\"subLogType\"]//div//div")
+WebElement SubType;
+
+public WebElement SubTypes() {
+	return SubType;
+	}
+
+@FindBy(xpath="//li[@role=\"option\"]//div[text()='Outbound Call']")
+WebElement SubTypeOutbond;
+
+public WebElement Outbond() {
+	return SubTypeOutbond;
+	}
+
 
 @FindBy(xpath = "//span[text()='Inactive Account']")
 WebElement BtnInactiveAccount;
