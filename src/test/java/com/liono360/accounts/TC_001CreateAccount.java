@@ -28,7 +28,7 @@ public class TC_001CreateAccount extends Baseclass{
 		
 		
 		TryClick(account.clickAccounts());
-		logger.info("Clicked on Account Module Name");
+		logger.info("Clicked on Account Module ok");
 		
 		
 		waitUntilPageLoad();
