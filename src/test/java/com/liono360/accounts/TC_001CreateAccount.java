@@ -15,7 +15,7 @@ import com.liono360.utility.ExcelDataProvider;
 
 public class TC_001CreateAccount extends Baseclass{
 
-	@SuppressWarnings("static-access")
+
 	@Test
 	public void TC001CreateAccount() throws InterruptedException, IOException {
 		
@@ -40,8 +40,6 @@ public class TC_001CreateAccount extends Baseclass{
 		TryClick(account.NewButton());
 		logger.info("Clicked on new button");
 		
-		TryClick(account.NewButton());
-		logger.info("Clicked on new button");
 		
 		SelectDropdown(account.Title1(),2);
 		Thread.sleep(1000);
