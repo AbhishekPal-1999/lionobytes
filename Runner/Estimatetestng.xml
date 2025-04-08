@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+		      <class name="com.liono360.estimate.TC_001CreateEstimate"/>
+      <class name="com.liono360.estimate.TC_002EditEstimate"/>
+      <class name="com.liono360.estimate.TC_003ViewEstimate"/>
+      <class name="com.liono360.estimate.TC_009SearchEstimate"/>
+      <class name="com.liono360.estimate.TC_010CalculateEstimateProduct"/>
+      <class name="com.liono360.estimate.TC_008VerifyActiveToInactive"/>
+      <class name="com.liono360.estimate.TC_005EstimateConvertToInvoice"/>
+
+      <class name="com.liono360.estimate.TC_007VerifyVoidStatus"/>
+      <class name="com.liono360.estimate.TC_011VerifyestimateDataShowingProperly"/>
+      <class name="com.liono360.estimate.TC_006EstimateConvertToSalesOrder"/>
+            <class name="com.liono360.estimate.TC_004DeleteEstimate"/>
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

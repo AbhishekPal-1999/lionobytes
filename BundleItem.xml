@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ <listeners>
+        <listener class-name="com.liono360.utility.RetryAnalyzer"/>
+    </listeners>
+  <test name="Test" thread-count="5"  preserve-order="true">
+    <classes>
+      <class name="com.liono360.Product.BundleItem.TC_001CreateBundle"/>
+      <class name="com.liono360.Product.BundleItem.TC_002EditBundleItem"/>
+      <class name="com.liono360.Product.BundleItem.TC_003ViewBundleItem"/>
+      <class name="com.liono360.Product.BundleItem.TC004_DeleteBundleItem"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

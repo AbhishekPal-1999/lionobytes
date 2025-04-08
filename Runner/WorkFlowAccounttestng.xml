@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.liono360.WorkflowAccount.TC_013CreatedWithSavedSearchWorkflowACNumber"/>
+      <class name="com.liono360.WorkflowAccount.TC_023CreatedWithETETmeetcriteraWithMultipleFilter"/>
+      <class name="com.liono360.WorkflowAccount.TC_022CreatedWithETEwithSingleFilter"/>
+      <class name="com.liono360.WorkflowAccount.TC_025CreatedWithUpdatedMultipleConditionWorkflow"/>
+      <class name="com.liono360.WorkflowAccount.TC_004CreatedWorkflowWithCreatedBy"/>
+      <class name="com.liono360.WorkflowAccount.TC_020CreatedWithAssociatedModuleSingle"/>
+      <class name="com.liono360.WorkflowAccount.TC_018CreatedWithEEupdatedTimebased"/>
+      <class name="com.liono360.WorkflowAccount.TC_008CreatedWorkflowWithStreetAddress1"/>
+      <class name="com.liono360.WorkflowAccount.TC_027CreatedWorkflowTimeDependentMultipleUser"/>
+      <class name="com.liono360.WorkflowAccount.TC_001CreateWorkFlowWithAccountName"/>
+      <class name="com.liono360.WorkflowAccount.TC_017CreatedWorkflowTimeBasedSs"/>
+      <class name="com.liono360.WorkflowAccount.TC_015CreatedWorkfloweveryTimeEditedAccountNo"/>
+      <class name="com.liono360.WorkflowAccount.TC_005CreatedWorkflowWithCreatedDate"/>
+      <class name="com.liono360.WorkflowAccount.TC_011CreatedAndEveryTimeUpdatedwithfilters"/>
+      <class name="com.liono360.WorkflowAccount.TC_024CreatedwithMultipleConditionWorkflow"/>
+      <class name="com.liono360.WorkflowAccount.TC_021CreatedWithAssociatedModuleMultiplefilter"/>
+      <class name="com.liono360.WorkflowAccount.TC_016CreatedWorkflowEEAccountNo"/>
+      <class name="com.liono360.WorkflowAccount.TC_003CreateWorkflowWithCombineRul"/>
+      <class name="com.liono360.WorkflowAccount.TC_019CreatedWithManualWithSavedSearchWf"/>
+      <class name="com.liono360.WorkflowAccount.TC_010CreatedWith11Rule"/>
+      <class name="com.liono360.WorkflowAccount.TC_026CreatedWithEETimeEditedMultipleCondn"/>
+      <class name="com.liono360.WorkflowAccount.TC_006CreatedWorkflowWithCountry"/>
+      <class name="com.liono360.WorkflowAccount.TC_009CreatedWorkflowWith4Rule"/>
+      <class name="com.liono360.WorkflowAccount.TC_002CreatedWorkflowWithAccountEmail"/>
+      <class name="com.liono360.WorkflowAccount.TC_012TimeBasedWorkflowMultipleRule"/>
+      <class name="com.liono360.WorkflowAccount.TC_007CreatedWorkflowWithAccountNo"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

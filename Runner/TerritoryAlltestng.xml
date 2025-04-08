@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.liono360.utility.Reporting" />
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+            <class name="com.liono360.FSMterritory.TC_001CreateTerritoryForAccountWithAllFields"/>
+            <class name="com.liono360.FSMterritory.TC_002CreateTerritoryForLeadWithAllFields"/>
+      <class name="com.liono360.FSMterritory.TC_003ViewTerritory"/>
+      <class name="com.liono360.FSMterritory.TC_004EditTerritory"/>
+      <class name="com.liono360.FSMterritory.TC_005DeleteTerritory"/>
+      <class name="com.liono360.FSMterritory.TC_006SearchTerritory"/>
+      <class name="com.liono360.FSMterritory.TC_007CreateTerritoryForAccountWithOnlyRequiredFields"/>
+      <class name="com.liono360.FSMterritory.TC_008CreateTerritoryForLeadWithOnlyRequiredFields"/>
+      <class name="com.liono360.FSMterritory.TC_009ActiveInactiveTerritory"/>
+    <!--  <class name="com.liono360.FSMterritory.TC_010CreateTerritoryWithAllRulesFor_isOperator"/>
+      <class name="com.liono360.FSMterritory.TC_011CreateTerritoryWithAllRulesFor_isNotOperator"/>-->
+      <class name="com.liono360.FSMterritory.TC_012CreateTerritoryForAccountWithManually"/>
+      <class name="com.liono360.FSMterritory.TC_013CreateTerritoryForLeadWithManually"/>
+      <class name="com.liono360.FSMterritory.TC_014VerifyGlobalSearchInDataLists"/>
+      <class name="com.liono360.FSMterritory.TC_015VerifySettingInDataLists"/>
+      <class name="com.liono360.FSMterritory.TC_016CreateAccountTerritoryWithParentTerritory"/>
+      <class name="com.liono360.FSMterritory.TC_017CreateLeadTerritoryWithParentTerritory"/>
+      <class name="com.liono360.FSMterritory.TC_018EditParentTerritory"/>
+      <!--<class name="com.liono360.FSMterritory.TC_019CreateAccountTerritoryWithMultipleRules"/>
+      <class name="com.liono360.FSMterritory.TC_020CreateLeadTerritoryWithMultipleRules"/>
+-->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

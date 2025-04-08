@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.liono360.utility.ExtentListeners" />
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.liono360.ConfigUser.TC_014AddUserWithRequiredFields"/>
+      <class name="com.liono360.ConfigUser.TC_015AddUserwithDefaultPermission"/>
+      <class name="com.liono360.ConfigUser.TC_016AddUserWithChannelPermission"/>
+      <class name="com.liono360.ConfigUser.TC_017EditChannelPermission"/>
+      <class name="com.liono360.ConfigUser.TC_018DeleteChannelPermission"/>
+      <class name="com.liono360.ConfigUser.TC_019EditUser"/>
+      <class name="com.liono360.ConfigUser.TC_020ViewUser"/>
+      <class name="com.liono360.ConfigUser.TC_021CopyUser"/>
+      <class name="com.liono360.ConfigUser.TC_022DeleteUser"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

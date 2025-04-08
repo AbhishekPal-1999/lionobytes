@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="com.liono360.utility.RetryAnalyzer" />
+	</listeners>
+	<test name="LocationTest" thread-count="5" preserve-order="true">
+		<classes>
+			<class name="com.liono360.location.TC_001CreateLocationTest" />
+			<class name="com.liono360.location.TC_002EditLocationTest" />
+			<class name="com.liono360.location.TC_005ViewLocationTest" />
+			<class name="com.liono360.location.TC_004SearchLocationTest" />
+			<class name="com.liono360.location.TC_003DeleteLocationTest" />
+			<class name="com.liono360.location.TC_006InventoryAdjustmentTest" />
+			<class name="com.liono360.location.TC_007InventoryTransferTest" />
+
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+		<listeners>
+		<listener class-name="com.liono360.utility.Reporting" />
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+	  <class name="com.liono360.FSMterritory.TC_001CreateRootTerritory"/>
+      <class name="com.liono360.FSMterritory.TC_002EditRootTerritory"/>
+      <class name="com.liono360.FSMterritory.TC_003DeleteRootTerritory"/>
+      <class name="com.liono360.FSMterritory.TC_004CreateSubTerritory_Account"/>
+      <class name="com.liono360.FSMterritory.TC_005CreateSubTerritory_Lead"/>
+      <class name="com.liono360.FSMterritory.TC_006CreateSubTerritoryWithRequiredFields_Account"/>
+      <class name="com.liono360.FSMterritory.TC_007CreateSubTerritoryWithRequiredFields_Lead"/>
+      <class name="com.liono360.FSMterritory.TC_008ViewSubTerritory"/>
+      <class name="com.liono360.FSMterritory.TC_009EditSubTerritory"/>
+      <class name="com.liono360.FSMterritory.TC_010CreateTerritoryWithAllRulesFor_isOperator"/>
+      <class name="com.liono360.FSMterritory.TC_010DeleteSubTerritory"/>
+     
+      <class name="com.liono360.FSMterritory.TC_011InactiveSubTerritory"/>
+      <class name="com.liono360.FSMterritory.TC_012CreateSubTerritoryWithManually_Account"/>
+   
+      <class name="com.liono360.FSMterritory.TC_013CreateSubTerritoryWithManually_Lead"/>
+    
+      
+   
+    
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

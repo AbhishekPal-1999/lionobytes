@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.liono360.utility.Reporting" />
+	</listeners>
+  <test thread-count="5" name="Test" preserve-order="true">
+    <classes>
+           <class name="com.liono360.FSMroutes.TC_001CreateRouteWithAllField"/>
+      <class name="com.liono360.FSMroutes.TC_002viewRoutes"/>
+      <class name="com.liono360.FSMroutes.TC_003EditMandatoryOnly"/>
+      <class name="com.liono360.FSMroutes.TC_004DeleteRoutes"/>
+      <class name="com.liono360.FSMroutes.TC_005EditAllfields"/>
+      <class name="com.liono360.FSMroutes.TC_006CreateWithMandatoryOnly"/>
+      <class name="com.liono360.FSMroutes.TC_007GlobalSearch"/>
+      <class name="com.liono360.FSMroutes.TC_008FilterRoutes"/>
+      <class name="com.liono360.FSMroutes.TC_009CheckinCheckout"/>
+      <class name="com.liono360.FSMroutes.TC_010TotalDistnace"/>
+      <class name="com.liono360.FSMroutes.TC_011VerifyItemsInLists"/>
+   <!--   <class name="com.liono360.FSMroutes.TC_012ActivityLogs"/>-->
+    <!--  <class name="com.liono360.FSMroutes.TC_013DetailsInLists"/>-->
+      <class name="com.liono360.FSMroutes.TC_014VerifyRoutes"/>
+     <!-- <class name="com.liono360.FSMroutes.TC_015VerifyRouteStoreLimit"/>
+     <class name="com.liono360.FSMroutes.TC_016VerifySearchActivity"/>
+      <class name="com.liono360.FSMroutes.TC_017ViewContactInListsDetails"/>
+      <class name="com.liono360.FSMroutes.TC_018DeleteContactInListsDetails"/>
+      <class name="com.liono360.FSMroutes.TC_019EditContactInListsDetails"/> -->
+    
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

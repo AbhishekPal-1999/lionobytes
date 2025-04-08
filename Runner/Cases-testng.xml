@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.liono360.utility.Reporting" />
+	
+	</listeners>
+  <test thread-count="5" name="Test" preserve-order="true">
+    <classes>
+		<class name="com.liono360.cases.TC_001CreateCaseForAccountWithAllFields"/>
+		 <class name="com.liono360.cases.TC_002CreateCaseForLeadWithAllFields"/>
+		   <class name="com.liono360.cases.TC_003CreateCaseForOpportunityWithAllFields"/>
+		   <class name="com.liono360.cases.TC_004CreateCaseForOrganizationWithAllFields"/>
+		      <class name="com.liono360.cases.TC_005ViewCases"/>
+		       <class name="com.liono360.cases.TC_006EditCase"/>
+		    
+		       <class name="com.liono360.cases.TC_007DeleteCases"/>
+		       <class name="com.liono360.cases.TC_008VerifySearchCase"/>
+		        <class name="com.liono360.cases.TC_009StageChangeOfCases"/>
+		            <class name="com.liono360.cases.TC_010CountsInStages"/>
+		              <class name="com.liono360.cases.TC_011VerifyCountsInStages"/>
+                      <class name="com.liono360.cases.TC_012VerifyFilterFuntionality"/>
+                   <class name="com.liono360.cases.TC_013CreateWithOnlyRequiredData"/>
+
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.liono360.utility.RetryAnalyzer" />
+	</listeners>
+
+	<test thread-count="5" name="Test" preserve-order="true">
+		<classes>
+			<class name="com.liono360.Product.KitItem.TC_001CreateKitItem" />
+			<class name="com.liono360.Product.KitItem.TC_002EditKitItem" />
+			<class name="com.liono360.Product.KitItem.TC_003ViewAddedKitItem" />
+			<class name="com.liono360.Product.KitItem.TC_004DeleteKitItem" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

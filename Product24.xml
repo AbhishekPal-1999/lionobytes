@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ <listeners>
+        <listener class-name="com.liono360.utility.RetryAnalyzer"/>
+    </listeners>
+  <test name="ProductTest" thread-count="5"  preserve-order="true">
+   
+    <classes>
+    
+      <class name="com.liono360.Product.Inventoryitem.TC_001CreateProduct"/>
+      <class name="com.liono360.Product.Inventoryitem.TC_003ViewProduct"/>
+      <class name="com.liono360.Product.Inventoryitem.TC_002EditProduct"/>
+      <class name="com.liono360.Product.Inventoryitem.TC_005SearchProduct"/>
+	  <class name="com.liono360.Product.Inventoryitem.TC_004DeleteProduct"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

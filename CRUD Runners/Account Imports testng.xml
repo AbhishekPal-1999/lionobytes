@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.liono360.utility.ExtentListeners" />
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="AccountsImportsAndExports.TC_019ImportAddWithDefaultFiledAccount"/>
+      <class name="AccountsImportsAndExports.TC_020ImportAddwithCustomFieldsAccount"/>
+      <class name="AccountsImportsAndExports.TC_021ImportUpdatedwithDefaultFieldsAccount"/>
+      <class name="AccountsImportsAndExports.TC_022ImportUpdatedwithCustomFieldsAccount"/>
+      <class name="AccountsImportsAndExports.TC_024ImportAddAndUpdatewithDefaultAccount"/>
+      <class name="AccountsImportsAndExports.TC_025ImportAddAndUpdatewithCustomFieldAccount"/>
+  
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
