@@ -67,9 +67,13 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 			ChromeOptions options = new ChromeOptions();
 
 			options.addArguments("--remote-allow-origins=*");
-
-			//	options.addArguments("--incognito");
-
+			options.addArguments("--headless=new"); // `new` version for Chrome 109+
+			options.addArguments("--window-size=1920,1080");
+			options.addArguments("--disable-gpu");
+			options.addArguments("--no-sandbox");
+			options.addArguments("--disable-dev-shm-usage");
+			options.addArguments("--remote-allow-origins=*");
+			options.addArguments("--disable-extensions");
 			options.addArguments("--disable-extensions");
 
 		   // options.addArguments("headless");
