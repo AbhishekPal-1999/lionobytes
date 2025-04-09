@@ -113,11 +113,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 		redirectToCRM();
 	}
 
-//	public static WebDriver explWaitToClick(WebElement element) {
-//		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(50));
-//		wait.until(ExpectedConditions.elementToBeClickable(element));
-//		return (driver);
-//	}
+
 	
 	public static WebDriver explWaitToClick(WebElement element) {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(100));
@@ -129,8 +125,6 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 	public void teardown() throws InterruptedException {
 		Thread.sleep(1000);
 		
-		//redirectToLogout();
-		//logger.info("logged out");
 		driver.quit();
 	   logger.info("Browser Closed");
 	}
@@ -216,7 +210,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 		//element.click();
 		TryClick(element);
 		
-	//	driver.findElement(By.xpath("//span[@class=\"p-button-icon pi pi-times\"]")).click();
+
 	
 		}
 	

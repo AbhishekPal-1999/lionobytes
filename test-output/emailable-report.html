@@ -9,10 +9,47 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">59,112</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">43,753</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.liono360.leads.TC_001CreateLead</td><td><a href="#m0">TC001_CreateLead</a></td><td rowspan="1">1744195331572</td><td rowspan="1">59041</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.liono360.accounts.TC_001CreateAccount</td><td><a href="#m0">TC001CreateAccount</a></td><td rowspan="1">1744201262002</td><td rowspan="1">43732</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.liono360.leads.TC_001CreateLead#TC001_CreateLead</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Default test</h2><h3 id="m0">com.liono360.accounts.TC_001CreateAccount#TC001CreateAccount</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: &lt;b&gt;Unable to click within the specified duration of 20 seconds.....&lt;/b&gt;&lt;br&gt;element click intercepted: Element &lt;span role=&quot;combobox&quot; pautofocus=&quot;&quot; class=&quot;p-element p-dropdown-label p-inputtext p-placeholder ng-star-inserted&quot; aria-disabled=&quot;false&quot; aria-label=&quot;Select Timezone...&quot; aria-haspopup=&quot;listbox&quot; aria-expanded=&quot;false&quot; tabindex=&quot;0&quot;&gt;...&lt;/span&gt; is not clickable at point (1103, 1401). Other element would receive the click: &lt;li pripple=&quot;&quot; role=&quot;option&quot; class=&quot;p-ripple p-element p-multiselect-item p-focus&quot; id=&quot;pn_id_279_0&quot; aria-label=&quot;Customer&quot; aria-setsize=&quot;4&quot; aria-posinset=&quot;1&quot; aria-selected=&quot;true&quot; data-p-focused=&quot;true&quot; data-p-highlight=&quot;true&quot; data-p-disabled=&quot;false&quot; aria-checked=&quot;true&quot;&gt;...&lt;/li&gt;
+  (Session info: chrome=135.0.7049.43)
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [83ce2add485469481650968c520f4b5c, clickElement {id=f.96DB8CA9EA3D163512DB2A7CC6AF7A25.d.1B07C0DD4DEEE1765F83F2EAE79DA319.e.1551}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.43, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\Testing\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57869}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57869/devtoo..., se:cdpVersion: 135.0.7049.43, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (83ce2add485469481650968c520f4b5c)] -&gt; xpath: //span[contains(text(),&apos;Select Timezone&apos;)]]
+Session ID: 83ce2add485469481650968c520f4b5c
+	at com.liono360.loginPage.Baseclass.TrySelectDropdown(Baseclass.java:380)
+	at com.liono360.accounts.TC_001CreateAccount.TC001CreateAccount(TC_001CreateAccount.java:129)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

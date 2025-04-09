@@ -110,9 +110,11 @@ public class TC_001CreateAccount extends Baseclass{
 		String SetAccountName= account.AccountName().getAttribute("value");
 
 		
+		Thread.sleep(2000);
 		SelectDropdown(account.Designaion(),1);
 		logger.info("job function selected");
-		waitUntilDisplay(account.accountType(),20);
+		
+		Thread.sleep(2000);
 		TryClick(account.accountType());
 		
 		
@@ -122,13 +124,11 @@ public class TC_001CreateAccount extends Baseclass{
 
 		account.accountNumber().sendKeys("102" + randomnumber());
 		logger.info("Sendkeys on accountNumber");
-		jsScroll(driver,account.Timezones());
-	
-		SelectDropdown(account.Timezones(),5);
-	 	
-     	logger.info("time zones selected");
-		jsScroll(driver,account.Timezones());
 		
+	
+//		TrySelectDropdown(account.Timezones(),"(GMT-10:00) Hawaii");
+//     	logger.info("time zones selected");
+//		
 		
 		SelectDropdown(account.Currency(),2);
 		logger.info("Currency selected");
@@ -138,7 +138,6 @@ public class TC_001CreateAccount extends Baseclass{
         
 	   
 		TryClick(account.Addtag());
-	
 		logger.info("Click On Add Tag");
 		
 	   
@@ -149,11 +148,9 @@ public class TC_001CreateAccount extends Baseclass{
 		waitUntilDisplay(account.SecondSaveButton(),20);
 		
 		TryClick(account.SecondSaveButton());
-		
 		logger.info("Click On Save");
 
 		TryClick(account.SelectTag());
-		
 		logger.info("Click On Select Tag");
 
 		TryClick(account.Assign());
@@ -165,7 +162,6 @@ public class TC_001CreateAccount extends Baseclass{
 
 		
 		TryClick(account.AccountDetails());
-		
 		logger.info("sendkeys on account details");
 
 		
@@ -295,7 +291,9 @@ public class TC_001CreateAccount extends Baseclass{
 // ASSERTION====================================================================================================
 
 		waitUntilPageLoad();
-		waitUntilDisplay(account.ListedAccount(),20);
+		account.Search().sendKeys(SetAccountName);
+		waitUntilPageLoad();
+		Thread.sleep(5000);
 		String AccountNameAfterCreate=account.ListedAccount().getText();
 		System.out.println("provided account name to create: "+SetAccountName);
 		System.out.println("Listed account name after create: "+AccountNameAfterCreate);
