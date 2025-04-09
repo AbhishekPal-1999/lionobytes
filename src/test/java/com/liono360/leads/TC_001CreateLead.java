@@ -26,7 +26,7 @@ public class TC_001CreateLead extends Baseclass {
 		
 		waitUntilPageLoad();
 		Thread.sleep(10000);
-		leads.clickLead();
+		leads.clickLead().click();
 		logger.info("Clicked on Lead ");
 		
 		
