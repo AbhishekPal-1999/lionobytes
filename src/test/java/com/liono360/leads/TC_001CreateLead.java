@@ -24,7 +24,8 @@ public class TC_001CreateLead extends Baseclass {
 		ExcelDataProvider exceldata=new ExcelDataProvider();
 		
 		waitUntilPageLoad();
-		TryClick(leads.clickLead());
+		Thread.sleep(10000);
+		leads.clickLead();
 		logger.info("Clicked on Lead ");
 		Actions action = new Actions(driver);
 		
