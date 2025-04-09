@@ -22,12 +22,12 @@ public class TC_001CreateLead extends Baseclass {
 
 		LeadPage leads = new LeadPage(driver);
 		ExcelDataProvider exceldata=new ExcelDataProvider();
-		Actions action = new Actions(driver);
 		
 		
-		explWaitToClick(leads.clickLead());
-		leads.clickLead().click();
+		waitUntilPageLoad();
+		TryClick(leads.clickLead());
 		logger.info("Clicked on Lead ");
+		Actions action = new Actions(driver);
 		
 		
 		waitUntilPageLoad();
