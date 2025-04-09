@@ -331,7 +331,7 @@ public class AccountsPage extends Baseclass{
 	public WebElement accountNumber() {
 	return accountNumber;
      }
-	@FindBy(xpath = "(//p-dropdown[@placeholder='Select Timezone...'])[1]")
+	@FindBy(xpath = "//span[contains(text(),'Select Timezone')]")
     WebElement timezones;
 
 	public WebElement Timezones() {

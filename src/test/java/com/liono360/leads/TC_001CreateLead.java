@@ -244,7 +244,7 @@ public class TC_001CreateLead extends Baseclass {
 		leads.Search().sendKeys(AddedLeadName);
 		logger.info("Lead name passed to search");
 		waitUntilPageLoad();
-		Thread.sleep(4000);
+		Thread.sleep(5000);
 		waitUntilDisplay(leads.listedLeads(),20);
 		String LeadNameAfterCreate=leads.listedLeads().getText();
 		System.out.println("Provided Lead name to create: "+AddedLeadName);
