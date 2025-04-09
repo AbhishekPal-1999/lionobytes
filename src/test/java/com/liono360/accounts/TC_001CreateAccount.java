@@ -19,7 +19,6 @@ public class TC_001CreateAccount extends Baseclass{
 	@Test
 	public void TC001CreateAccount() throws InterruptedException, IOException {
 		
-		//redirectToCRM();
 
 		Actions action = new Actions(driver);
 		AccountsPage account = new AccountsPage(driver);
@@ -28,7 +27,6 @@ public class TC_001CreateAccount extends Baseclass{
 		
 		
 		TryClick(account.clickAccounts());
-
 		logger.info("Clicked on Account Module");
 		
 		
@@ -40,8 +38,6 @@ public class TC_001CreateAccount extends Baseclass{
 		TryClick(account.NewButton());
 		logger.info("Clicked on new button");
 		
-		TryClick(account.NewButton());
-		logger.info("Clicked on new button");
 		
 		SelectDropdown(account.Title1(),2);
 		Thread.sleep(1000);
@@ -59,37 +55,38 @@ public class TC_001CreateAccount extends Baseclass{
 		account.LastName().sendKeys(exceldata.LastName());
 		logger.info("Last Name Added");
 		String LastName = account.LastName().getAttribute("value");
-		//Thread.sleep(1000);
 		account.Email().sendKeys(Firstname+"workemail"+randomnumber()+"@lionobytes.com");
 		account.HomeEmail().sendKeys(Firstname+"homemail"+randomnumber()+"@lionobytes.com");
 		account.CE1Email().sendKeys(Firstname+"ce1email"+randomnumber()+"@lionobytes.com");
 		account.CE2Email().sendKeys(Firstname+"ce2email"+randomnumber()+"@lionobytes.com");
 		logger.info("Sendkeys on email");
-		//Thread.sleep(1000);
+		
 		SelectDropdown(account.PhoneCountry1(), 1);
-		Thread.sleep(500);
+		waitUntilDisplay(account.WorkPhone(),20);
 		account.WorkPhone().click();
 		account.WorkPhone().sendKeys(randomnumber()+"1811"+randomnumber());
 		SelectDropdown(account.PhoneCountry2(), 1);
 
 		account.HomePhone().click();
-		Thread.sleep(500);
+		waitUntilDisplay(account.HomePhone(),20);
 		account.HomePhone().sendKeys(randomnumber()+"2822"+randomnumber());
 		SelectDropdown(account.PhoneCountry3(), 1);
 		
 		account.MobilePhone().click();
-		Thread.sleep(500);
+		waitUntilDisplay(account.MobilePhone(),20);
 		account.MobilePhone().sendKeys(randomnumber()+"3833"+randomnumber());
 		SelectDropdown(account.PhoneCountry4(),1);
 		
 		account.CP1().click();
-		Thread.sleep(500);
+		waitUntilDisplay(account.CP1(),20);
+		
 		account.CP1().sendKeys(randomnumber()+"4844"+randomnumber());
 		SelectDropdown(account.PhoneCountry5(), 1);
-		Thread.sleep(500);
+		waitUntilDisplay(account.CP2(),20);
 		account.CP2().click();
 		account.CP2().sendKeys(randomnumber()+"5855"+randomnumber());
 		logger.info("Sendkeys on phone1");
+		
 		
 		account.contactTwitter().sendKeys(exceldata.Twitter());
 		logger.info("twitter added");
@@ -114,33 +111,29 @@ public class TC_001CreateAccount extends Baseclass{
 
 		
 		SelectDropdown(account.Designaion(),1);
-		
-		//account.ClickMultipleDropdownValue(1).click();
 		logger.info("job function selected");
-		Thread.sleep(1000);
+		waitUntilDisplay(account.accountType(),20);
 		TryClick(account.accountType());
-		//account.accountType().click();
-		Thread.sleep(1000);
-		TryClick(account.ClickMultipleDropdownValue(1));
 		
-		//account.ClickMultipleDropdownValue(1).click();
+		
+		Thread.sleep(1000);		
+		TryClick(account.ClickMultipleDropdownValue(1));
 		logger.info("Account type selected");
 
 		account.accountNumber().sendKeys("102" + randomnumber());
 		logger.info("Sendkeys on accountNumber");
 		jsScroll(driver,account.Timezones());
-		//Thread.sleep(2000);
+	
 		SelectDropdown(account.Timezones(),5);
 	 	
      	logger.info("time zones selected");
 		jsScroll(driver,account.Timezones());
-		//Thread.sleep(1000);
+		
+		
 		SelectDropdown(account.Currency(),2);
 		logger.info("Currency selected");
 
-		//Thread.sleep(2000);
 		TryClick(account.TagPlusbtn());
-		//account.TagPlusbtn().click();
 		logger.info("Click On plus sign to Add Tag");
         
 	   
@@ -153,7 +146,7 @@ public class TC_001CreateAccount extends Baseclass{
 		logger.info("Tag name added");
         
 		TryClick(account.AddColourClick());
-		Thread.sleep(2000);
+		waitUntilDisplay(account.SecondSaveButton(),20);
 		
 		TryClick(account.SecondSaveButton());
 		
@@ -170,12 +163,12 @@ public class TC_001CreateAccount extends Baseclass{
 
 //..............account details.................//
 
-		//Thread.sleep(2000);
+		
 		TryClick(account.AccountDetails());
 		
 		logger.info("sendkeys on account details");
 
-		//Thread.sleep(2000);
+		
 		account.DoingBusiness().sendKeys("yes");
 		logger.info("sendkeys on doing business");
 
@@ -185,22 +178,22 @@ public class TC_001CreateAccount extends Baseclass{
 		logger.info("select on dropdown NumberOfEmp ");
 
 
-		Thread.sleep(1000);
+		waitUntilDisplay(account.EstimateAnnualRevenue(),20);
 		SelectDropdown(account.EstimateAnnualRevenue(),3);
 		logger.info("select on dropdown EstimatedAnnualRevenue ");
 
 		SelectDropdown(account.OwnershipType(),6);
 		logger.info("select on dropdown OwnershipType ");
 
-		//Thread.sleep(1000);
+		
 		SelectDropdown(account.BusinessClassification(),2);
 		logger.info("select on dropdown BusinessClassification");
 
-		//Thread.sleep(1000);
+		
 		account.FoundedYear().sendKeys("1"+randomnumber());
 		logger.info("sendkeys on founded years");
 
-		//Thread.sleep(1000);
+		
 		SelectDropdown(account.IndustrysI(),5);
 		logger.info("select on dropdown IndustrysI");
 
@@ -208,22 +201,20 @@ public class TC_001CreateAccount extends Baseclass{
 		account.SICCodes().sendKeys("123");
 		logger.info("sendkeys on SICCodes");
 
-		//Thread.sleep(1000);
+	
 		account.NAICScodes().sendKeys("12345");
 		logger.info("sendkeys on SICCodes");
 
 
-		//jsScroll(driver, account.NAICScodes());
 		SelectDropdown(account.AccountSource(),1);
 		
 		logger.info("Account source is selected");
 
-		//Thread.sleep(1000);
 		
 		SelectDropdown(account.AccountRating(),2);
 		logger.info("select on dropdown AccountRating");
 
-		//Thread.sleep(1000);
+	
 		account.AccountEmail().sendKeys(LastName+randomnumber()+"@lionobytes.com");
 		logger.info("Account email added");
 		
@@ -253,28 +244,24 @@ public class TC_001CreateAccount extends Baseclass{
 		logger.info("Website added");
 		
 
-		//Thread.sleep(1000);
 		account.Notess().sendKeys("Fill account details");
 		logger.info("sendkeys on Notess");
 
 // Address Details========================================================================================
 		
-		//Thread.sleep(2000);
-		//jsScroll(driver,account.AdressDetail());
+		
 		TryClick(account.AdressDetails());
 		logger.info("click on AdressDetails");
 
-		//Thread.sleep(2000);
+		
 		TryClick(account.AdressDetailsIcon());
 		logger.info("click on AdressDetails Icon");
 		
 
-		//Thread.sleep(2000);
 		TryClick(account.Slyders());
-		//account.Slyders().click();
 		logger.info("click on ShippingIiIcon");
 
-		Thread.sleep(2000);
+		waitUntilDisplay(account.AddressType(),20);
 		TrySelectDropdown(account.AddressType(),"Billing");
 		logger.info("select on AddressType");
 
@@ -285,7 +272,7 @@ public class TC_001CreateAccount extends Baseclass{
 		SelectDropdown(account.AdressClass(),2);
 		logger.info("select on AdressClass");
 
-		//Thread.sleep(1000);
+		
 		account.StreetAdress1().sendKeys(exceldata.StreetAddress());
 		Thread.sleep(5000);
 		action.sendKeys(Keys.ARROW_DOWN).build().perform();
@@ -295,21 +282,20 @@ public class TC_001CreateAccount extends Baseclass{
 		account.StreetAdress2().sendKeys("b-block");
 		logger.info("sendkeys on StreetAdress2");
 
-		Thread.sleep(500);
+		waitUntilDisplay(account.SaveAccountDetails(),20);
 		TryClick(account.SaveAccountDetails());
-		//account.SaveAccountDetails().click();
 		logger.info("click on SaveAccountDetails button");
 
-		Thread.sleep(500);
+		waitUntilDisplay(account.SaveAllDeatilsBtn(),20);
 		TryClick(account.SaveAllDeatilsBtn());
-		//account.SaveAllDeatilsBtn().click();
+		
 	
 		logger.info("click on SaveAllDeatilsBtn button");
 		
 // ASSERTION====================================================================================================
 
 		waitUntilPageLoad();
-		Thread.sleep(2000);
+		waitUntilDisplay(account.ListedAccount(),20);
 		String AccountNameAfterCreate=account.ListedAccount().getText();
 		System.out.println("provided account name to create: "+SetAccountName);
 		System.out.println("Listed account name after create: "+AccountNameAfterCreate);
