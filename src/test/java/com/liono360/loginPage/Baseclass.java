@@ -65,15 +65,12 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
           WebDriverManager.chromedriver().setup();
 			ChromeOptions options = new ChromeOptions();
-
-			options.addArguments("--remote-allow-origins=*");
 			options.addArguments("--headless=new"); // `new` version for Chrome 109+
 			options.addArguments("--window-size=1920,1080");
 			options.addArguments("--disable-gpu");
 			options.addArguments("--no-sandbox");
 			options.addArguments("--disable-dev-shm-usage");
 			options.addArguments("--remote-allow-origins=*");
-			options.addArguments("--disable-extensions");
 			options.addArguments("--disable-extensions");
 
 		   // options.addArguments("headless");
@@ -123,7 +120,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 //	}
 	
 	public static WebDriver explWaitToClick(WebElement element) {
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(50));
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(100));
 		wait.until(ExpectedConditions.elementToBeClickable(element));
 		return (driver);
 	}
