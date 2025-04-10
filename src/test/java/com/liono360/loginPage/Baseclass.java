@@ -73,7 +73,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 			options.addArguments("--remote-allow-origins=*");
 			options.addArguments("--disable-extensions");
 
-		   // options.addArguments("headless");
+		    options.addArguments("headless");
 
 			DesiredCapabilities capabilities = new DesiredCapabilities();
 
