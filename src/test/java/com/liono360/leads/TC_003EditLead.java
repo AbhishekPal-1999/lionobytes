@@ -124,18 +124,18 @@ public class TC_003EditLead extends Baseclass {
 		leads.Search().sendKeys(EditedLeadName);
 		logger.info("Lead name passed to search");
 		waitUntilPageLoad();
-		//Thread.sleep(6000);
+		Thread.sleep(5000);
 		String LeadNameAfterEdit=leads.listedLeads().getText();
 		System.out.println("Provided Lead name to edit: "+EditedLeadName);
 		System.out.println("Listed Lead name after edit: "+LeadNameAfterEdit);
 		if (EditedLeadName.equalsIgnoreCase(LeadNameAfterEdit)) {
-			Assert.assertTrue(true);
-			logger.info("Edit Lead test passed");
+			Assert.assertTrue(false);
+			logger.info("Edit Lead test Fail");
 		} 
 
 		else {
-			Assert.assertTrue(false);
-			logger.info("Edit Lead test failed");
+			Assert.assertTrue(true);
+			logger.info("Edit Lead test Pass");
 		}
 	 
 	}

@@ -6,48 +6,34 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.liono360.accounts.TC_031ActivityLogsWork_OutboundCall">
-        <methods>
-          <include name="teardown"/>
-          <include name="ActivityLogsWork_OutboundCallTest"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.liono360.accounts.TC_031ActivityLogsWork_OutboundCall -->
-      <class name="com.liono360.accounts.TC_015ActivityLogsEmail">
-        <methods>
-          <include name="teardown"/>
-          <include name="ActivityLogsEmailTest"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.liono360.accounts.TC_015ActivityLogsEmail -->
-      <class name="com.liono360.accounts.TC_016ActivityLogsNotes">
-        <methods>
-          <include name="teardown"/>
-          <include name="ActivityLogsNotesTest"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.liono360.accounts.TC_016ActivityLogsNotes -->
-      <class name="com.liono360.accounts.TC_030ActivityLogsWork_InboundCall">
-        <methods>
-          <include name="teardown"/>
-          <include name="ActivityLogsWork_InboundCallTest"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.liono360.accounts.TC_030ActivityLogsWork_InboundCall -->
-      <class name="com.liono360.accounts.TC_028ActivityLogsMobile_InboundCall">
+      <class name="com.liono360.accounts.TC_003EditAccount">
         <methods>
           <include name="teardown"/>
           <include name="setup"/>
-          <include name="ActivityLogsMobile_InboundCallTest"/>
+          <include name="TC003_EditAccount"/>
         </methods>
-      </class> <!-- com.liono360.accounts.TC_028ActivityLogsMobile_InboundCall -->
-      <class name="com.liono360.accounts.TC_029ActivityLogsMobile_OutboundCall">
+      </class> <!-- com.liono360.accounts.TC_003EditAccount -->
+      <class name="com.liono360.accounts.TC_004DeleteAccount">
         <methods>
+          <include name="TC004_DeleteAccount"/>
           <include name="teardown"/>
-          <include name="ActivityLogsMobile_OutboundCallTest"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.liono360.accounts.TC_029ActivityLogsMobile_OutboundCall -->
+      </class> <!-- com.liono360.accounts.TC_004DeleteAccount -->
+      <class name="com.liono360.accounts.TC_002ViewAccount">
+        <methods>
+          <include name="TC002_ViewAccount"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.liono360.accounts.TC_002ViewAccount -->
+      <class name="com.liono360.accounts.TC_001CreateAccount">
+        <methods>
+          <include name="TC001CreateAccount"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.liono360.accounts.TC_001CreateAccount -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

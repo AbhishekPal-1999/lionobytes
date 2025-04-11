@@ -128,7 +128,7 @@ public class TC_001CreateAccount extends Baseclass{
 	
 //		TrySelectDropdown(account.Timezones(),"(GMT-10:00) Hawaii");
 //     	logger.info("time zones selected");
-//		
+		
 		
 		SelectDropdown(account.Currency(),2);
 		logger.info("Currency selected");
@@ -290,8 +290,6 @@ public class TC_001CreateAccount extends Baseclass{
 		
 // ASSERTION====================================================================================================
 
-		waitUntilPageLoad();
-		account.Search().sendKeys(SetAccountName);
 		waitUntilPageLoad();
 		Thread.sleep(5000);
 		String AccountNameAfterCreate=account.ListedAccount().getText();
