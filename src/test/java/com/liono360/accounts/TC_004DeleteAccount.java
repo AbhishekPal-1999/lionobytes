@@ -78,8 +78,7 @@ public class TC_004DeleteAccount extends Baseclass {
 		Thread.sleep(2000);
 		TryClick(account.RefreshListing());
 		waitUntilPageLoad();
-		TryClick(account.RefreshListing());
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 		mouseActionRightClick(driver, account.ListedAccount());
 		TryClick(account.clickondeletebtn());
 		logger.info("Clicked on clickondeletebtn button");
@@ -88,6 +87,7 @@ public class TC_004DeleteAccount extends Baseclass {
         waitUntilPageLoad();
         TryClick(account.RefreshListing());
         waitUntilPageLoad();
+        Thread.sleep(5000);
 		String AccountNameAfterDelete=account.ListedAccount().getText();
 		System.out.println("Deleted Account: "+AccountNameBeforeDelete);
 		System.out.println("Listed Account after delete : "+AccountNameAfterDelete);

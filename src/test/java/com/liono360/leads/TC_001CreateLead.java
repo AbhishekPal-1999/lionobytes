@@ -33,10 +33,10 @@ public class TC_001CreateLead extends Baseclass {
 		waitUntilPageLoad();
 		Thread.sleep(10000);
 		action.moveToElement(leads.ActionButton()).build().perform();
-		logger.info("Clicked on Lead Tab");
+		logger.info("Mousehover on Action button");
 
 		TryClick(leads.NewLead());
-		logger.info("Clicked on add Lead button");
+		logger.info("Clicked on add new button");
 
 		SelectDropdown(leads.selectTitle(),2);
 		logger.info("Title selected");
@@ -241,10 +241,11 @@ public class TC_001CreateLead extends Baseclass {
 // ASSERTION=======================================================================================
 		
 		waitUntilPageLoad();
+		Thread.sleep(4000);
 		leads.Search().sendKeys(AddedLeadName);
 		logger.info("Lead name passed to search");
 		waitUntilPageLoad();
-		Thread.sleep(5000);
+		Thread.sleep(4000);
 		waitUntilDisplay(leads.listedLeads(),20);
 		String LeadNameAfterCreate=leads.listedLeads().getText();
 		System.out.println("Provided Lead name to create: "+AddedLeadName);

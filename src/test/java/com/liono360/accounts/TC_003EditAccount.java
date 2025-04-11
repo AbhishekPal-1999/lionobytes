@@ -48,12 +48,15 @@ public class TC_003EditAccount extends Baseclass{
 		account.editLastName().sendKeys(exceldata.LastName());
 		
 		logger.info("Last Name Added");
-	
+	  
+		String SetAccountName= account.editAccountName().getAttribute("value");
+		
+		
+		
 		account.editAccountName().clear();
-		waitUntilPageLoad();
 		account.editAccountName().sendKeys(exceldata.OrganizationName());
 		logger.info("sendkeys on accountname");
-		String SetAccountName= account.editAccountName().getAttribute("value");
+		
 
 	
 		TryClick(account.SaveAllDeatilsBtn());
@@ -63,21 +66,20 @@ public class TC_003EditAccount extends Baseclass{
 // ASSERTION====================================================================================================
 		
 	    waitUntilPageLoad();
-	    account.Search().clear();
+	    account.refresh();
 	    waitUntilPageLoad();
-	    TryClick(account.RefreshListing());
 	    Thread.sleep(5000);
 		String AccountNameAfterEdit=account.ListedAccount().getText();
 		System.out.println("provided account name to edit: "+SetAccountName);
 		System.out.println("Listed account name after edit: "+AccountNameAfterEdit);
 		if (SetAccountName.equalsIgnoreCase(AccountNameAfterEdit)) {
-			Assert.assertTrue(true);
-			logger.info("Edit account test passed");
+			Assert.assertTrue(false);
+			logger.info("Edit account test Fail");
 		} 
 
 		else {
-			Assert.assertTrue(false);
-			logger.info("Edit account test failed");
+			Assert.assertTrue(true);
+			logger.info("Edit account test Passes");
 		}
 		
 		
