@@ -65,11 +65,12 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
           WebDriverManager.chromedriver().setup();
 			ChromeOptions options = new ChromeOptions();
-
+			options.addArguments("--headless=new"); // `new` version for Chrome 109+
+			options.addArguments("--window-size=1920,1080");
+			options.addArguments("--disable-gpu");
+			options.addArguments("--no-sandbox");
+			options.addArguments("--disable-dev-shm-usage");
 			options.addArguments("--remote-allow-origins=*");
-
-			//	options.addArguments("--incognito");
-
 			options.addArguments("--disable-extensions");
 
 		   // options.addArguments("headless");
@@ -112,14 +113,10 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 		redirectToCRM();
 	}
 
-//	public static WebDriver explWaitToClick(WebElement element) {
-//		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(50));
-//		wait.until(ExpectedConditions.elementToBeClickable(element));
-//		return (driver);
-//	}
+
 	
 	public static WebDriver explWaitToClick(WebElement element) {
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(50));
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(100));
 		wait.until(ExpectedConditions.elementToBeClickable(element));
 		return (driver);
 	}
@@ -128,8 +125,6 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 	public void teardown() throws InterruptedException {
 		Thread.sleep(1000);
 		
-		//redirectToLogout();
-		//logger.info("logged out");
 		driver.quit();
 	   logger.info("Browser Closed");
 	}
@@ -215,7 +210,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 		//element.click();
 		TryClick(element);
 		
-	//	driver.findElement(By.xpath("//span[@class=\"p-button-icon pi pi-times\"]")).click();
+
 	
 		}
 	
@@ -253,7 +248,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
  }
 	
 	public void waitUntilPageLoad() throws InterruptedException {
-		int maxWaitingTime = 40;
+		int maxWaitingTime = 60;
 		Thread.sleep(600); 
 		float time=1;
 		
@@ -289,7 +284,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 		String elementName =element.getText();
 		long startTime = System.currentTimeMillis(); 
 	    long endTime = startTime + 30 * 1000; 
-	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(80));
         String ErrorMessage=null;
 	    
 	    while (System.currentTimeMillis() < endTime) {
