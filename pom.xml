@@ -80,11 +80,7 @@
     <scope>test</scope>
 </dependency>
 	
-<dependency>
-    <groupId>org.apache.poi</groupId>
-    <artifactId>poi-ooxml</artifactId>
-    <version>4.1.2</version>
-</dependency>
+
 
 		<dependency>
 			<groupId>org.apache.commons</groupId>
@@ -135,17 +131,12 @@
     <version>1.0.2</version> <!-- or the latest version -->
 </dependency>
 
-		 <dependency>
-  <groupId>org.apache.poi</groupId>
-  <artifactId>poi</artifactId>
-  <version>5.2.2</version>
-</dependency>
-
-<dependency>
-  <groupId>org.apache.poi</groupId>
-  <artifactId>poi-ooxml</artifactId>
-  <version>5.2.2</version>
-</dependency>
+          <dependency>
+                    <groupId>org.apache.poi</groupId>
+                    <artifactId>poi-ooxml</artifactId>
+                    <version>5.2.2</version>
+          </dependency>
+		
 	</dependencies>
 
 	<build>
