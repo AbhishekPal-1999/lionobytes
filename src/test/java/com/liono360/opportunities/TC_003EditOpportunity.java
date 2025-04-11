@@ -46,10 +46,10 @@ public class TC_003EditOpportunity extends Baseclass{
 		opp.waitUntilPageLoad();
 		Thread.sleep(2000);
 		String OpportunityNameBeforeEdit= opp.setOpportunityName().getAttribute("value");
-		opp.setOpportunityName().clear();
-		explWaitToClick(opp.setOpportunityName());
-		opp.setOpportunityName().sendKeys("Opportunity" + randomnumber());
-		logger.info("opportunity name added");
+		//opp.setOpportunityName().clear();
+		//explWaitToClick(opp.setOpportunityName());
+		//opp.setOpportunityName().sendKeys("Opportunity" + randomnumber());
+		//logger.info("opportunity name added");
 		
 		SelectDropdown(opp.selectOwner(),3);
 		logger.info("Owner is selected");
