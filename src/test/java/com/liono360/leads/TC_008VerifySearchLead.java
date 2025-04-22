@@ -33,26 +33,13 @@ public class TC_008VerifySearchLead extends Baseclass{
 		
 		
 		Thread.sleep(20000);
-//		leads.LedsDrp().click();
-//		Thread.sleep(2000);
-//		explWaitToClick(driver.findElement(By.xpath("//span[text()='Akash_Automation']")));
-//		driver.findElement(By.xpath("//span[text()='Akash_Automation']")).click();
-//		logger.info("select on dropdown");
-//		
+
 	
 		Thread.sleep(5000);
 		leads.setLeadToSearch().sendKeys("scriptLead125");
 		Thread.sleep(5000);
 		logger.info("Entered text to search");
-		
-		/*
-		 * if(leads.addedLead().isDisplayed()) { AssertJUnit.assertTrue(true);
-		 * logger.info("Verify Lead test passed"); } else {
-		 * AssertJUnit.assertTrue(false); captureScreen(driver, "addLead");
-		 * logger.info("Verify Lead test failed"); }
-		 * 
-		 * 
-		 */
+
 		
 		
 	}

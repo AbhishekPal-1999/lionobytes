@@ -7,10 +7,8 @@
   <test thread-count="5" name="Test">
     <classes>
 		<class name="com.liono360.leads.TC_001CreateLead"/>
-     
-      
-      <class name="com.liono360.leads.TC_002ViewLead"/>
-       <class name="com.liono360.leads.TC_003EditLead"/>
+        <class name="com.liono360.leads.TC_002ViewLead"/>
+        <class name="com.liono360.leads.TC_003EditLead"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

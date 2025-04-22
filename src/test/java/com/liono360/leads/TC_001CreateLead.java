@@ -19,19 +19,19 @@ public class TC_001CreateLead extends Baseclass {
 	@Test
 	public void TC001_CreateLead() throws InterruptedException, IOException {
 		//redirectToCRM();
-
+ 
+		Actions action = new Actions(driver);
 		LeadPage leads = new LeadPage(driver);
 		ExcelDataProvider exceldata=new ExcelDataProvider();
 		
 		
 		waitUntilPageLoad();
+		Thread.sleep(10000);
 		TryClick(leads.clickLead());
 		logger.info("Clicked on Lead ");
-		Actions action = new Actions(driver);
-		
 		
 		waitUntilPageLoad();
-		Thread.sleep(10000);
+		Thread.sleep(5000);
 		action.moveToElement(leads.ActionButton()).build().perform();
 		logger.info("Mousehover on Action button");
 
@@ -93,7 +93,9 @@ public class TC_001CreateLead extends Baseclass {
 		
 		leads.setLeadName().sendKeys(exceldata.OrganizationName());
 		logger.info("Lead name added");
+		
 		String AddedLeadName= leads.setLeadName().getAttribute("value");
+		System.out.println(AddedLeadName);
 
 
 		SelectDropdown(leads.Designaion(),1);
@@ -242,11 +244,9 @@ public class TC_001CreateLead extends Baseclass {
 		
 		waitUntilPageLoad();
 		Thread.sleep(4000);
-		leads.Search().sendKeys(AddedLeadName);
-		logger.info("Lead name passed to search");
+		leads.Refresh();
 		waitUntilPageLoad();
-		Thread.sleep(4000);
-		waitUntilDisplay(leads.listedLeads(),20);
+		Thread.sleep(5000);
 		String LeadNameAfterCreate=leads.listedLeads().getText();
 		System.out.println("Provided Lead name to create: "+AddedLeadName);
 		System.out.println("Listed Lead name after create: "+LeadNameAfterCreate);

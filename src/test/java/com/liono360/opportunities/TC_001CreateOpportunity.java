@@ -128,7 +128,8 @@ public class TC_001CreateOpportunity extends Baseclass {
 		logger.info("save button clicked");
 		
 		
-		opp.waitUntilPageLoad();
+		waitUntilPageLoad();
+		Thread.sleep(10000);
 		String OpportunityNameAfterCreate =opp.ListedOpportunity().getText();
 		System.out.println("Opportunity name to create: "+OpportunityNameBeforeCreate);
 		System.out.println("Opportunity name after create: "+OpportunityNameAfterCreate);

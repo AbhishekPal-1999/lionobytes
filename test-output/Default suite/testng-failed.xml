@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.liono360.accounts.TC_003EditAccount">
+      <class name="com.liono360.leads.TC_001CreateLead">
         <methods>
+          <include name="TC001_CreateLead"/>
           <include name="teardown"/>
           <include name="setup"/>
-          <include name="TC003_EditAccount"/>
         </methods>
-      </class> <!-- com.liono360.accounts.TC_003EditAccount -->
+      </class> <!-- com.liono360.leads.TC_001CreateLead -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

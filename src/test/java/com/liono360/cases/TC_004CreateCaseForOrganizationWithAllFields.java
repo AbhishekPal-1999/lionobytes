@@ -28,6 +28,7 @@ public class TC_004CreateCaseForOrganizationWithAllFields extends Baseclass{
 			ExcelDataProvider exceldata=new ExcelDataProvider();
 			
 			waitUntilPageLoad();
+			Thread.sleep(5000);
 			TryClick(cases.clickCases());
 			logger.info("Clicked on Cases ");
 			
@@ -100,6 +101,7 @@ public class TC_004CreateCaseForOrganizationWithAllFields extends Baseclass{
 			
 
 			waitUntilPageLoad();
+			Thread.sleep(10000);
 			String CaseNameAfterCreate = cases.CaseIDs().getText();
 	    	System.out.println("Case name to create: "+CaseNameBeforeCreate);
 			System.out.println("Case name after create: "+CaseNameAfterCreate);

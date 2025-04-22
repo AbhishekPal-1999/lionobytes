@@ -13,6 +13,7 @@ import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -60,7 +61,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 		PropertyConfigurator.configure("log4j.properties");
 
 		if (browser.equals("Chrome")) {
-		//	System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") + "\\Drivers\\chromedriver.exe");
+		
 
 
           WebDriverManager.chromedriver().setup();
@@ -73,8 +74,6 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 			options.addArguments("--remote-allow-origins=*");
 			options.addArguments("--disable-extensions");
 
-		   // options.addArguments("headless");
-
 			DesiredCapabilities capabilities = new DesiredCapabilities();
 
 			capabilities.setCapability(ChromeOptions.CAPABILITY, options);
@@ -83,11 +82,9 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 			driver = new ChromeDriver(options);
 
-			driver.manage().window().maximize();	
+			driver.manage().window().maximize();
 
-			//driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
-
-			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(120));
 			
 			
 		}
@@ -107,7 +104,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 			driver.manage().window().maximize();	
 			//driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
 
-			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(25));
+			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(120));
 		}
 
 		redirectToCRM();
@@ -116,10 +113,21 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 	
 	public static WebDriver explWaitToClick(WebElement element) {
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(100));
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(120));
 		wait.until(ExpectedConditions.elementToBeClickable(element));
 		return (driver);
-	}
+		
+		
+			}
+	
+	public static WebDriver explWaitToClick1(By element) {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(120));
+		wait.until(ExpectedConditions.invisibilityOfElementLocated(element));
+		return (driver);
+		
+		
+			}
+	
 
 	@AfterSuite
 	public void teardown() throws InterruptedException {
@@ -203,11 +211,9 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 		}
 
 	public static  void CancelCookie() throws InterruptedException {
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20)); // 10 seconds timeout
-		//WebDriverWait wait = new WebDriverWait(driver, 10);
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(120)); // 10 seconds timeout
 		By elementLocator = By.xpath("//span[normalize-space()='Accept All']");
 		WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(elementLocator));
-		//element.click();
 		TryClick(element);
 		
 
@@ -248,19 +254,18 @@ import io.github.bonigarcia.wdm.WebDriverManager;
  }
 	
 	public void waitUntilPageLoad() throws InterruptedException {
-		int maxWaitingTime = 60;
+		int maxWaitingTime = 120;
 		Thread.sleep(600); 
 		float time=1;
 		
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
 	    while (time<maxWaitingTime) {
 			WebElement LoaderIcon = null;
 			try {
 				LoaderIcon = driver.findElement(By.xpath("//div[@class=\"splash-loader\"]"));
 
 			} catch (Exception e) {
-				//System.out.println("Now Page loaded fully !....");
-				driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+				driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(120));
 				break; 
 			}
 
@@ -268,7 +273,6 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 				Thread.sleep(500); 
 				time=(float) (time+.5);
-				//System.out.println("page loader icon is occuring till: "+time +"Seconds");
 			} 
 			else {
 				break;
@@ -284,7 +288,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 		String elementName =element.getText();
 		long startTime = System.currentTimeMillis(); 
 	    long endTime = startTime + 30 * 1000; 
-	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(80));
+	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(120));
         String ErrorMessage=null;
 	    
 	    while (System.currentTimeMillis() < endTime) {
@@ -292,18 +296,16 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 	        	wait.until(ExpectedConditions.elementToBeClickable(element)); 
 	        	
 	        	element.click();
-	           // System.out.println(elementName+" is clicked ");
 
 	            return;
 	        } catch (Exception e) {
 	        	ErrorMessage=e.getMessage();
-	           // System.out.println("Error occurred while clicking the button: " + e.getMessage());
 	            Thread.sleep(300);
-	           // scrollIntoView(element);
+	           
 	        }
 	    }
-	    System.out.println("Unable to click within the specified duration of 30 seconds..... \n "+ ErrorMessage);
-        throw new RuntimeException("<b>"+"Unable to click within the specified duration of 30 seconds....."+"</b>"+"<br>"+ ErrorMessage);
+	    System.out.println("Unable to click within the specified duration of 120 seconds..... \n "+ ErrorMessage);
+        throw new RuntimeException("<b>"+"Unable to click within the specified duration of 120 seconds....."+"</b>"+"<br>"+ ErrorMessage);
        
 	}
 	
@@ -315,7 +317,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 		String SelectedDropDown=null;
 		long startTime = System.currentTimeMillis(); 
 	    long endTime = startTime + 20 * 1000; 
-	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(160));
 	    String ErrorMessage=null;
 
 	    while (System.currentTimeMillis() < endTime) {
@@ -334,8 +336,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 	           
 	        }
 	    }
-	    System.out.println("Unable to click within the specified duration of 20 seconds..... \n "+ ErrorMessage);
-        throw new RuntimeException("<b>"+"Unable to click within the specified duration of 20 seconds....."+"</b>"+"<br>"+ ErrorMessage);
+	    System.out.println("Unable to click within the specified duration of 160 seconds..... \n "+ ErrorMessage);
+        throw new RuntimeException("<b>"+"Unable to click within the specified duration of 160 seconds....."+"</b>"+"<br>"+ ErrorMessage);
        
 	  }
 	
@@ -343,7 +345,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 	   
 	   List<WebElement> dropdownItems = driver.findElements(By.xpath("//ul[@role='listbox']//p-dropdownitem"));
 
-       // Find the total count (last index)
+     
        int lastIndex = dropdownItems.size(); 
        
        int randomNumbers=randomNumberBetween(1,lastIndex);

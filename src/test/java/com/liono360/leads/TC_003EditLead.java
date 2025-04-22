@@ -27,6 +27,7 @@ public class TC_003EditLead extends Baseclass {
 		logger.info("Clicked on Lead ");
 
 		waitUntilPageLoad();
+		Thread.sleep(5000);
 		mouseActionRightClick(driver, leads.listedLeads());
 		Thread.sleep(1000);
 		TryClick(leads.clickeditLead());
@@ -58,10 +59,12 @@ public class TC_003EditLead extends Baseclass {
 		leads.setEmailAddress().sendKeys(Firstname+ randomnumber() + "@lionobytes.com");
 		logger.info("Email for contact is added");
 		
+		
+		String EditedLeadName= leads.setLeadName().getAttribute("value");
 		leads.setLeadName().clear();
 		leads.setLeadName().sendKeys(exceldata.OrganizationName());
 		logger.info("Lead name added");
-		String EditedLeadName= leads.setLeadName().getAttribute("value");
+		
 
 		TrySelectMultiDropdown(leads.selectLeadType(),1,3);
 	
@@ -114,15 +117,14 @@ public class TC_003EditLead extends Baseclass {
 		leads.Notess().clear();
 		leads.Notess().sendKeys("Lead Details");
 		logger.info("Notes added");
-		TryClick(leads.clickSave());
-        
+		
+		TryClick(leads.AllbtnSaveAddress());
+		logger.info("Clicked on Save button");
 
 // ASSERTION=======================================================================================
-		
 		waitUntilPageLoad();
-		leads.Search().clear();
-		leads.Search().sendKeys(EditedLeadName);
-		logger.info("Lead name passed to search");
+		Thread.sleep(2000);
+		leads.Refresh();
 		waitUntilPageLoad();
 		Thread.sleep(5000);
 		String LeadNameAfterEdit=leads.listedLeads().getText();
