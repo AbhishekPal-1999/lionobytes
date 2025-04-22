@@ -525,7 +525,7 @@ public class LeadPage {
 	@FindBy(xpath = "//span[text()='Save']")
 	WebElement Save1;
 
-	public WebElement Save1() {
+	public WebElement SaveLead() {
 		return Save1;
 	}
 

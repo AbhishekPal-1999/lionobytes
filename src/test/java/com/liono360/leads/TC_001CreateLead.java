@@ -238,6 +238,10 @@ public class TC_001CreateLead extends Baseclass {
 
 		TryClick(leads.AllbtnSaveAddress());
 		logger.info("Clicked on save button to add lead");
+		
+		TryClick(leads.SaveLead());
+		logger.info("Clicked on save button to add lead");
+
 
 
 // ASSERTION=======================================================================================
