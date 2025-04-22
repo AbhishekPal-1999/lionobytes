@@ -237,7 +237,7 @@ public class LeadPage {
 		return drpJobFunction;
 	}
 
-	@FindBy(xpath = "//input[@formcontrolname='businessName']")
+	@FindBy(xpath = "//div//input[@formcontrolname='businessName']")
 	WebElement txtLeadName;
 
 	public WebElement setLeadName() {
@@ -515,7 +515,7 @@ public class LeadPage {
 		return btnSaveAddress;
 	}
 
-	@FindBy(xpath = "//span[normalize-space()='Save']")
+	@FindBy(xpath = "//button[@label=\"Save\"]")
 	WebElement AllbtnSaveAddress;
 
 	public WebElement AllbtnSaveAddress() {
@@ -981,7 +981,16 @@ public class LeadPage {
 		return btnSearch;
 		}
 	
-	@FindBy(xpath="//tbody//tr[1]//td[2]")
+	@FindBy(xpath="//span[@class=\"p-menuitem-icon pi pi-refresh ng-star-inserted\"]")
+	WebElement btnrefresh;
+
+	public WebElement Refresh() {
+		return btnrefresh;
+		}
+	
+	
+	
+	@FindBy(xpath="(//div[@class=\"p-datatable-wrapper\"]//table//tbody//tr//td)[2]")
 	WebElement listedLeads;
 
 	public WebElement listedLeads() {

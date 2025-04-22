@@ -65,10 +65,8 @@ public class TC_003EditAccount extends Baseclass{
 		
 // ASSERTION====================================================================================================
 		
-	    waitUntilPageLoad();
-	    account.refresh();
-	    waitUntilPageLoad();
-	    Thread.sleep(5000);
+		waitUntilPageLoad();
+		Thread.sleep(10000);
 		String AccountNameAfterEdit=account.ListedAccount().getText();
 		System.out.println("provided account name to edit: "+SetAccountName);
 		System.out.println("Listed account name after edit: "+AccountNameAfterEdit);

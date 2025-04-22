@@ -22,6 +22,7 @@ public class TC_006EditCase extends Baseclass {
 		
 		
 		waitUntilPageLoad();
+		Thread.sleep(5000);
 		TryClick(cases.clickCases());
 		logger.info("Clicked on Cases ");
 	

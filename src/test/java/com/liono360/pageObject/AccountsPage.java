@@ -30,6 +30,12 @@ public class AccountsPage extends Baseclass{
 	
 	}
 	
+	@FindBy(xpath="//div[@class='p-dialog-mask']")
+    WebElement HeadlessElementLoad;
+
+	public WebElement HeadlessElementLoads() {
+	return HeadlessElementLoad;	
+	}
 	
 	
 	

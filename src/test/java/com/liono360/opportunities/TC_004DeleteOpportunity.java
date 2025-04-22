@@ -48,7 +48,8 @@ public class TC_004DeleteOpportunity extends Baseclass{
 		
 		waitUntilPageLoad();
 		TryClick(opp.Refreshbutton());
-		Thread.sleep(3000);
+		waitUntilPageLoad();
+		Thread.sleep(10000);
 		String OpportunityNameAfterDelete =opp.ListedOpportunity().getText();
 		System.out.println("Opportunity name before Delete: "+OpportunityNameBeforeDelete);
 		System.out.println("Opportunity name after Delete: "+OpportunityNameAfterDelete);

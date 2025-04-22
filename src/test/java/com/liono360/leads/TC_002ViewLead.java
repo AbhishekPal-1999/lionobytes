@@ -21,10 +21,14 @@ public class TC_002ViewLead extends Baseclass{
 		LeadPage leads = new LeadPage(driver);
 		ExcelDataProvider exceldata=new ExcelDataProvider();
 		
+		waitUntilPageLoad();
+		Thread.sleep(5000);
+		
 		TryClick(leads.clickLead());
 		logger.info("Clicked on Lead ");
 
 		waitUntilPageLoad();
+		Thread.sleep(2000);
 		mouseActionRightClick(driver, leads.listedLeads());
 		Thread.sleep(1000);
 		TryClick(leads.clickViewLead());

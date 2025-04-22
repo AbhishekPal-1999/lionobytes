@@ -29,6 +29,7 @@ public class TC_001CreateCaseForAccountWithAllFields extends Baseclass {
 		ExcelDataProvider exceldata=new ExcelDataProvider();
 		
 		waitUntilPageLoad();
+		Thread.sleep(5000);
 		TryClick(cases.clickCases());
 		logger.info("Clicked on Cases ");
 		
@@ -93,14 +94,12 @@ public class TC_001CreateCaseForAccountWithAllFields extends Baseclass {
 		
 		SelectDropdown(cases.SelectUsers(),4);
 		logger.info("Users is selected");
-
-		
 		
 		TryClick(cases.clickSubmit());
 		logger.info("Clicked on save button to add Case");
-		
 
 		waitUntilPageLoad();
+		Thread.sleep(10000);
 		String CaseNameAfterCreate = cases.CaseIDs().getText();
     	System.out.println("Case name to create: "+CaseNameBeforeCreate);
 		System.out.println("Case name after create: "+CaseNameAfterCreate);

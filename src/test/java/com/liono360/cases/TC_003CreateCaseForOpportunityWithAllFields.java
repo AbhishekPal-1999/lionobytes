@@ -30,7 +30,10 @@ public class TC_003CreateCaseForOpportunityWithAllFields extends Baseclass{
 	    //  redirectToCRM();
 	    
 		CasesPage cases= new CasesPage(driver);
-		cases.waitUntilPageLoad();
+		
+		waitUntilPageLoad();
+		Thread.sleep(5000);
+		
 		cases.clickCases().click();
 		logger.info("Clicked on Cases ");
 		cases.waitUntilPageLoad();
@@ -108,11 +111,7 @@ public class TC_003CreateCaseForOpportunityWithAllFields extends Baseclass{
 		logger.info("Case details is added");
 		Thread.sleep(500);
 
-		//	cases.setResolutionDate().click();
-		//	//Thread.sleep(500);
-		//	explWaitToClick(driver.findElement(By.xpath("(//span[text()='15'])[2]")));
-		//	driver.findElement(By.xpath("(//span[text()='15'])[2]")).click();
-		//	logger.info("Resolution Date is selected");
+
 		jsScroll(driver,cases.SelectGroups());
 		Thread.sleep(1000);
 		cases.SelectGroups().click();
@@ -131,13 +130,11 @@ public class TC_003CreateCaseForOpportunityWithAllFields extends Baseclass{
 		cases.clickSubmit().click();
 		logger.info("Clicked on save button to add Case");
 		cases.waitUntilPageLoad();
-		//Thread.sleep(20000);
-		cases.addedCase().click();
-		cases.addedCase().click();
-//		Actions act = new Actions(driver);
-//		act.doubleClick(cases.addedCase()).perform();
-//		logger.info("clicked on added case");
-		//Thread.sleep(10000);
+		
+		
+		waitUntilPageLoad();
+		Thread.sleep(10000);
+
 		String CaseNameAfterCreate = driver.findElement(By.xpath("(//strong[text()='Contact Name'])//parent::div//following-sibling::*")).getText();
 		System.out.println("Case name to create: "+CaseNameBeforeCreate);
 		System.out.println("Case name after create: "+CaseNameAfterCreate);

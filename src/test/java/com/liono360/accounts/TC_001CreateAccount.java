@@ -26,12 +26,15 @@ public class TC_001CreateAccount extends Baseclass{
 		ExcelDataProvider exceldata=new ExcelDataProvider();
 		
 		
+		waitUntilPageLoad();
+		Thread.sleep(2000);
+		
 		TryClick(account.clickAccounts());
 		logger.info("Clicked on Account Module");
 		
 		
 		waitUntilPageLoad();
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		action.moveToElement(account.ActionButton()).build().perform();
 		logger.info("Mousehover on Action button");
 	
@@ -291,7 +294,7 @@ public class TC_001CreateAccount extends Baseclass{
 // ASSERTION====================================================================================================
 
 		waitUntilPageLoad();
-		Thread.sleep(5000);
+		Thread.sleep(10000);
 		String AccountNameAfterCreate=account.ListedAccount().getText();
 		System.out.println("provided account name to create: "+SetAccountName);
 		System.out.println("Listed account name after create: "+AccountNameAfterCreate);

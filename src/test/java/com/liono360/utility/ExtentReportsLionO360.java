@@ -2,16 +2,13 @@ package com.liono360.utility;
 
 import java.io.File;
 import java.io.IOException;
-import java.sql.DriverManager;
 import java.util.Date;
 
-import org.codehaus.plexus.util.FileUtils;
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
 import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
-
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 import com.liono360.loginPage.Baseclass;

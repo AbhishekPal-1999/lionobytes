@@ -46,7 +46,8 @@ public class TC_007DeleteCases extends Baseclass {
 		
 		waitUntilPageLoad();
 		TryClick(cases.Refreshbutton());
-		Thread.sleep(3000);
+		waitUntilPageLoad();
+		Thread.sleep(10000);
 		String CaseIDAfterCreate = cases.CaseIDs().getText();
     	System.out.println("Case name to create: "+CaseIDBeforeDelete);
 		System.out.println("Case name after create: "+CaseIDAfterCreate);
