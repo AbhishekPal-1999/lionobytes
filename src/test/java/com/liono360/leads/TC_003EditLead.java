@@ -23,11 +23,16 @@ public class TC_003EditLead extends Baseclass {
 		LeadPage leads = new LeadPage(driver);
 		ExcelDataProvider exceldata=new ExcelDataProvider();
 		
+		
+		waitUntilPageLoad();
+		Thread.sleep(2000);
+		
 		TryClick(leads.clickLead());
 		logger.info("Clicked on Lead ");
 
 		waitUntilPageLoad();
 		Thread.sleep(5000);
+		
 		mouseActionRightClick(driver, leads.listedLeads());
 		Thread.sleep(1000);
 		TryClick(leads.clickeditLead());
@@ -119,6 +124,9 @@ public class TC_003EditLead extends Baseclass {
 		logger.info("Notes added");
 		
 		TryClick(leads.AllbtnSaveAddress());
+		logger.info("Clicked on Save Address  button");
+		
+		TryClick(leads.SaveLead());
 		logger.info("Clicked on Save button");
 
 // ASSERTION=======================================================================================

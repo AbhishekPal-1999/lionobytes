@@ -22,13 +22,14 @@ public class TC_002ViewLead extends Baseclass{
 		ExcelDataProvider exceldata=new ExcelDataProvider();
 		
 		waitUntilPageLoad();
-		Thread.sleep(5000);
+		Thread.sleep(2000);
 		
 		TryClick(leads.clickLead());
 		logger.info("Clicked on Lead ");
 
 		waitUntilPageLoad();
-		Thread.sleep(2000);
+		Thread.sleep(5000);
+		
 		mouseActionRightClick(driver, leads.listedLeads());
 		Thread.sleep(1000);
 		TryClick(leads.clickViewLead());
