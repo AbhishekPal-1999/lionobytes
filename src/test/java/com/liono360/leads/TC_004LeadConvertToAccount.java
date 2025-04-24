@@ -86,10 +86,10 @@ public class TC_004LeadConvertToAccount extends Baseclass {
 		
 // Convert Lead to Account===================================================================================
 		
-		waitUntilPageLoad();
+	    waitUntilPageLoad();
 	    String Lead_Name=leads.LeadNameOverviewPage().getText();
 		
-	    Thread.sleep(2000);
+	    Thread.sleep(5000);
 		TryClick(leads.hamburgerIcon());
 		logger.info("Clicked on hamburger Icon");
 		
