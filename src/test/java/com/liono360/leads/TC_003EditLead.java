@@ -139,13 +139,15 @@ public class TC_003EditLead extends Baseclass {
 		System.out.println("Provided Lead name to edit: "+EditedLeadName);
 		System.out.println("Listed Lead name after edit: "+LeadNameAfterEdit);
 		if (EditedLeadName.equalsIgnoreCase(LeadNameAfterEdit)) {
-			Assert.assertTrue(false);
 			logger.info("Edit Lead test Fail");
+			Assert.assertTrue(false);
+		
 		} 
 
 		else {
-			Assert.assertTrue(true);
 			logger.info("Edit Lead test Pass");
+			Assert.assertTrue(true);
+			
 		}
 	 
 	}

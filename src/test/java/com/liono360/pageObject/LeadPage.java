@@ -79,7 +79,7 @@ public class LeadPage {
 	public WebElement clickSave() {
 		return btnSaveLead;
 	}
-	@FindBy(xpath = "//i[@class=\"pi pi-bars\"]")
+	@FindBy(xpath = "//div[@class=\"btnBars\"]//i[@class=\"pi pi-bars\"]")
 	WebElement hamburgerIcon;
 
 	public WebElement hamburgerIcon() {
@@ -601,6 +601,13 @@ public class LeadPage {
 	public WebElement ClickAssignLead() {
 		return ClickAssignLead;
 	}
+	
+	@FindBy(xpath = "//div[@class=\"p-tabview-panels\"]//span[@class=\"popup-opener\"]//div")
+	WebElement LeadNameOverview;
+
+	public WebElement LeadNameOverviewPage() {
+		return LeadNameOverview;
+	}
 
 	@FindBy(xpath = "//span[text()='Select Title']")
 	WebElement Titlemr;
@@ -868,10 +875,10 @@ public class LeadPage {
 	}
 
 	@FindBy(xpath = "//textarea[@placeholder='Enter Comment']")
-	WebElement commentsWorkingContacted;
+	WebElement Addcomment;
 
-	public WebElement CommentsWorkingContacted() {
-		return commentsWorkingContacted;
+	public WebElement AddComments() {
+		return Addcomment;
 	}
 
 	@FindBy(xpath = "//span[text()='Save']")
