@@ -1,33 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="7" passed="3" failed="0" skipped="0">
+<testng-results ignored="6" total="10" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-22T14:05:34 IST" name="Suite" finished-at="2025-04-22T14:07:55 IST" duration-ms="140814">
+  <suite started-at="2025-04-24T13:24:31 IST" name="Suite" finished-at="2025-04-24T13:28:48 IST" duration-ms="256852">
     <groups>
     </groups>
-    <test started-at="2025-04-22T14:05:34 IST" name="Test" finished-at="2025-04-22T14:07:55 IST" duration-ms="140814">
+    <test started-at="2025-04-24T13:24:31 IST" name="Test" finished-at="2025-04-24T13:28:48 IST" duration-ms="256852">
+      <class name="com.liono360.leads.TC_004LeadConvertToAccount">
+        <test-method signature="TC004_LeadConvertToAccount()[pri:0, instance:com.liono360.leads.TC_004LeadConvertToAccount@22f59fa]" started-at="2025-04-24T13:27:05 IST" name="TC004_LeadConvertToAccount" finished-at="2025-04-24T13:28:48 IST" duration-ms="103181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC004_LeadConvertToAccount -->
+      </class> <!-- com.liono360.leads.TC_004LeadConvertToAccount -->
       <class name="com.liono360.leads.TC_001CreateLead">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.liono360.leads.TC_001CreateLead@2ad48653]" started-at="2025-04-22T14:04:15 IST" name="setup" finished-at="2025-04-22T14:05:34 IST" duration-ms="79877" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.liono360.leads.TC_001CreateLead@7d7758be]" started-at="2025-04-24T13:23:31 IST" name="setup" finished-at="2025-04-24T13:24:31 IST" duration-ms="60240" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC001_CreateLead()[pri:0, instance:com.liono360.leads.TC_001CreateLead@2ad48653]" started-at="2025-04-22T14:05:34 IST" name="TC001_CreateLead" finished-at="2025-04-22T14:06:49 IST" duration-ms="74600" status="PASS">
+        <test-method signature="TC001_CreateLead()[pri:0, instance:com.liono360.leads.TC_001CreateLead@7d7758be]" started-at="2025-04-24T13:24:31 IST" name="TC001_CreateLead" finished-at="2025-04-24T13:25:57 IST" duration-ms="85742" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC001_CreateLead -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.liono360.leads.TC_001CreateLead@2ad48653]" started-at="2025-04-22T14:07:55 IST" name="teardown" finished-at="2025-04-22T14:07:57 IST" duration-ms="1263" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.liono360.leads.TC_001CreateLead@7d7758be]" started-at="2025-04-24T13:28:48 IST" name="teardown" finished-at="2025-04-24T13:28:50 IST" duration-ms="1418" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.liono360.leads.TC_001CreateLead -->
       <class name="com.liono360.leads.TC_003EditLead">
-        <test-method signature="TC003_EditLead()[pri:0, instance:com.liono360.leads.TC_003EditLead@7d7758be]" started-at="2025-04-22T14:07:10 IST" name="TC003_EditLead" finished-at="2025-04-22T14:07:55 IST" duration-ms="45337" status="PASS">
+        <test-method signature="TC003_EditLead()[pri:0, instance:com.liono360.leads.TC_003EditLead@7fd7a283]" started-at="2025-04-24T13:26:18 IST" name="TC003_EditLead" finished-at="2025-04-24T13:27:05 IST" duration-ms="46879" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC003_EditLead -->
       </class> <!-- com.liono360.leads.TC_003EditLead -->
       <class name="com.liono360.leads.TC_002ViewLead">
-        <test-method signature="TC002_ViewLead()[pri:0, instance:com.liono360.leads.TC_002ViewLead@74287ea3]" started-at="2025-04-22T14:06:49 IST" name="TC002_ViewLead" finished-at="2025-04-22T14:07:10 IST" duration-ms="20848" status="PASS">
+        <test-method signature="TC002_ViewLead()[pri:0, instance:com.liono360.leads.TC_002ViewLead@7ac296f6]" started-at="2025-04-24T13:25:57 IST" name="TC002_ViewLead" finished-at="2025-04-24T13:26:18 IST" duration-ms="21001" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC002_ViewLead -->

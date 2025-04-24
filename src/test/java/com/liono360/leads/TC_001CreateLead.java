@@ -65,7 +65,7 @@ public class TC_001CreateLead extends Baseclass {
 		logger.info("Email for contact is added");
 
 
-		//explWaitToClick(leads.setPhoneNumber());
+		
 		SelectDropdown(leads.PhoneCountry1(), 1);
 		Thread.sleep(500);
 		leads.WorkPhone().click();
@@ -145,11 +145,10 @@ public class TC_001CreateLead extends Baseclass {
 
 
 		SelectDropdown(leads.selectOwenership(),2);
-
 		logger.info("Ownership added");
-		SelectDropdown(leads.Stage1(),3);	
-
-		logger.info("Stage selected");
+		
+	//	SelectDropdown(leads.Stage1(),3);	
+	//	logger.info("Stage selected");
 
 		leads.setFoundedYear().sendKeys("1"+randomnumber());
 		logger.info("Founded year added");
@@ -234,11 +233,9 @@ public class TC_001CreateLead extends Baseclass {
 		logger.info("sendkeys on StreetAdress2");
 
 		TryClick(leads.clickSaveAddress());
-		logger.info("Address Added");
-
-		TryClick(leads.AllbtnSaveAddress());
-		logger.info("Clicked on save button to add lead");
+		logger.info("Click on Save button for Address");
 		
+		Thread.sleep(2000);
 		TryClick(leads.SaveLead());
 		logger.info("Clicked on save button to add lead");
 
@@ -247,10 +244,10 @@ public class TC_001CreateLead extends Baseclass {
 // ASSERTION=======================================================================================
 		
 		waitUntilPageLoad();
-		Thread.sleep(4000);
+		Thread.sleep(2000);
 		leads.Refresh();
 		waitUntilPageLoad();
-		Thread.sleep(5000);
+		Thread.sleep(2000);
 		String LeadNameAfterCreate=leads.listedLeads().getText();
 		System.out.println("Provided Lead name to create: "+AddedLeadName);
 		System.out.println("Listed Lead name after create: "+LeadNameAfterCreate);

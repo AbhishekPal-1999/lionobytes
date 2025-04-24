@@ -9,6 +9,7 @@
 		<class name="com.liono360.leads.TC_001CreateLead"/>
         <class name="com.liono360.leads.TC_002ViewLead"/>
         <class name="com.liono360.leads.TC_003EditLead"/>
+        <class name="com.liono360.leads.TC_004LeadConvertToAccount"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
