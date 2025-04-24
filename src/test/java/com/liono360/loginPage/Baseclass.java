@@ -66,7 +66,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
           WebDriverManager.chromedriver().setup();
 			ChromeOptions options = new ChromeOptions();
-		//	options.addArguments("--headless=new"); // `new` version for Chrome 109+
+			options.addArguments("--headless=new"); // `new` version for Chrome 109+
 			options.addArguments("--window-size=1920,1080");
 			options.addArguments("--disable-gpu");
 			options.addArguments("--no-sandbox");
