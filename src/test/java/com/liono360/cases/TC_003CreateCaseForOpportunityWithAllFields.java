@@ -135,9 +135,9 @@ public class TC_003CreateCaseForOpportunityWithAllFields extends Baseclass{
 		waitUntilPageLoad();
 		Thread.sleep(10000);
 
-		String CaseNameAfterCreate = driver.findElement(By.xpath("(//strong[text()='Contact Name'])//parent::div//following-sibling::*")).getText();
-		System.out.println("Case name to create: "+CaseNameBeforeCreate);
-		System.out.println("Case name after create: "+CaseNameAfterCreate);
+		String CaseNameAfterCreate = cases.CaseIDs().getText();
+		System.out.println("Case ID during creation: "+CaseNameBeforeCreate);
+		System.out.println("Case ID after creation: "+CaseNameAfterCreate);
 
 		if (CaseNameBeforeCreate.equals(CaseNameAfterCreate)) {
 			Assert.assertTrue(true);
