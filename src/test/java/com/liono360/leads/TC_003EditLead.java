@@ -122,7 +122,7 @@ public class TC_003EditLead extends Baseclass {
 		leads.Notess().clear();
 		leads.Notess().sendKeys("Lead Details");
 		logger.info("Notes added");
-		
+    
 		Thread.sleep(2000);
 		TryClick(leads.SaveLead());
 		logger.info("Clicked on Save button");

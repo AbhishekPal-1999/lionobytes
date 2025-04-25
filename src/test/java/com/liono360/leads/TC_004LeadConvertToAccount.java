@@ -90,7 +90,7 @@ public class TC_004LeadConvertToAccount extends Baseclass {
 		
 // Convert Lead to Account===================================================================================
 		
-		waitUntilPageLoad();
+	    waitUntilPageLoad();
 	    String Lead_Name=leads.LeadNameOverviewPage().getText();
 		
 	    Thread.sleep(5000);
