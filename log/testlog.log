@@ -5396,3 +5396,275 @@
 2025-04-24 13:28:35,654 - liono360 -INFO - Clicked on Account Module
 2025-04-24 13:28:48,510 - liono360 -INFO - lead converted to Account successfully
 2025-04-24 13:28:50,384 - liono360 -INFO - Browser Closed
+2025-04-24 13:29:52,629 - liono360 -INFO - URL is opened
+2025-04-24 13:29:52,772 - liono360 -INFO - Username added
+2025-04-24 13:29:52,830 - liono360 -INFO - password added
+2025-04-24 13:29:52,893 - liono360 -INFO - Clicked on submit button
+2025-04-25 11:41:41,043 - liono360 -INFO - URL is opened
+2025-04-25 11:41:41,165 - liono360 -INFO - Username added
+2025-04-25 11:41:41,218 - liono360 -INFO - password added
+2025-04-25 11:41:41,306 - liono360 -INFO - Clicked on submit button
+2025-04-25 11:42:51,312 - liono360 -INFO - URL is opened
+2025-04-25 11:42:51,434 - liono360 -INFO - Username added
+2025-04-25 11:42:51,505 - liono360 -INFO - password added
+2025-04-25 11:42:51,582 - liono360 -INFO - Clicked on submit button
+2025-04-25 11:43:10,828 - liono360 -INFO - Clicked on Lead 
+2025-04-25 11:43:23,502 - liono360 -INFO - Mousehover on Action button
+2025-04-25 11:43:23,723 - liono360 -INFO - Clicked on add new button
+2025-04-25 11:43:24,742 - liono360 -INFO - Title selected
+2025-04-25 11:43:24,847 - liono360 -INFO - First Name Added
+2025-04-25 11:43:24,949 - liono360 -INFO - Middle Name Added
+2025-04-25 11:43:25,047 - liono360 -INFO - Last Name Added
+2025-04-25 11:43:25,758 - liono360 -INFO - Email for contact is added
+2025-04-25 11:43:31,040 - liono360 -INFO - Lead name added
+2025-04-25 11:43:31,312 - liono360 -INFO - selectJobFunction is added
+2025-04-25 11:43:31,711 - liono360 -INFO - Lead types added
+2025-04-25 11:43:31,857 - liono360 -INFO - Lead number is added
+2025-04-25 11:43:32,182 - liono360 -INFO - click on selectTimeZone
+2025-04-25 11:43:32,397 - liono360 -INFO - Currency added
+2025-04-25 11:43:32,541 - liono360 -INFO - Click On plus sign to Add Tag
+2025-04-25 11:43:33,179 - liono360 -INFO - Click On Select Tag
+2025-04-25 11:43:33,275 - liono360 -INFO - tag assigned
+2025-04-25 11:43:33,390 - liono360 -INFO - click on lead details 
+2025-04-25 11:43:33,482 - liono360 -INFO - DBA name added
+2025-04-25 11:43:33,558 - liono360 -INFO - Tax id added
+2025-04-25 11:43:33,770 - liono360 -INFO - Number of employee added
+2025-04-25 11:43:33,983 - liono360 -INFO - Revenue selected
+2025-04-25 11:43:34,209 - liono360 -INFO - Ownership added
+2025-04-25 11:43:34,280 - liono360 -INFO - Founded year added
+2025-04-25 11:43:34,667 - liono360 -INFO - selectIndustry is added
+2025-04-25 11:43:34,938 - liono360 -INFO - Lead email added
+2025-04-25 11:43:36,350 - liono360 -INFO - lead phone number added
+2025-04-25 11:43:36,554 - liono360 -INFO - twitter added
+2025-04-25 11:43:36,716 - liono360 -INFO - Facebook added
+2025-04-25 11:43:36,911 - liono360 -INFO - Linkedin added
+2025-04-25 11:43:37,086 - liono360 -INFO - Instagram added
+2025-04-25 11:43:37,282 - liono360 -INFO - Website added
+2025-04-25 11:43:37,421 - liono360 -INFO - SIC code added
+2025-04-25 11:43:37,527 - liono360 -INFO - NAICS code added
+2025-04-25 11:43:37,920 - liono360 -INFO - selectLeadSource is added
+2025-04-25 11:43:38,322 - liono360 -INFO - selectRating is added
+2025-04-25 11:43:38,763 - liono360 -INFO - Status is added
+2025-04-25 11:43:38,917 - liono360 -INFO - Notes added
+2025-04-25 11:43:39,123 - liono360 -INFO - Clicked on add address
+2025-04-25 11:43:39,459 - liono360 -INFO - Clicked on IconAdressbtn
+2025-04-25 11:43:39,910 - liono360 -INFO - selectAddressType is added
+2025-04-25 11:43:40,148 - liono360 -INFO - Address set as active
+2025-04-25 11:43:40,347 - liono360 -INFO - Shipping  billing check box clicked
+2025-04-25 11:43:40,770 - liono360 -INFO - AdressClass is added
+2025-04-25 11:43:47,098 - liono360 -INFO - sendkeys on StreetAdress2
+2025-04-25 11:43:47,395 - liono360 -INFO - Click on Save button for Address
+2025-04-25 11:43:49,582 - liono360 -INFO - Clicked on save button to add lead
+2025-04-25 11:44:08,755 - liono360 -INFO - Create Lead test passed
+2025-04-25 11:44:13,773 - liono360 -INFO - Clicked on Lead 
+2025-04-25 11:44:22,922 - liono360 -INFO - clicked on view option
+2025-04-25 11:44:29,787 - liono360 -INFO - View lead test passed
+2025-04-25 11:44:29,976 - liono360 -INFO - clicked on cancel
+2025-04-25 11:44:34,876 - liono360 -INFO - Clicked on Lead 
+2025-04-25 11:44:44,027 - liono360 -INFO - Clicked on ClickOnEdit button
+2025-04-25 11:44:48,910 - liono360 -INFO - Title selected
+2025-04-25 11:44:49,109 - liono360 -INFO - First Name Added
+2025-04-25 11:44:49,231 - liono360 -INFO - Middle Name Added
+2025-04-25 11:44:49,333 - liono360 -INFO - Last Name Added
+2025-04-25 11:44:49,508 - liono360 -INFO - Email for contact is added
+2025-04-25 11:44:49,660 - liono360 -INFO - Lead name added
+2025-04-25 11:44:50,032 - liono360 -INFO - Lead types added
+2025-04-25 11:44:50,171 - liono360 -INFO - Lead number is added
+2025-04-25 11:44:50,291 - liono360 -INFO - click on lead details 
+2025-04-25 11:44:50,421 - liono360 -INFO - DBA name added
+2025-04-25 11:44:50,512 - liono360 -INFO - Tax id added
+2025-04-25 11:44:50,724 - liono360 -INFO - Number of employee added
+2025-04-25 11:44:50,945 - liono360 -INFO - Revenue selected
+2025-04-25 11:44:51,177 - liono360 -INFO - Ownership added
+2025-04-25 11:44:51,423 - liono360 -INFO - Stage selected
+2025-04-25 11:44:51,582 - liono360 -INFO - Founded year added
+2025-04-25 11:44:51,980 - liono360 -INFO - selectIndustry is added
+2025-04-25 11:44:52,112 - liono360 -INFO - SIC code added
+2025-04-25 11:44:52,214 - liono360 -INFO - NAICS code added
+2025-04-25 11:44:52,335 - liono360 -INFO - Notes added
+2025-04-25 11:44:52,440 - liono360 -INFO - Clicked on Save Address  button
+2025-04-25 11:49:22,782 - liono360 -INFO - URL is opened
+2025-04-25 11:49:22,938 - liono360 -INFO - Username added
+2025-04-25 11:49:22,996 - liono360 -INFO - password added
+2025-04-25 11:49:23,061 - liono360 -INFO - Clicked on submit button
+2025-04-25 11:49:34,671 - liono360 -INFO - Clicked on Lead 
+2025-04-25 11:49:48,665 - liono360 -INFO - Clicked on ClickOnEdit button
+2025-04-25 11:49:55,168 - liono360 -INFO - Title selected
+2025-04-25 11:49:55,365 - liono360 -INFO - First Name Added
+2025-04-25 11:49:55,526 - liono360 -INFO - Middle Name Added
+2025-04-25 11:49:55,650 - liono360 -INFO - Last Name Added
+2025-04-25 11:49:55,988 - liono360 -INFO - Email for contact is added
+2025-04-25 11:49:56,173 - liono360 -INFO - Lead name added
+2025-04-25 11:50:30,868 - liono360 -INFO - Browser Closed
+2025-04-25 11:51:17,067 - liono360 -INFO - URL is opened
+2025-04-25 11:51:17,219 - liono360 -INFO - Username added
+2025-04-25 11:51:17,279 - liono360 -INFO - password added
+2025-04-25 11:51:17,373 - liono360 -INFO - Clicked on submit button
+2025-04-25 11:51:29,076 - liono360 -INFO - Clicked on Lead 
+2025-04-25 11:51:43,616 - liono360 -INFO - Clicked on ClickOnEdit button
+2025-04-25 11:51:50,064 - liono360 -INFO - Title selected
+2025-04-25 11:51:50,265 - liono360 -INFO - First Name Added
+2025-04-25 11:51:50,413 - liono360 -INFO - Middle Name Added
+2025-04-25 11:51:50,534 - liono360 -INFO - Last Name Added
+2025-04-25 11:51:50,803 - liono360 -INFO - Email for contact is added
+2025-04-25 11:51:51,010 - liono360 -INFO - Lead name added
+2025-04-25 11:51:51,410 - liono360 -INFO - Lead types added
+2025-04-25 11:51:51,663 - liono360 -INFO - Lead number is added
+2025-04-25 11:51:51,848 - liono360 -INFO - click on lead details 
+2025-04-25 11:51:52,023 - liono360 -INFO - DBA name added
+2025-04-25 11:51:52,165 - liono360 -INFO - Tax id added
+2025-04-25 11:51:52,430 - liono360 -INFO - Number of employee added
+2025-04-25 11:51:52,668 - liono360 -INFO - Revenue selected
+2025-04-25 11:51:52,934 - liono360 -INFO - Ownership added
+2025-04-25 11:51:53,176 - liono360 -INFO - Stage selected
+2025-04-25 11:51:53,313 - liono360 -INFO - Founded year added
+2025-04-25 11:51:53,700 - liono360 -INFO - selectIndustry is added
+2025-04-25 11:51:53,830 - liono360 -INFO - SIC code added
+2025-04-25 11:51:53,942 - liono360 -INFO - NAICS code added
+2025-04-25 11:51:54,103 - liono360 -INFO - Notes added
+2025-04-25 11:51:54,205 - liono360 -INFO - Clicked on Save Address  button
+2025-04-25 11:53:48,724 - liono360 -INFO - URL is opened
+2025-04-25 11:53:48,888 - liono360 -INFO - Username added
+2025-04-25 11:53:48,949 - liono360 -INFO - password added
+2025-04-25 11:53:49,055 - liono360 -INFO - Clicked on submit button
+2025-04-25 11:54:03,273 - liono360 -INFO - Clicked on Lead 
+2025-04-25 11:54:17,898 - liono360 -INFO - Clicked on ClickOnEdit button
+2025-04-25 11:54:24,002 - liono360 -INFO - Title selected
+2025-04-25 11:54:24,208 - liono360 -INFO - First Name Added
+2025-04-25 11:54:24,430 - liono360 -INFO - Middle Name Added
+2025-04-25 11:54:24,579 - liono360 -INFO - Last Name Added
+2025-04-25 11:54:24,899 - liono360 -INFO - Email for contact is added
+2025-04-25 11:54:25,240 - liono360 -INFO - Lead name added
+2025-04-25 11:54:25,605 - liono360 -INFO - Lead types added
+2025-04-25 11:54:25,795 - liono360 -INFO - Lead number is added
+2025-04-25 11:54:25,950 - liono360 -INFO - click on lead details 
+2025-04-25 11:54:26,159 - liono360 -INFO - DBA name added
+2025-04-25 11:54:26,316 - liono360 -INFO - Tax id added
+2025-04-25 11:54:26,602 - liono360 -INFO - Number of employee added
+2025-04-25 11:54:26,879 - liono360 -INFO - Revenue selected
+2025-04-25 11:54:27,193 - liono360 -INFO - Ownership added
+2025-04-25 11:54:27,473 - liono360 -INFO - Stage selected
+2025-04-25 11:54:27,643 - liono360 -INFO - Founded year added
+2025-04-25 11:54:28,087 - liono360 -INFO - selectIndustry is added
+2025-04-25 11:54:28,246 - liono360 -INFO - SIC code added
+2025-04-25 11:54:28,380 - liono360 -INFO - NAICS code added
+2025-04-25 11:54:28,568 - liono360 -INFO - Notes added
+2025-04-25 11:54:30,714 - liono360 -INFO - Clicked on Save button
+2025-04-25 11:54:51,312 - liono360 -INFO - Edit Lead test Pass
+2025-04-25 11:54:52,674 - liono360 -INFO - Browser Closed
+2025-04-25 11:56:31,534 - liono360 -INFO - URL is opened
+2025-04-25 11:56:31,676 - liono360 -INFO - Username added
+2025-04-25 11:56:31,754 - liono360 -INFO - password added
+2025-04-25 11:56:31,826 - liono360 -INFO - Clicked on submit button
+2025-04-25 11:56:48,199 - liono360 -INFO - Clicked on Lead 
+2025-04-25 11:57:01,993 - liono360 -INFO - Browser Closed
+2025-04-25 11:58:20,948 - liono360 -INFO - URL is opened
+2025-04-25 11:58:21,111 - liono360 -INFO - Username added
+2025-04-25 11:58:21,169 - liono360 -INFO - password added
+2025-04-25 11:58:21,288 - liono360 -INFO - Clicked on submit button
+2025-04-25 11:58:37,929 - liono360 -INFO - Clicked on Lead 
+2025-04-25 11:58:49,138 - liono360 -INFO - Clicked on Lead Record
+2025-04-25 11:58:56,127 - liono360 -INFO - Clicked on Assigned Stage
+2025-04-25 11:58:57,260 - liono360 -INFO - Comment added for Assigned Stage 
+2025-04-25 11:58:57,394 - liono360 -INFO - Clicked on Save button
+2025-04-25 11:59:05,931 - liono360 -INFO - Clicked on Working Not Contacted Stage
+2025-04-25 11:59:07,091 - liono360 -INFO - Comment added for Working Not Contacted Stage 
+2025-04-25 11:59:07,217 - liono360 -INFO - Clicked on Save button
+2025-04-25 11:59:15,280 - liono360 -INFO - Clicked on Working Contacted Stage
+2025-04-25 11:59:16,419 - liono360 -INFO - Comment added for Working Contacted Stage 
+2025-04-25 11:59:16,592 - liono360 -INFO - Clicked on Save button
+2025-04-25 11:59:24,626 - liono360 -INFO - Clicked on Working Closed Stage
+2025-04-25 11:59:27,781 - liono360 -INFO - Comment added for Closed Stage 
+2025-04-25 11:59:27,894 - liono360 -INFO - Clicked on Save button
+2025-04-25 11:59:40,949 - liono360 -INFO - Clicked on hamburger Icon
+2025-04-25 11:59:42,109 - liono360 -INFO - Clicked on Convert
+2025-04-25 11:59:48,242 - liono360 -INFO - Clicked on Save button
+2025-04-25 12:00:14,509 - liono360 -INFO - Clicked on Account Module
+2025-04-25 12:00:27,464 - liono360 -INFO - lead converted to Account successfully
+2025-04-25 12:00:28,824 - liono360 -INFO - Browser Closed
+2025-04-25 12:40:04,732 - liono360 -INFO - URL is opened
+2025-04-25 12:40:04,843 - liono360 -INFO - Username added
+2025-04-25 12:40:04,894 - liono360 -INFO - password added
+2025-04-25 12:40:04,986 - liono360 -INFO - Clicked on submit button
+2025-04-25 12:40:22,081 - liono360 -INFO - Clicked on Account Module
+2025-04-25 12:40:34,719 - liono360 -INFO - Mousehover on Action button
+2025-04-25 12:40:34,873 - liono360 -INFO - Clicked on new button
+2025-04-25 12:40:37,238 - liono360 -INFO - Clicked on title button and select dropdown value
+2025-04-25 12:40:37,318 - liono360 -INFO - First Name Added
+2025-04-25 12:40:37,404 - liono360 -INFO - Middle Name Added
+2025-04-25 12:40:37,477 - liono360 -INFO - Last Name Added
+2025-04-25 12:40:38,005 - liono360 -INFO - Sendkeys on email
+2025-04-25 12:40:40,784 - liono360 -INFO - Sendkeys on phone1
+2025-04-25 12:40:40,870 - liono360 -INFO - twitter added
+2025-04-25 12:40:40,973 - liono360 -INFO - Facebook added
+2025-04-25 12:40:41,075 - liono360 -INFO - Linkedin added
+2025-04-25 12:40:41,166 - liono360 -INFO - Instagram added
+2025-04-25 12:40:41,259 - liono360 -INFO - Website added
+2025-04-25 12:40:41,364 - liono360 -INFO - sendkeys on accountname
+2025-04-25 12:40:43,604 - liono360 -INFO - job function selected
+2025-04-25 12:40:46,876 - liono360 -INFO - Account type selected
+2025-04-25 12:40:46,943 - liono360 -INFO - Sendkeys on accountNumber
+2025-04-25 12:40:47,169 - liono360 -INFO - Currency selected
+2025-04-25 12:40:47,320 - liono360 -INFO - Click On plus sign to Add Tag
+2025-04-25 12:40:47,965 - liono360 -INFO - Click On Add Tag
+2025-04-25 12:40:48,152 - liono360 -INFO - Tag name added
+2025-04-25 12:40:48,401 - liono360 -INFO - Click On Save
+2025-04-25 12:40:49,073 - liono360 -INFO - Click On Select Tag
+2025-04-25 12:40:49,171 - liono360 -INFO - tag assigned
+2025-04-25 12:40:49,285 - liono360 -INFO - sendkeys on account details
+2025-04-25 12:40:49,370 - liono360 -INFO - sendkeys on doing business
+2025-04-25 12:40:49,688 - liono360 -INFO - select on dropdown NumberOfEmp 
+2025-04-25 12:40:49,960 - liono360 -INFO - select on dropdown EstimatedAnnualRevenue 
+2025-04-25 12:40:50,198 - liono360 -INFO - select on dropdown OwnershipType 
+2025-04-25 12:40:50,415 - liono360 -INFO - select on dropdown BusinessClassification
+2025-04-25 12:40:50,493 - liono360 -INFO - sendkeys on founded years
+2025-04-25 12:40:50,828 - liono360 -INFO - select on dropdown IndustrysI
+2025-04-25 12:40:50,896 - liono360 -INFO - sendkeys on SICCodes
+2025-04-25 12:40:50,971 - liono360 -INFO - sendkeys on SICCodes
+2025-04-25 12:40:51,183 - liono360 -INFO - Account source is selected
+2025-04-25 12:40:51,402 - liono360 -INFO - select on dropdown AccountRating
+2025-04-25 12:40:51,524 - liono360 -INFO - Account email added
+2025-04-25 12:40:52,553 - liono360 -INFO - account phone number added
+2025-04-25 12:40:52,640 - liono360 -INFO - twitter added
+2025-04-25 12:40:52,723 - liono360 -INFO - Facebook added
+2025-04-25 12:40:52,822 - liono360 -INFO - Linkedin added
+2025-04-25 12:40:52,915 - liono360 -INFO - Instagram added
+2025-04-25 12:40:53,012 - liono360 -INFO - Website added
+2025-04-25 12:40:53,116 - liono360 -INFO - sendkeys on Notess
+2025-04-25 12:40:53,225 - liono360 -INFO - click on AdressDetails
+2025-04-25 12:40:53,348 - liono360 -INFO - click on AdressDetails Icon
+2025-04-25 12:40:53,980 - liono360 -INFO - click on ShippingIiIcon
+2025-04-25 12:40:54,198 - liono360 -INFO - select on AddressType
+2025-04-25 12:40:54,310 - liono360 -INFO - click on ShippingIiIcon
+2025-04-25 12:40:54,497 - liono360 -INFO - select on AdressClass
+2025-04-25 12:41:04,530 - liono360 -INFO - sendkeys on StreetAdress2
+2025-04-25 12:41:06,712 - liono360 -INFO - click on SaveAccountDetails button
+2025-04-25 12:41:08,880 - liono360 -INFO - click on SaveAllDeatilsBtn button
+2025-04-25 12:41:32,208 - liono360 -INFO - Create account test passed
+2025-04-25 12:41:34,331 - liono360 -INFO - Clicked on Accounts button
+2025-04-25 12:41:38,193 - liono360 -INFO - Right Clicked on listed accounts
+2025-04-25 12:41:38,364 - liono360 -INFO - clicked on view button
+2025-04-25 12:41:52,156 - liono360 -INFO - View Account test passed
+2025-04-25 12:41:52,266 - liono360 -INFO - clicked on cancel
+2025-04-25 12:41:52,483 - liono360 -INFO - Clicked on Account button
+2025-04-25 12:41:56,425 - liono360 -INFO - Clicked on ClickOnEdit button
+2025-04-25 12:42:09,596 - liono360 -INFO - First Name Added
+2025-04-25 12:42:09,783 - liono360 -INFO - Middle Name Added
+2025-04-25 12:42:09,890 - liono360 -INFO - Last Name Added
+2025-04-25 12:42:10,027 - liono360 -INFO - sendkeys on accountname
+2025-04-25 12:42:10,132 - liono360 -INFO - click on SaveAllDeatilsBtn button
+2025-04-25 12:42:34,893 - liono360 -INFO - Edit account test Passes
+2025-04-25 12:42:37,643 - liono360 -INFO - Clicked on Account button
+2025-04-25 12:42:42,676 - liono360 -INFO - Clicked on clickoneditbtn button
+2025-04-25 12:42:54,908 - liono360 -INFO - Clicked on AddressDetails
+2025-04-25 12:42:55,087 - liono360 -INFO - Clicked on BillingAddessEditbtn
+2025-04-25 12:42:58,206 - liono360 -INFO - Clicked on clickondeletebtn button
+2025-04-25 12:43:00,392 - liono360 -INFO - Clicked on clickOnYesbtn button
+2025-04-25 12:43:00,707 - liono360 -INFO - Clicked on ShippingAddressEdit
+2025-04-25 12:43:03,808 - liono360 -INFO - Clicked on clickondeletebtn button
+2025-04-25 12:43:05,908 - liono360 -INFO - Clicked on clickOnYesbtn button
+2025-04-25 12:43:08,013 - liono360 -INFO - Clicked on SaveAllDeatilsBtn
+2025-04-25 12:43:32,528 - liono360 -INFO - Clicked on clickondeletebtn button
+2025-04-25 12:43:33,144 - liono360 -INFO - Clicked on clickOnYesbtn button
+2025-04-25 12:44:01,227 - liono360 -INFO - Delete account test passed
+2025-04-25 12:44:02,764 - liono360 -INFO - Browser Closed

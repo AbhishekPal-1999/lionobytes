@@ -47,6 +47,7 @@ public class TC_004LeadConvertToAccount extends Baseclass {
 		TryClick(leads.AssignedStage());
 		logger.info("Clicked on Assigned Stage");
 		
+		Thread.sleep(1000);
 		leads.AddComments().sendKeys("This is the lead Conversion Comment for Assigned");
 		logger.info("Comment added for Assigned Stage ");
 		
@@ -57,6 +58,7 @@ public class TC_004LeadConvertToAccount extends Baseclass {
 		TryClick(leads.WorkingNotContacted());
 		logger.info("Clicked on Working Not Contacted Stage");
 		
+		Thread.sleep(1000);
 		leads.AddComments().sendKeys("This is the lead Conversion Comment for Working Not Contacted");
 		logger.info("Comment added for Working Not Contacted Stage ");
 		
@@ -67,6 +69,7 @@ public class TC_004LeadConvertToAccount extends Baseclass {
 		TryClick(leads.WorkingContactedStage());
 		logger.info("Clicked on Working Contacted Stage");
 		
+		Thread.sleep(1000);
 		leads.AddComments().sendKeys("This is the lead Conversion Comment for Working Contacted");
 		logger.info("Comment added for Working Contacted Stage ");
 		
@@ -77,10 +80,11 @@ public class TC_004LeadConvertToAccount extends Baseclass {
 		TryClick(leads.ClosedSatge());
 		logger.info("Clicked on Working Closed Stage");
 		
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		leads.AddComments().sendKeys("This is the lead Conversion Comment for Closed");
 		logger.info("Comment added for Closed Stage ");
 		
+	
 		TryClick(leads.clickSave());
 		logger.info("Clicked on Save button");
 		
@@ -89,7 +93,7 @@ public class TC_004LeadConvertToAccount extends Baseclass {
 		waitUntilPageLoad();
 	    String Lead_Name=leads.LeadNameOverviewPage().getText();
 		
-	    Thread.sleep(2000);
+	    Thread.sleep(5000);
 		TryClick(leads.hamburgerIcon());
 		logger.info("Clicked on hamburger Icon");
 		
