@@ -103,70 +103,67 @@
     </dependency>
   </dependencies>
 
-  <build>
-    <pluginManagement>
-      <plugins>
-        <plugin>
-          <artifactId>maven-clean-plugin</artifactId>
-          <version>3.3.1</version>
-        </plugin>
+ <build>
+  <plugins>
+    <!-- Clean Plugin -->
+    <plugin>
+      <artifactId>maven-clean-plugin</artifactId>
+      <version>3.3.1</version>
+    </plugin>
 
+    <!-- Compiler Plugin -->
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-compiler-plugin</artifactId>
+      <version>3.11.0</version>
+      <configuration>
+        <source>21</source>
+        <target>21</target>
+      </configuration>
+    </plugin>
 
-<plugin>
-  <groupId>org.apache.maven.plugins</groupId>
-  <artifactId>maven-surefire-plugin</artifactId>
-  <version>3.0.0-M9</version> <!-- ya latest stable -->
-</plugin>
-
-
-               
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.11.0</version>
-          <configuration>
-            <source>21</source>
-            <target>21</target>
-          </configuration>
-        </plugin>
-
-       <plugin>
+    <!-- Surefire Plugin (Fixed) -->
+    <plugin>
       <groupId>org.apache.maven.plugins</groupId>
       <artifactId>maven-surefire-plugin</artifactId>
-      <version>2.22.1</version>
+      <version>3.0.0-M9</version>
       <configuration>
         <suiteXmlFiles>
-          <suiteXmlFile>${suiteXml}</suiteXmlFile>
+          <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
         </suiteXmlFiles>
       </configuration>
     </plugin>
 
-        <plugin>
-          <artifactId>maven-jar-plugin</artifactId>
-          <version>3.3.0</version>
-        </plugin>
-        
-        <plugin>
-          <artifactId>maven-install-plugin</artifactId>
-          <version>3.1.1</version>
-        </plugin>
-        
-        <plugin>
-          <artifactId>maven-deploy-plugin</artifactId>
-          <version>3.1.1</version>
-        </plugin>
-        
-        <plugin>
-          <artifactId>maven-site-plugin</artifactId>
-          <version>3.12.1</version>
-        </plugin>
-        
-        <plugin>
-          <artifactId>maven-project-info-reports-plugin</artifactId>
-          <version>3.4.1</version>
-        </plugin>
-        
-      </plugins>
-    </pluginManagement>
-  </build>
+    <!-- Jar Plugin -->
+    <plugin>
+      <artifactId>maven-jar-plugin</artifactId>
+      <version>3.3.0</version>
+    </plugin>
+
+    <!-- Install Plugin -->
+    <plugin>
+      <artifactId>maven-install-plugin</artifactId>
+      <version>3.1.1</version>
+    </plugin>
+
+    <!-- Deploy Plugin -->
+    <plugin>
+      <artifactId>maven-deploy-plugin</artifactId>
+      <version>3.1.1</version>
+    </plugin>
+
+    <!-- Site Plugin -->
+    <plugin>
+      <artifactId>maven-site-plugin</artifactId>
+      <version>3.12.1</version>
+    </plugin>
+
+    <!-- Project Info Reports -->
+    <plugin>
+      <artifactId>maven-project-info-reports-plugin</artifactId>
+      <version>3.4.1</version>
+    </plugin>
+  </plugins>
+</build>
+
 </project>
