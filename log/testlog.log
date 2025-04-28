@@ -5668,3 +5668,17 @@
 2025-04-25 12:43:33,144 - liono360 -INFO - Clicked on clickOnYesbtn button
 2025-04-25 12:44:01,227 - liono360 -INFO - Delete account test passed
 2025-04-25 12:44:02,764 - liono360 -INFO - Browser Closed
+2025-04-28 11:18:59,851 - liono360 -INFO - URL is opened
+2025-04-28 11:19:00,056 - liono360 -INFO - Username added
+2025-04-28 11:19:00,118 - liono360 -INFO - password added
+2025-04-28 11:19:00,216 - liono360 -INFO - Clicked on submit button
+2025-04-28 11:19:12,890 - liono360 -INFO - Clicked on Account button
+2025-04-28 12:05:08,684 - liono360 -INFO - URL is opened
+2025-04-28 12:05:08,834 - liono360 -INFO - Username added
+2025-04-28 12:05:08,893 - liono360 -INFO - password added
+2025-04-28 12:05:08,990 - liono360 -INFO - Clicked on submit button
+2025-04-28 12:05:21,181 - liono360 -INFO - Clicked on Accounts
+2025-04-28 12:05:26,510 - liono360 -INFO - Clicked on Activity icon
+2025-04-28 12:05:27,251 - liono360 -INFO - Clicked on Plus icon
+2025-04-28 12:05:27,513 - liono360 -INFO - Log Type is selected
+2025-04-28 12:05:58,454 - liono360 -INFO - Browser Closed
