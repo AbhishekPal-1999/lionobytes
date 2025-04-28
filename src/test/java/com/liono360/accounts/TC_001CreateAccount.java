@@ -27,7 +27,7 @@ public class TC_001CreateAccount extends Baseclass{
 		
 		
 		waitUntilPageLoad();
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		
 		TryClick(account.clickAccounts());
 		logger.info("Clicked on Account Module");
@@ -278,17 +278,18 @@ public class TC_001CreateAccount extends Baseclass{
 		action.sendKeys(Keys.ENTER).build().perform();
 	
 		waitUntilPageLoad();
+		Thread.sleep(1000);
 		account.StreetAdress2().sendKeys("b-block");
 		logger.info("sendkeys on StreetAdress2");
 
 		waitUntilDisplay(account.SaveAccountDetails(),20);
+		Thread.sleep(2000);
 		TryClick(account.SaveAccountDetails());
 		logger.info("click on SaveAccountDetails button");
 
 		waitUntilDisplay(account.SaveAllDeatilsBtn(),20);
+		Thread.sleep(2000);
 		TryClick(account.SaveAllDeatilsBtn());
-		
-	
 		logger.info("click on SaveAllDeatilsBtn button");
 		
 // ASSERTION====================================================================================================

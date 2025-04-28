@@ -49,8 +49,8 @@ public class TC_007DeleteCases extends Baseclass {
 		waitUntilPageLoad();
 		Thread.sleep(10000);
 		String CaseIDAfterCreate = cases.CaseIDs().getText();
-    	System.out.println("Case name to create: "+CaseIDBeforeDelete);
-		System.out.println("Case name after create: "+CaseIDAfterCreate);
+    	System.out.println("Case ID before delete: "+CaseIDBeforeDelete);
+		System.out.println("Case ID after delete: "+CaseIDAfterCreate);
 
 		if (CaseIDBeforeDelete.equalsIgnoreCase(CaseIDAfterCreate)) {
 			Assert.assertTrue(false);

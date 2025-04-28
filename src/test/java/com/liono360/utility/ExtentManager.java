@@ -32,7 +32,7 @@ public class ExtentManager extends Baseclass{
         
         extent = new ExtentReports();
         extent.attachReporter(htmlReporter);
-        extent.setSystemInfo("Automation Tester", "Satyendra Kumar");
+        extent.setSystemInfo("Automation Tester", "Automation QA Team");
         extent.setSystemInfo("Organization", "LionOBytes");
         extent.setSystemInfo("Environment", "Production");
         
