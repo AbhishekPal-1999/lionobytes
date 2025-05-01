@@ -5682,3 +5682,921 @@
 2025-04-28 12:05:27,251 - liono360 -INFO - Clicked on Plus icon
 2025-04-28 12:05:27,513 - liono360 -INFO - Log Type is selected
 2025-04-28 12:05:58,454 - liono360 -INFO - Browser Closed
+2025-04-28 13:12:37,891 - liono360 -INFO - URL is opened
+2025-04-28 13:12:38,030 - liono360 -INFO - Username added
+2025-04-28 13:12:38,152 - liono360 -INFO - password added
+2025-04-28 13:12:38,268 - liono360 -INFO - Clicked on submit button
+2025-04-28 13:12:54,147 - liono360 -INFO - Clicked on Account button
+2025-04-28 13:13:03,667 - liono360 -INFO - Clicked on Account Record
+2025-04-28 13:13:20,143 - liono360 -INFO - Clicked on activityaccount button
+2025-04-28 13:13:22,953 - liono360 -INFO - Clicked on Email Activity
+2025-04-28 13:13:26,734 - liono360 -INFO - Clicked on Add Email button
+2025-04-28 13:15:28,226 - liono360 -INFO - Browser Closed
+2025-04-28 13:17:54,401 - liono360 -INFO - URL is opened
+2025-04-28 13:17:54,583 - liono360 -INFO - Username added
+2025-04-28 13:17:54,651 - liono360 -INFO - password added
+2025-04-28 13:17:54,729 - liono360 -INFO - Clicked on submit button
+2025-04-28 13:18:03,444 - liono360 -INFO - Clicked on Account button
+2025-04-28 13:18:13,024 - liono360 -INFO - Clicked on Account Record
+2025-04-28 13:18:28,953 - liono360 -INFO - Clicked on activityaccount button
+2025-04-28 13:18:31,745 - liono360 -INFO - Clicked on Email Activity
+2025-04-28 13:18:35,682 - liono360 -INFO - Clicked on Add Email button
+2025-04-28 13:18:35,939 - liono360 -INFO - Added Recipent Email
+2025-04-28 13:18:38,248 - liono360 -INFO - Email Template Selected
+2025-04-28 13:18:41,094 - liono360 -INFO - Clicked on Send button
+2025-04-28 13:18:42,491 - liono360 -INFO - Browser Closed
+2025-04-28 14:26:11,962 - liono360 -INFO - URL is opened
+2025-04-28 14:26:12,120 - liono360 -INFO - Username added
+2025-04-28 14:26:12,203 - liono360 -INFO - password added
+2025-04-28 14:26:12,320 - liono360 -INFO - Clicked on submit button
+2025-04-28 14:43:54,392 - liono360 -INFO - URL is opened
+2025-04-28 14:43:54,574 - liono360 -INFO - Username added
+2025-04-28 14:43:54,687 - liono360 -INFO - password added
+2025-04-28 14:43:54,827 - liono360 -INFO - Clicked on submit button
+2025-04-28 14:44:04,446 - liono360 -INFO - Clicked on Account button
+2025-04-28 14:44:14,048 - liono360 -INFO - Clicked on Account Record
+2025-04-28 14:44:30,284 - liono360 -INFO - Clicked on activityaccount button
+2025-04-28 14:44:33,217 - liono360 -INFO - Clicked on Email Activity
+2025-04-28 14:44:37,277 - liono360 -INFO - Clicked on Add Email button
+2025-04-28 14:44:37,837 - liono360 -INFO - Added Recipent Email
+2025-04-28 14:44:49,973 - liono360 -INFO - Email Template Selected
+2025-04-28 14:44:52,856 - liono360 -INFO - Clicked on Send button
+2025-04-28 14:46:58,894 - liono360 -INFO - Browser Closed
+2025-04-28 14:50:42,074 - liono360 -INFO - URL is opened
+2025-04-28 14:50:42,225 - liono360 -INFO - Username added
+2025-04-28 14:50:42,282 - liono360 -INFO - password added
+2025-04-28 14:50:42,348 - liono360 -INFO - Clicked on submit button
+2025-04-28 14:50:52,658 - liono360 -INFO - Clicked on Account button
+2025-04-28 14:51:02,246 - liono360 -INFO - Clicked on Account Record
+2025-04-28 14:51:18,869 - liono360 -INFO - Clicked on activityaccount button
+2025-04-28 14:51:21,687 - liono360 -INFO - Clicked on Email Activity
+2025-04-28 14:51:25,589 - liono360 -INFO - Clicked on Add Email button
+2025-04-28 14:51:25,835 - liono360 -INFO - Added Recipent Email
+2025-04-28 14:51:28,168 - liono360 -INFO - Email Template Selected
+2025-04-28 14:51:31,000 - liono360 -INFO - Clicked on Send button
+2025-04-28 14:53:37,233 - liono360 -INFO - Browser Closed
+2025-04-28 14:59:05,697 - liono360 -INFO - URL is opened
+2025-04-28 14:59:05,883 - liono360 -INFO - Username added
+2025-04-28 14:59:05,960 - liono360 -INFO - password added
+2025-04-28 14:59:06,056 - liono360 -INFO - Clicked on submit button
+2025-04-28 14:59:15,623 - liono360 -INFO - Clicked on Account button
+2025-04-28 14:59:24,655 - liono360 -INFO - Clicked on Account Record
+2025-04-28 14:59:40,596 - liono360 -INFO - Clicked on activityaccount button
+2025-04-28 14:59:43,398 - liono360 -INFO - Clicked on Email Activity
+2025-04-28 14:59:47,324 - liono360 -INFO - Clicked on Add Email button
+2025-04-28 14:59:47,570 - liono360 -INFO - Added Recipent Email
+2025-04-28 14:59:49,897 - liono360 -INFO - Email Template Selected
+2025-04-28 14:59:52,782 - liono360 -INFO - Clicked on Send button
+2025-04-28 15:00:01,165 - liono360 -INFO - Clicked on Refresh button
+2025-04-28 15:00:07,304 - liono360 -INFO - Browser Closed
+2025-04-28 15:01:26,252 - liono360 -INFO - URL is opened
+2025-04-28 15:01:26,439 - liono360 -INFO - Username added
+2025-04-28 15:01:26,508 - liono360 -INFO - password added
+2025-04-28 15:01:26,624 - liono360 -INFO - Clicked on submit button
+2025-04-28 15:01:36,973 - liono360 -INFO - Clicked on Account button
+2025-04-28 15:01:46,611 - liono360 -INFO - Clicked on Account Record
+2025-04-28 15:02:03,002 - liono360 -INFO - Clicked on activityaccount button
+2025-04-28 15:02:05,859 - liono360 -INFO - Clicked on Email Activity
+2025-04-28 15:02:09,762 - liono360 -INFO - Clicked on Add Email button
+2025-04-28 15:02:10,036 - liono360 -INFO - Added Recipent Email
+2025-04-28 15:02:12,363 - liono360 -INFO - Email Template Selected
+2025-04-28 15:02:17,297 - liono360 -INFO - Clicked on Send button
+2025-04-28 15:02:25,223 - liono360 -INFO - Clicked on Refresh button
+2025-04-28 15:02:33,003 - liono360 -INFO - Browser Closed
+2025-04-28 15:03:42,123 - liono360 -INFO - URL is opened
+2025-04-28 15:03:42,274 - liono360 -INFO - Username added
+2025-04-28 15:03:42,340 - liono360 -INFO - password added
+2025-04-28 15:03:42,446 - liono360 -INFO - Clicked on submit button
+2025-04-28 15:03:51,303 - liono360 -INFO - Clicked on Account button
+2025-04-28 15:04:00,854 - liono360 -INFO - Clicked on Account Record
+2025-04-28 15:04:16,776 - liono360 -INFO - Clicked on activityaccount button
+2025-04-28 15:04:19,625 - liono360 -INFO - Clicked on Email Activity
+2025-04-28 15:04:23,524 - liono360 -INFO - Clicked on Add Email button
+2025-04-28 15:04:23,649 - liono360 -INFO - Added Recipent Email
+2025-04-28 15:04:25,981 - liono360 -INFO - Email Template Selected
+2025-04-28 15:04:30,875 - liono360 -INFO - Clicked on Send button
+2025-04-28 15:04:39,364 - liono360 -INFO - Clicked on Refresh button
+2025-04-28 15:04:46,330 - liono360 -INFO - Browser Closed
+2025-04-28 15:20:50,802 - liono360 -INFO - URL is opened
+2025-04-28 15:20:50,948 - liono360 -INFO - Username added
+2025-04-28 15:20:51,007 - liono360 -INFO - password added
+2025-04-28 15:20:51,076 - liono360 -INFO - Clicked on submit button
+2025-04-28 15:21:00,504 - liono360 -INFO - Clicked on Account button
+2025-04-28 15:21:13,358 - liono360 -INFO - Clicked on Account Record
+2025-04-28 15:21:29,840 - liono360 -INFO - Clicked on activityaccount button
+2025-04-28 15:21:32,647 - liono360 -INFO - Clicked on Email Activity
+2025-04-28 15:21:36,554 - liono360 -INFO - Clicked on Add Email button
+2025-04-28 15:21:36,836 - liono360 -INFO - Added Recipent Email
+2025-04-28 15:21:39,293 - liono360 -INFO - Email Template Selected
+2025-04-28 15:21:39,774 - liono360 -INFO - Clicked on Send button
+2025-04-28 15:21:46,600 - liono360 -INFO - Clicked on Refresh button
+2025-04-28 15:21:54,431 - liono360 -INFO - Browser Closed
+2025-04-28 15:25:50,173 - liono360 -INFO - URL is opened
+2025-04-28 15:25:50,320 - liono360 -INFO - Username added
+2025-04-28 15:25:50,375 - liono360 -INFO - password added
+2025-04-28 15:25:50,441 - liono360 -INFO - Clicked on submit button
+2025-04-28 15:26:01,928 - liono360 -INFO - Clicked on Account button
+2025-04-28 15:26:12,615 - liono360 -INFO - Clicked on Account Record
+2025-04-28 15:26:30,059 - liono360 -INFO - Clicked on activityaccount button
+2025-04-28 15:26:33,052 - liono360 -INFO - Clicked on Email Activity
+2025-04-28 15:26:37,470 - liono360 -INFO - Clicked on Add Email button
+2025-04-28 15:26:38,287 - liono360 -INFO - Added Recipent Email
+2025-04-28 15:27:32,541 - liono360 -INFO - Browser Closed
+2025-04-29 11:43:15,951 - liono360 -INFO - URL is opened
+2025-04-29 11:43:16,169 - liono360 -INFO - Username added
+2025-04-29 11:43:16,303 - liono360 -INFO - password added
+2025-04-29 11:43:16,517 - liono360 -INFO - Clicked on submit button
+2025-04-29 11:43:31,876 - liono360 -INFO - Browser Closed
+2025-04-29 11:44:29,508 - liono360 -INFO - URL is opened
+2025-04-29 11:44:29,734 - liono360 -INFO - Username added
+2025-04-29 11:44:29,832 - liono360 -INFO - password added
+2025-04-29 11:44:29,983 - liono360 -INFO - Clicked on submit button
+2025-04-29 11:44:39,086 - liono360 -INFO - Clicked on Account button
+2025-04-29 11:44:48,690 - liono360 -INFO - Clicked on Account Record
+2025-04-29 11:45:06,257 - liono360 -INFO - Clicked on activityaccount button
+2025-04-29 11:45:09,023 - liono360 -INFO - Clicked on Email Activity
+2025-04-29 11:45:12,949 - liono360 -INFO - Clicked on Add Email button
+2025-04-29 11:45:13,090 - liono360 -INFO - Added Recipent Email
+2025-04-29 11:45:15,382 - liono360 -INFO - Email Template Selected
+2025-04-29 11:45:18,014 - liono360 -INFO - Clicked on Send button
+2025-04-29 11:45:27,450 - liono360 -INFO - Clicked on Refresh button
+2025-04-29 11:45:33,711 - liono360 -INFO - Browser Closed
+2025-04-29 11:47:09,848 - liono360 -INFO - URL is opened
+2025-04-29 11:47:10,017 - liono360 -INFO - Username added
+2025-04-29 11:47:10,090 - liono360 -INFO - password added
+2025-04-29 11:47:10,186 - liono360 -INFO - Clicked on submit button
+2025-04-29 11:47:19,307 - liono360 -INFO - Clicked on Account button
+2025-04-29 11:47:28,855 - liono360 -INFO - Clicked on Account Record
+2025-04-29 11:47:44,865 - liono360 -INFO - Clicked on activityaccount button
+2025-04-29 11:47:47,662 - liono360 -INFO - Clicked on Email Activity
+2025-04-29 11:47:51,616 - liono360 -INFO - Clicked on Add Email button
+2025-04-29 11:47:51,757 - liono360 -INFO - Added Recipent Email
+2025-04-29 11:47:54,169 - liono360 -INFO - Email Template Selected
+2025-04-29 11:47:56,529 - liono360 -INFO - Clicked on Send button
+2025-04-29 11:48:32,388 - liono360 -INFO - Browser Closed
+2025-04-29 11:49:35,613 - liono360 -INFO - URL is opened
+2025-04-29 11:49:35,787 - liono360 -INFO - Username added
+2025-04-29 11:49:35,895 - liono360 -INFO - password added
+2025-04-29 11:49:36,042 - liono360 -INFO - Clicked on submit button
+2025-04-29 11:49:45,435 - liono360 -INFO - Clicked on Account button
+2025-04-29 11:49:54,714 - liono360 -INFO - Clicked on Account Record
+2025-04-29 11:50:11,291 - liono360 -INFO - Clicked on activityaccount button
+2025-04-29 11:50:14,142 - liono360 -INFO - Clicked on Email Activity
+2025-04-29 11:50:18,129 - liono360 -INFO - Clicked on Add Email button
+2025-04-29 11:50:20,885 - liono360 -INFO - Added Recipent Email
+2025-04-29 11:54:26,082 - liono360 -INFO - Browser Closed
+2025-04-29 15:09:45,834 - liono360 -INFO - URL is opened
+2025-04-29 15:09:45,973 - liono360 -INFO - Username added
+2025-04-29 15:09:46,031 - liono360 -INFO - password added
+2025-04-29 15:09:46,097 - liono360 -INFO - Clicked on submit button
+2025-04-29 15:09:55,035 - liono360 -INFO - Clicked on Account button
+2025-04-29 15:10:04,617 - liono360 -INFO - Clicked on Account Record
+2025-04-29 15:10:21,017 - liono360 -INFO - Clicked on activityaccount button
+2025-04-29 15:10:23,847 - liono360 -INFO - Clicked on Email Activity
+2025-04-29 15:10:27,733 - liono360 -INFO - Clicked on Add Email button
+2025-04-29 15:10:30,061 - liono360 -INFO - Added Recipent Email
+2025-04-29 15:11:09,858 - liono360 -INFO - Email Template Selected
+2025-04-29 15:11:12,232 - liono360 -INFO - Clicked on Send button
+2025-04-29 15:11:19,816 - liono360 -INFO - Clicked on Refresh button
+2025-04-29 15:11:25,820 - liono360 -INFO - Browser Closed
+2025-04-29 15:13:01,515 - liono360 -INFO - URL is opened
+2025-04-29 15:13:01,674 - liono360 -INFO - Username added
+2025-04-29 15:13:01,751 - liono360 -INFO - password added
+2025-04-29 15:13:01,862 - liono360 -INFO - Clicked on submit button
+2025-04-29 15:13:12,115 - liono360 -INFO - Clicked on Account button
+2025-04-29 15:13:21,690 - liono360 -INFO - Clicked on Account Record
+2025-04-29 15:13:38,707 - liono360 -INFO - Clicked on activityaccount button
+2025-04-29 15:13:41,500 - liono360 -INFO - Clicked on Email Activity
+2025-04-29 15:13:45,388 - liono360 -INFO - Clicked on Add Email button
+2025-04-29 15:13:47,793 - liono360 -INFO - Added Recipent Email
+2025-04-29 15:15:07,629 - liono360 -INFO - Browser Closed
+2025-04-29 15:15:56,261 - liono360 -INFO - URL is opened
+2025-04-29 15:15:56,401 - liono360 -INFO - Username added
+2025-04-29 15:15:56,461 - liono360 -INFO - password added
+2025-04-29 15:15:56,555 - liono360 -INFO - Clicked on submit button
+2025-04-29 15:16:04,918 - liono360 -INFO - Clicked on Account button
+2025-04-29 15:16:14,059 - liono360 -INFO - Clicked on Account Record
+2025-04-29 15:16:30,015 - liono360 -INFO - Clicked on activityaccount button
+2025-04-29 15:16:32,787 - liono360 -INFO - Clicked on Email Activity
+2025-04-29 15:16:36,670 - liono360 -INFO - Clicked on Add Email button
+2025-04-29 15:16:38,993 - liono360 -INFO - Added Recipent Email
+2025-04-29 15:16:41,386 - liono360 -INFO - Email Template Selected
+2025-04-29 15:16:43,813 - liono360 -INFO - Clicked on Send button
+2025-04-29 15:16:50,065 - liono360 -INFO - Clicked on Refresh button
+2025-04-29 15:16:57,900 - liono360 -INFO - Browser Closed
+2025-04-29 15:22:32,844 - liono360 -INFO - URL is opened
+2025-04-29 15:22:32,990 - liono360 -INFO - Username added
+2025-04-29 15:22:33,064 - liono360 -INFO - password added
+2025-04-29 15:22:33,223 - liono360 -INFO - Clicked on submit button
+2025-04-29 15:22:41,476 - liono360 -INFO - Clicked on Account button
+2025-04-29 15:22:50,628 - liono360 -INFO - Clicked on Account Record
+2025-04-29 15:23:07,660 - liono360 -INFO - Clicked on activityaccount button
+2025-04-29 15:23:10,465 - liono360 -INFO - Clicked on Email Activity
+2025-04-29 15:23:14,372 - liono360 -INFO - Clicked on Add Email button
+2025-04-29 15:23:16,695 - liono360 -INFO - Added Recipent Email
+2025-04-29 15:23:19,057 - liono360 -INFO - Email Template Selected
+2025-04-29 15:23:21,447 - liono360 -INFO - Clicked on Send button
+2025-04-29 15:23:29,413 - liono360 -INFO - Clicked on Refresh button
+2025-04-29 15:23:35,715 - liono360 -INFO - Email is Sent succcessfully
+2025-04-29 15:23:37,167 - liono360 -INFO - Browser Closed
+2025-04-30 11:03:47,389 - liono360 -INFO - URL is opened
+2025-04-30 11:03:47,629 - liono360 -INFO - Username added
+2025-04-30 11:03:47,796 - liono360 -INFO - password added
+2025-04-30 11:03:47,992 - liono360 -INFO - Clicked on submit button
+2025-04-30 11:04:06,161 - liono360 -INFO - Clicked on Lead 
+2025-04-30 11:23:29,913 - liono360 -INFO - URL is opened
+2025-04-30 11:23:30,061 - liono360 -INFO - Username added
+2025-04-30 11:23:30,120 - liono360 -INFO - password added
+2025-04-30 11:23:30,214 - liono360 -INFO - Clicked on submit button
+2025-04-30 11:23:40,893 - liono360 -INFO - Clicked on Lead 
+2025-04-30 11:23:53,811 - liono360 -INFO - clicked on view option
+2025-04-30 11:23:58,377 - liono360 -INFO - clicked on Activity
+2025-04-30 11:23:58,498 - liono360 -INFO - clicked on Add log button
+2025-04-30 11:23:58,498 - liono360 -INFO - Field Visit Log type Selected
+2025-04-30 11:23:59,879 - liono360 -INFO - Browser Closed
+2025-04-30 11:25:35,045 - liono360 -INFO - URL is opened
+2025-04-30 11:25:35,194 - liono360 -INFO - Username added
+2025-04-30 11:25:35,282 - liono360 -INFO - password added
+2025-04-30 11:25:35,409 - liono360 -INFO - Clicked on submit button
+2025-04-30 11:25:47,262 - liono360 -INFO - Clicked on Lead 
+2025-04-30 11:26:00,207 - liono360 -INFO - clicked on view option
+2025-04-30 11:26:05,297 - liono360 -INFO - clicked on Activity
+2025-04-30 11:26:05,442 - liono360 -INFO - clicked on Add log button
+2025-04-30 11:26:05,443 - liono360 -INFO - Field Visit Log type Selected
+2025-04-30 11:26:06,706 - liono360 -INFO - Browser Closed
+2025-04-30 11:27:15,605 - liono360 -INFO - URL is opened
+2025-04-30 11:27:15,754 - liono360 -INFO - Username added
+2025-04-30 11:27:15,814 - liono360 -INFO - password added
+2025-04-30 11:27:15,885 - liono360 -INFO - Clicked on submit button
+2025-04-30 11:27:32,447 - liono360 -INFO - Clicked on Lead 
+2025-04-30 11:29:34,990 - liono360 -INFO - URL is opened
+2025-04-30 11:29:35,146 - liono360 -INFO - Username added
+2025-04-30 11:29:35,209 - liono360 -INFO - password added
+2025-04-30 11:29:35,276 - liono360 -INFO - Clicked on submit button
+2025-04-30 11:29:48,072 - liono360 -INFO - Clicked on Lead 
+2025-04-30 11:30:00,996 - liono360 -INFO - clicked on view option
+2025-04-30 11:30:05,960 - liono360 -INFO - clicked on Activity
+2025-04-30 11:30:06,098 - liono360 -INFO - clicked on Add log button
+2025-04-30 11:30:48,647 - liono360 -INFO - Browser Closed
+2025-04-30 11:31:28,595 - liono360 -INFO - URL is opened
+2025-04-30 11:31:28,744 - liono360 -INFO - Username added
+2025-04-30 11:31:28,804 - liono360 -INFO - password added
+2025-04-30 11:31:28,868 - liono360 -INFO - Clicked on submit button
+2025-04-30 11:31:43,168 - liono360 -INFO - Clicked on Lead 
+2025-04-30 11:31:57,083 - liono360 -INFO - clicked on view option
+2025-04-30 11:32:06,596 - liono360 -INFO - clicked on Activity
+2025-04-30 11:32:06,737 - liono360 -INFO - clicked on Add log button
+2025-04-30 11:33:54,830 - liono360 -INFO - Browser Closed
+2025-04-30 11:35:59,991 - liono360 -INFO - URL is opened
+2025-04-30 11:36:00,225 - liono360 -INFO - Username added
+2025-04-30 11:36:00,369 - liono360 -INFO - password added
+2025-04-30 11:36:00,575 - liono360 -INFO - Clicked on submit button
+2025-04-30 11:36:47,866 - liono360 -INFO - Browser Closed
+2025-04-30 11:38:18,554 - liono360 -INFO - URL is opened
+2025-04-30 11:38:18,797 - liono360 -INFO - Username added
+2025-04-30 11:38:18,930 - liono360 -INFO - password added
+2025-04-30 11:38:19,101 - liono360 -INFO - Clicked on submit button
+2025-04-30 11:38:31,791 - liono360 -INFO - Clicked on Lead 
+2025-04-30 11:38:45,543 - liono360 -INFO - clicked on view option
+2025-04-30 11:38:50,241 - liono360 -INFO - clicked on Activity
+2025-04-30 11:38:50,562 - liono360 -INFO - clicked on Add log button
+2025-04-30 11:40:52,032 - liono360 -INFO - Browser Closed
+2025-04-30 11:48:52,435 - liono360 -INFO - URL is opened
+2025-04-30 11:48:52,700 - liono360 -INFO - Username added
+2025-04-30 11:48:52,772 - liono360 -INFO - password added
+2025-04-30 11:48:52,885 - liono360 -INFO - Clicked on submit button
+2025-04-30 11:49:05,160 - liono360 -INFO - Clicked on Lead 
+2025-04-30 11:49:18,519 - liono360 -INFO - clicked on view option
+2025-04-30 11:49:21,615 - liono360 -INFO - clicked on Activity
+2025-04-30 11:49:21,861 - liono360 -INFO - clicked on Add log button
+2025-04-30 11:51:23,556 - liono360 -INFO - Browser Closed
+2025-04-30 12:13:38,719 - liono360 -INFO - URL is opened
+2025-04-30 12:13:38,892 - liono360 -INFO - Username added
+2025-04-30 12:13:38,997 - liono360 -INFO - password added
+2025-04-30 12:13:39,121 - liono360 -INFO - Clicked on submit button
+2025-04-30 12:13:51,022 - liono360 -INFO - Clicked on Lead 
+2025-04-30 12:14:04,503 - liono360 -INFO - clicked on view option
+2025-04-30 12:14:07,866 - liono360 -INFO - clicked on Activity
+2025-04-30 12:14:08,090 - liono360 -INFO - clicked on Add log button
+2025-04-30 12:16:09,465 - liono360 -INFO - Browser Closed
+2025-04-30 12:18:44,463 - liono360 -INFO - URL is opened
+2025-04-30 12:18:44,598 - liono360 -INFO - Username added
+2025-04-30 12:18:44,694 - liono360 -INFO - password added
+2025-04-30 12:18:44,761 - liono360 -INFO - Clicked on submit button
+2025-04-30 12:18:57,576 - liono360 -INFO - Clicked on Lead 
+2025-04-30 12:19:10,855 - liono360 -INFO - clicked on view option
+2025-04-30 12:19:14,734 - liono360 -INFO - clicked on Activity
+2025-04-30 12:19:14,935 - liono360 -INFO - clicked on Add log button
+2025-04-30 12:19:24,403 - liono360 -INFO - Field Visit Log type Selected
+2025-04-30 12:19:25,826 - liono360 -INFO - Browser Closed
+2025-04-30 12:22:54,143 - liono360 -INFO - URL is opened
+2025-04-30 12:22:54,368 - liono360 -INFO - Username added
+2025-04-30 12:22:54,496 - liono360 -INFO - password added
+2025-04-30 12:22:54,666 - liono360 -INFO - Clicked on submit button
+2025-04-30 12:23:08,244 - liono360 -INFO - Clicked on Lead 
+2025-04-30 12:23:21,678 - liono360 -INFO - clicked on view option
+2025-04-30 12:23:24,982 - liono360 -INFO - clicked on Activity
+2025-04-30 12:23:25,261 - liono360 -INFO - clicked on Add log button
+2025-04-30 12:23:26,702 - liono360 -INFO - Field Visit Log type Selected
+2025-04-30 12:23:28,071 - liono360 -INFO - Browser Closed
+2025-04-30 12:29:59,746 - liono360 -INFO - URL is opened
+2025-04-30 12:30:19,773 - liono360 -INFO - URL is opened
+2025-04-30 12:30:19,925 - liono360 -INFO - Username added
+2025-04-30 12:30:20,013 - liono360 -INFO - password added
+2025-04-30 12:30:20,153 - liono360 -INFO - Clicked on submit button
+2025-04-30 12:30:32,071 - liono360 -INFO - Clicked on Lead 
+2025-04-30 12:30:45,186 - liono360 -INFO - clicked on view option
+2025-04-30 12:30:48,527 - liono360 -INFO - clicked on Activity
+2025-04-30 12:30:48,772 - liono360 -INFO - clicked on Add log button
+2025-04-30 12:30:50,218 - liono360 -INFO - Field Visit Log type Selected
+2025-04-30 12:30:50,750 - liono360 -INFO - Comment is added under field visit log type
+2025-04-30 12:30:51,011 - liono360 -INFO - Clicked on Save button
+2025-04-30 12:30:52,246 - liono360 -INFO - Browser Closed
+2025-04-30 12:57:40,790 - liono360 -INFO - URL is opened
+2025-04-30 12:57:40,963 - liono360 -INFO - Username added
+2025-04-30 12:57:41,035 - liono360 -INFO - password added
+2025-04-30 12:57:41,132 - liono360 -INFO - Clicked on submit button
+2025-04-30 12:57:48,045 - liono360 -INFO - Clicked on Account Module
+2025-04-30 12:57:55,236 - liono360 -INFO - Clicked on Account Record
+2025-04-30 12:58:06,912 - liono360 -INFO - Clicked on Opportunity Tab
+2025-04-30 12:59:09,068 - liono360 -INFO - Browser Closed
+2025-04-30 13:00:54,470 - liono360 -INFO - URL is opened
+2025-04-30 13:00:54,686 - liono360 -INFO - Username added
+2025-04-30 13:00:54,756 - liono360 -INFO - password added
+2025-04-30 13:00:54,838 - liono360 -INFO - Clicked on submit button
+2025-04-30 13:01:01,945 - liono360 -INFO - Clicked on Account Module
+2025-04-30 13:01:09,535 - liono360 -INFO - Clicked on Account Record
+2025-04-30 13:01:22,051 - liono360 -INFO - Clicked on Opportunity Tab
+2025-04-30 13:02:46,118 - liono360 -INFO - Browser Closed
+2025-04-30 13:12:24,777 - liono360 -INFO - URL is opened
+2025-04-30 13:12:24,934 - liono360 -INFO - Username added
+2025-04-30 13:12:24,993 - liono360 -INFO - password added
+2025-04-30 13:12:25,086 - liono360 -INFO - Clicked on submit button
+2025-04-30 13:12:32,653 - liono360 -INFO - Clicked on Account Module
+2025-04-30 13:12:40,243 - liono360 -INFO - Clicked on Account Record
+2025-04-30 13:12:51,815 - liono360 -INFO - Clicked on Opportunity Tab
+2025-04-30 13:13:09,462 - liono360 -INFO - Contact type selected
+2025-04-30 13:13:09,559 - liono360 -INFO - sendkeys on first name
+2025-04-30 13:13:09,671 - liono360 -INFO - sendkeys on middle name
+2025-04-30 13:13:09,728 - liono360 -INFO - sendkeys on last name
+2025-04-30 13:13:09,829 - liono360 -INFO - sendkeys on email adress
+2025-04-30 13:15:11,171 - liono360 -INFO - Browser Closed
+2025-04-30 13:19:02,253 - liono360 -INFO - URL is opened
+2025-04-30 13:19:02,412 - liono360 -INFO - Username added
+2025-04-30 13:19:02,469 - liono360 -INFO - password added
+2025-04-30 13:19:02,537 - liono360 -INFO - Clicked on submit button
+2025-04-30 13:19:09,623 - liono360 -INFO - Clicked on Account Module
+2025-04-30 13:19:16,803 - liono360 -INFO - Clicked on Account Record
+2025-04-30 13:19:28,055 - liono360 -INFO - Clicked on Opportunity Tab
+2025-04-30 13:19:45,070 - liono360 -INFO - Contact type selected
+2025-04-30 13:19:45,156 - liono360 -INFO - sendkeys on first name
+2025-04-30 13:19:45,269 - liono360 -INFO - sendkeys on middle name
+2025-04-30 13:19:45,342 - liono360 -INFO - sendkeys on last name
+2025-04-30 13:19:45,447 - liono360 -INFO - sendkeys on email adress
+2025-04-30 13:19:47,861 - liono360 -INFO - Browser Closed
+2025-04-30 13:25:26,639 - liono360 -INFO - URL is opened
+2025-04-30 13:25:26,783 - liono360 -INFO - Username added
+2025-04-30 13:25:26,900 - liono360 -INFO - password added
+2025-04-30 13:25:27,059 - liono360 -INFO - Clicked on submit button
+2025-04-30 13:25:36,256 - liono360 -INFO - Clicked on Account Module
+2025-04-30 13:25:45,928 - liono360 -INFO - Clicked on Account Record
+2025-04-30 13:25:57,673 - liono360 -INFO - Clicked on Opportunity Tab
+2025-04-30 13:26:15,028 - liono360 -INFO - Contact type selected
+2025-04-30 13:26:15,139 - liono360 -INFO - sendkeys on first name
+2025-04-30 13:26:15,231 - liono360 -INFO - sendkeys on middle name
+2025-04-30 13:26:15,295 - liono360 -INFO - sendkeys on last name
+2025-04-30 13:26:15,399 - liono360 -INFO - sendkeys on email adress
+2025-04-30 13:26:17,104 - liono360 -INFO - Clicked on showmore button
+2025-04-30 13:26:40,517 - liono360 -INFO - Browser Closed
+2025-04-30 14:37:51,354 - liono360 -INFO - URL is opened
+2025-04-30 14:37:51,502 - liono360 -INFO - Username added
+2025-04-30 14:37:51,586 - liono360 -INFO - password added
+2025-04-30 14:37:51,648 - liono360 -INFO - Clicked on submit button
+2025-04-30 14:37:58,639 - liono360 -INFO - Clicked on Account Module
+2025-04-30 14:38:06,258 - liono360 -INFO - Clicked on Account Record
+2025-04-30 14:38:18,376 - liono360 -INFO - Clicked on Opportunity Tab
+2025-04-30 14:38:35,487 - liono360 -INFO - Contact type selected
+2025-04-30 14:38:35,614 - liono360 -INFO - sendkeys on first name
+2025-04-30 14:38:35,695 - liono360 -INFO - sendkeys on middle name
+2025-04-30 14:38:35,754 - liono360 -INFO - sendkeys on last name
+2025-04-30 14:38:35,857 - liono360 -INFO - sendkeys on email adress
+2025-04-30 14:38:37,377 - liono360 -INFO - Phone Number is added
+2025-04-30 14:38:37,565 - liono360 -INFO - Clicked on showmore button
+2025-04-30 14:38:37,824 - liono360 -INFO - Geneder selected
+2025-04-30 14:38:37,923 - liono360 -INFO - Department Added
+2025-04-30 14:38:38,102 - liono360 -INFO - Start date added
+2025-04-30 14:38:38,604 - liono360 -INFO - selected Language Spoken
+2025-04-30 14:38:38,789 - liono360 -INFO - select dropdown
+2025-04-30 14:39:59,985 - liono360 -INFO - Browser Closed
+2025-04-30 14:41:18,763 - liono360 -INFO - URL is opened
+2025-04-30 14:41:18,911 - liono360 -INFO - Username added
+2025-04-30 14:41:18,968 - liono360 -INFO - password added
+2025-04-30 14:41:19,031 - liono360 -INFO - Clicked on submit button
+2025-04-30 14:41:27,731 - liono360 -INFO - Clicked on Account Module
+2025-04-30 14:41:35,361 - liono360 -INFO - Clicked on Account Record
+2025-04-30 14:41:47,313 - liono360 -INFO - Clicked on Opportunity Tab
+2025-04-30 14:42:04,166 - liono360 -INFO - Contact type selected
+2025-04-30 14:42:04,260 - liono360 -INFO - sendkeys on first name
+2025-04-30 14:42:04,331 - liono360 -INFO - sendkeys on middle name
+2025-04-30 14:42:04,392 - liono360 -INFO - sendkeys on last name
+2025-04-30 14:42:04,492 - liono360 -INFO - sendkeys on email adress
+2025-04-30 14:42:06,604 - liono360 -INFO - Phone Number is added
+2025-04-30 14:42:06,795 - liono360 -INFO - Clicked on showmore button
+2025-04-30 14:42:08,029 - liono360 -INFO - Geneder selected
+2025-04-30 14:42:09,122 - liono360 -INFO - Department Added
+2025-04-30 14:42:10,287 - liono360 -INFO - Start date added
+2025-04-30 14:42:11,812 - liono360 -INFO - selected Language Spoken
+2025-04-30 14:42:13,006 - liono360 -INFO - select dropdown
+2025-04-30 14:44:15,816 - liono360 -INFO - Browser Closed
+2025-04-30 14:52:36,584 - liono360 -INFO - URL is opened
+2025-04-30 14:52:36,717 - liono360 -INFO - Username added
+2025-04-30 14:52:36,779 - liono360 -INFO - password added
+2025-04-30 14:52:36,871 - liono360 -INFO - Clicked on submit button
+2025-04-30 14:52:46,980 - liono360 -INFO - Clicked on Account Module
+2025-04-30 14:52:56,811 - liono360 -INFO - Clicked on Account Record
+2025-04-30 14:53:08,900 - liono360 -INFO - Clicked on Opportunity Tab
+2025-04-30 14:53:25,904 - liono360 -INFO - Contact type selected
+2025-04-30 14:53:25,991 - liono360 -INFO - sendkeys on first name
+2025-04-30 14:53:26,102 - liono360 -INFO - sendkeys on middle name
+2025-04-30 14:53:26,160 - liono360 -INFO - sendkeys on last name
+2025-04-30 14:53:26,260 - liono360 -INFO - sendkeys on email adress
+2025-04-30 14:53:27,780 - liono360 -INFO - Phone Number is added
+2025-04-30 14:53:27,956 - liono360 -INFO - Clicked on showmore button
+2025-04-30 14:53:29,215 - liono360 -INFO - Geneder selected
+2025-04-30 14:53:30,315 - liono360 -INFO - Department Added
+2025-04-30 14:53:31,682 - liono360 -INFO - DOB date added
+2025-04-30 14:53:33,152 - liono360 -INFO - selected Language Spoken
+2025-04-30 14:53:35,821 - liono360 -INFO - Browser Closed
+2025-04-30 14:57:34,531 - liono360 -INFO - URL is opened
+2025-04-30 14:57:34,781 - liono360 -INFO - Username added
+2025-04-30 14:57:34,952 - liono360 -INFO - password added
+2025-04-30 14:57:35,129 - liono360 -INFO - Clicked on submit button
+2025-04-30 14:57:43,566 - liono360 -INFO - Clicked on Account Module
+2025-04-30 14:57:50,911 - liono360 -INFO - Clicked on Account Record
+2025-04-30 14:58:02,829 - liono360 -INFO - Clicked on Opportunity Tab
+2025-04-30 14:58:19,153 - liono360 -INFO - Contact type selected
+2025-04-30 14:58:19,272 - liono360 -INFO - sendkeys on first name
+2025-04-30 14:58:19,350 - liono360 -INFO - sendkeys on middle name
+2025-04-30 14:58:19,404 - liono360 -INFO - sendkeys on last name
+2025-04-30 14:58:19,504 - liono360 -INFO - sendkeys on email adress
+2025-04-30 14:58:20,985 - liono360 -INFO - Phone Number is added
+2025-04-30 14:58:21,152 - liono360 -INFO - Clicked on showmore button
+2025-04-30 14:58:22,368 - liono360 -INFO - Geneder selected
+2025-04-30 14:58:23,451 - liono360 -INFO - Department Added
+2025-04-30 14:58:24,746 - liono360 -INFO - DOB date added
+2025-04-30 14:58:26,141 - liono360 -INFO - selected Language Spoken
+2025-04-30 14:58:27,441 - liono360 -INFO - selected Joining Date
+2025-04-30 14:58:28,636 - liono360 -INFO - Job Function Added
+2025-04-30 14:58:31,960 - liono360 -INFO - Relationship Added
+2025-04-30 14:58:33,157 - liono360 -INFO - marital status Added
+2025-04-30 14:58:35,383 - liono360 -INFO - source of contact Added
+2025-04-30 14:58:36,595 - liono360 -INFO - annual income added
+2025-04-30 14:58:37,838 - liono360 -INFO - degree added
+2025-04-30 14:58:39,066 - liono360 -INFO - field of study added
+2025-04-30 14:58:39,182 - liono360 -INFO - reporting added
+2025-04-30 14:58:39,323 - liono360 -INFO - sendkeys on Notes
+2025-04-30 14:58:40,608 - liono360 -INFO - Browser Closed
+2025-04-30 15:03:05,240 - liono360 -INFO - URL is opened
+2025-04-30 15:03:05,383 - liono360 -INFO - Username added
+2025-04-30 15:03:05,451 - liono360 -INFO - password added
+2025-04-30 15:03:05,528 - liono360 -INFO - Clicked on submit button
+2025-04-30 15:03:15,070 - liono360 -INFO - Clicked on Account Module
+2025-04-30 15:03:24,716 - liono360 -INFO - Clicked on Account Record
+2025-04-30 15:03:36,625 - liono360 -INFO - Clicked on Opportunity Tab
+2025-04-30 15:03:52,997 - liono360 -INFO - Contact type selected
+2025-04-30 15:03:53,120 - liono360 -INFO - sendkeys on first name
+2025-04-30 15:03:53,216 - liono360 -INFO - sendkeys on middle name
+2025-04-30 15:03:53,266 - liono360 -INFO - sendkeys on last name
+2025-04-30 15:03:53,354 - liono360 -INFO - sendkeys on email adress
+2025-04-30 15:03:54,958 - liono360 -INFO - Phone Number is added
+2025-04-30 15:03:55,239 - liono360 -INFO - Clicked on showmore button
+2025-04-30 15:03:56,685 - liono360 -INFO - Geneder selected
+2025-04-30 15:03:57,811 - liono360 -INFO - Department Added
+2025-04-30 15:03:59,266 - liono360 -INFO - DOB date added
+2025-04-30 15:04:00,772 - liono360 -INFO - selected Language Spoken
+2025-04-30 15:04:02,093 - liono360 -INFO - selected Joining Date
+2025-04-30 15:04:03,344 - liono360 -INFO - Job Function Added
+2025-04-30 15:04:04,717 - liono360 -INFO - Relationship Added
+2025-04-30 15:04:05,945 - liono360 -INFO - marital status Added
+2025-04-30 15:04:08,214 - liono360 -INFO - source of contact Added
+2025-04-30 15:04:09,511 - liono360 -INFO - annual income added
+2025-04-30 15:04:10,738 - liono360 -INFO - degree added
+2025-04-30 15:04:12,044 - liono360 -INFO - field of study added
+2025-04-30 15:04:12,154 - liono360 -INFO - reporting added
+2025-04-30 15:04:12,304 - liono360 -INFO - sendkeys on Notes
+2025-04-30 15:04:43,778 - liono360 -INFO - Browser Closed
+2025-04-30 15:12:51,999 - liono360 -INFO - URL is opened
+2025-04-30 15:12:52,139 - liono360 -INFO - Username added
+2025-04-30 15:12:52,198 - liono360 -INFO - password added
+2025-04-30 15:12:52,281 - liono360 -INFO - Clicked on submit button
+2025-04-30 15:13:01,327 - liono360 -INFO - Clicked on Account Module
+2025-04-30 15:13:12,155 - liono360 -INFO - Clicked on Account Record
+2025-04-30 15:13:25,283 - liono360 -INFO - Clicked on Opportunity Tab
+2025-04-30 15:13:42,266 - liono360 -INFO - Contact type selected
+2025-04-30 15:13:42,377 - liono360 -INFO - sendkeys on first name
+2025-04-30 15:13:42,466 - liono360 -INFO - sendkeys on middle name
+2025-04-30 15:13:42,527 - liono360 -INFO - sendkeys on last name
+2025-04-30 15:13:42,635 - liono360 -INFO - sendkeys on email adress
+2025-04-30 15:13:44,165 - liono360 -INFO - Phone Number is added
+2025-04-30 15:13:44,356 - liono360 -INFO - Clicked on showmore button
+2025-04-30 15:13:45,637 - liono360 -INFO - Geneder selected
+2025-04-30 15:13:46,723 - liono360 -INFO - Department Added
+2025-04-30 15:13:48,100 - liono360 -INFO - DOB date added
+2025-04-30 15:13:49,583 - liono360 -INFO - selected Language Spoken
+2025-04-30 15:13:50,918 - liono360 -INFO - selected Joining Date
+2025-04-30 15:13:52,171 - liono360 -INFO - Job Function Added
+2025-04-30 15:13:53,432 - liono360 -INFO - Relationship Added
+2025-04-30 15:13:54,701 - liono360 -INFO - marital status Added
+2025-04-30 15:13:57,033 - liono360 -INFO - source of contact Added
+2025-04-30 15:13:58,318 - liono360 -INFO - annual income added
+2025-04-30 15:13:59,636 - liono360 -INFO - degree added
+2025-04-30 15:14:00,928 - liono360 -INFO - field of study added
+2025-04-30 15:14:01,042 - liono360 -INFO - reporting added
+2025-04-30 15:14:01,236 - liono360 -INFO - sendkeys on Notes
+2025-04-30 15:14:01,379 - liono360 -INFO - click on AdressIcon
+2025-04-30 15:14:01,626 - liono360 -INFO - Address type selected
+2025-04-30 15:14:01,871 - liono360 -INFO - Address class selected
+2025-04-30 15:14:56,608 - liono360 -INFO - Browser Closed
+2025-04-30 15:16:03,848 - liono360 -INFO - URL is opened
+2025-04-30 15:16:03,975 - liono360 -INFO - Username added
+2025-04-30 15:16:04,029 - liono360 -INFO - password added
+2025-04-30 15:16:04,098 - liono360 -INFO - Clicked on submit button
+2025-04-30 15:16:11,053 - liono360 -INFO - Clicked on Account Module
+2025-04-30 15:16:18,235 - liono360 -INFO - Clicked on Account Record
+2025-04-30 15:16:30,354 - liono360 -INFO - Clicked on Opportunity Tab
+2025-04-30 15:16:47,364 - liono360 -INFO - Contact type selected
+2025-04-30 15:16:47,460 - liono360 -INFO - sendkeys on first name
+2025-04-30 15:16:47,551 - liono360 -INFO - sendkeys on middle name
+2025-04-30 15:16:47,606 - liono360 -INFO - sendkeys on last name
+2025-04-30 15:16:47,700 - liono360 -INFO - sendkeys on email adress
+2025-04-30 15:16:49,225 - liono360 -INFO - Phone Number is added
+2025-04-30 15:16:49,426 - liono360 -INFO - Clicked on showmore button
+2025-04-30 15:16:50,662 - liono360 -INFO - Geneder selected
+2025-04-30 15:16:51,763 - liono360 -INFO - Department Added
+2025-04-30 15:16:53,128 - liono360 -INFO - DOB date added
+2025-04-30 15:16:54,615 - liono360 -INFO - selected Language Spoken
+2025-04-30 15:16:55,978 - liono360 -INFO - selected Joining Date
+2025-04-30 15:16:57,234 - liono360 -INFO - Job Function Added
+2025-04-30 15:16:58,501 - liono360 -INFO - Relationship Added
+2025-04-30 15:16:59,755 - liono360 -INFO - marital status Added
+2025-04-30 15:17:02,041 - liono360 -INFO - source of contact Added
+2025-04-30 15:17:03,363 - liono360 -INFO - annual income added
+2025-04-30 15:17:04,638 - liono360 -INFO - degree added
+2025-04-30 15:17:05,931 - liono360 -INFO - field of study added
+2025-04-30 15:17:06,077 - liono360 -INFO - sendkeys on Notes
+2025-04-30 15:17:06,250 - liono360 -INFO - click on AdressIcon
+2025-04-30 15:17:06,513 - liono360 -INFO - Address type selected
+2025-04-30 15:17:06,739 - liono360 -INFO - Address class selected
+2025-04-30 15:18:35,717 - liono360 -INFO - Browser Closed
+2025-04-30 15:21:54,818 - liono360 -INFO - URL is opened
+2025-04-30 15:21:54,974 - liono360 -INFO - Username added
+2025-04-30 15:21:55,046 - liono360 -INFO - password added
+2025-04-30 15:21:55,164 - liono360 -INFO - Clicked on submit button
+2025-04-30 15:22:02,197 - liono360 -INFO - Clicked on Account Module
+2025-04-30 15:22:09,464 - liono360 -INFO - Clicked on Account Record
+2025-04-30 15:22:21,482 - liono360 -INFO - Clicked on Opportunity Tab
+2025-04-30 15:22:38,230 - liono360 -INFO - Contact type selected
+2025-04-30 15:22:38,348 - liono360 -INFO - sendkeys on first name
+2025-04-30 15:22:38,444 - liono360 -INFO - sendkeys on middle name
+2025-04-30 15:22:38,499 - liono360 -INFO - sendkeys on last name
+2025-04-30 15:22:38,597 - liono360 -INFO - sendkeys on email adress
+2025-04-30 15:22:40,140 - liono360 -INFO - Phone Number is added
+2025-04-30 15:22:40,328 - liono360 -INFO - Clicked on showmore button
+2025-04-30 15:22:41,580 - liono360 -INFO - Geneder selected
+2025-04-30 15:22:42,684 - liono360 -INFO - Department Added
+2025-04-30 15:22:44,044 - liono360 -INFO - DOB date added
+2025-04-30 15:22:45,523 - liono360 -INFO - selected Language Spoken
+2025-04-30 15:22:46,833 - liono360 -INFO - selected Joining Date
+2025-04-30 15:22:48,099 - liono360 -INFO - Job Function Added
+2025-04-30 15:22:49,442 - liono360 -INFO - Relationship Added
+2025-04-30 15:22:50,700 - liono360 -INFO - marital status Added
+2025-04-30 15:22:52,974 - liono360 -INFO - source of contact Added
+2025-04-30 15:22:54,220 - liono360 -INFO - annual income added
+2025-04-30 15:22:55,477 - liono360 -INFO - degree added
+2025-04-30 15:22:56,776 - liono360 -INFO - field of study added
+2025-04-30 15:22:56,959 - liono360 -INFO - sendkeys on Notes
+2025-04-30 15:22:57,117 - liono360 -INFO - click on AdressIcon
+2025-04-30 15:22:57,368 - liono360 -INFO - Address type selected
+2025-04-30 15:22:57,664 - liono360 -INFO - Address class selected
+2025-04-30 15:23:51,663 - liono360 -INFO - Browser Closed
+2025-04-30 15:29:51,212 - liono360 -INFO - URL is opened
+2025-04-30 15:29:51,363 - liono360 -INFO - Username added
+2025-04-30 15:29:51,423 - liono360 -INFO - password added
+2025-04-30 15:29:51,519 - liono360 -INFO - Clicked on submit button
+2025-04-30 15:29:58,577 - liono360 -INFO - Clicked on Account Module
+2025-04-30 15:30:12,478 - liono360 -INFO - Clicked on Account Record
+2025-04-30 15:30:26,771 - liono360 -INFO - Clicked on Opportunity Tab
+2025-04-30 15:30:45,316 - liono360 -INFO - Contact type selected
+2025-04-30 15:30:45,410 - liono360 -INFO - sendkeys on first name
+2025-04-30 15:30:45,481 - liono360 -INFO - sendkeys on middle name
+2025-04-30 15:30:45,552 - liono360 -INFO - sendkeys on last name
+2025-04-30 15:30:45,654 - liono360 -INFO - sendkeys on email adress
+2025-04-30 15:30:47,184 - liono360 -INFO - Phone Number is added
+2025-04-30 15:30:47,365 - liono360 -INFO - Clicked on showmore button
+2025-04-30 15:30:48,625 - liono360 -INFO - Geneder selected
+2025-04-30 15:30:49,720 - liono360 -INFO - Department Added
+2025-04-30 15:30:51,107 - liono360 -INFO - DOB date added
+2025-04-30 15:30:52,593 - liono360 -INFO - selected Language Spoken
+2025-04-30 15:30:53,941 - liono360 -INFO - selected Joining Date
+2025-04-30 15:30:55,203 - liono360 -INFO - Job Function Added
+2025-04-30 15:30:56,511 - liono360 -INFO - Relationship Added
+2025-04-30 15:30:57,768 - liono360 -INFO - marital status Added
+2025-04-30 15:31:00,047 - liono360 -INFO - source of contact Added
+2025-04-30 15:31:01,353 - liono360 -INFO - annual income added
+2025-04-30 15:31:02,620 - liono360 -INFO - degree added
+2025-04-30 15:31:03,887 - liono360 -INFO - field of study added
+2025-04-30 15:31:04,043 - liono360 -INFO - sendkeys on Notes
+2025-04-30 15:31:04,225 - liono360 -INFO - click on AdressIcon
+2025-04-30 15:31:04,508 - liono360 -INFO - Address type selected
+2025-04-30 15:31:04,731 - liono360 -INFO - Address class selected
+2025-04-30 15:31:45,114 - liono360 -INFO - Browser Closed
+2025-04-30 15:37:25,640 - liono360 -INFO - URL is opened
+2025-04-30 15:37:25,909 - liono360 -INFO - Username added
+2025-04-30 15:37:26,052 - liono360 -INFO - password added
+2025-04-30 15:37:26,332 - liono360 -INFO - Clicked on submit button
+2025-04-30 15:38:10,640 - liono360 -INFO - Browser Closed
+2025-04-30 15:38:51,999 - liono360 -INFO - URL is opened
+2025-04-30 15:38:52,138 - liono360 -INFO - Username added
+2025-04-30 15:38:52,203 - liono360 -INFO - password added
+2025-04-30 15:38:52,300 - liono360 -INFO - Clicked on submit button
+2025-04-30 15:39:00,043 - liono360 -INFO - Clicked on Account Module
+2025-04-30 15:39:09,220 - liono360 -INFO - Clicked on Account Record
+2025-04-30 15:39:20,609 - liono360 -INFO - Clicked on Opportunity Tab
+2025-04-30 15:39:36,738 - liono360 -INFO - Contact type selected
+2025-04-30 15:39:36,824 - liono360 -INFO - sendkeys on first name
+2025-04-30 15:39:36,907 - liono360 -INFO - sendkeys on middle name
+2025-04-30 15:39:36,997 - liono360 -INFO - sendkeys on last name
+2025-04-30 15:39:37,097 - liono360 -INFO - sendkeys on email adress
+2025-04-30 15:39:38,667 - liono360 -INFO - Phone Number is added
+2025-04-30 15:39:38,880 - liono360 -INFO - Clicked on showmore button
+2025-04-30 15:39:40,119 - liono360 -INFO - Geneder selected
+2025-04-30 15:39:41,194 - liono360 -INFO - Department Added
+2025-04-30 15:39:42,542 - liono360 -INFO - DOB date added
+2025-04-30 15:39:44,022 - liono360 -INFO - selected Language Spoken
+2025-04-30 15:39:45,317 - liono360 -INFO - selected Joining Date
+2025-04-30 15:39:46,597 - liono360 -INFO - Job Function Added
+2025-04-30 15:39:47,858 - liono360 -INFO - Relationship Added
+2025-04-30 15:39:49,099 - liono360 -INFO - marital status Added
+2025-04-30 15:39:51,418 - liono360 -INFO - source of contact Added
+2025-04-30 15:39:52,667 - liono360 -INFO - annual income added
+2025-04-30 15:39:53,896 - liono360 -INFO - degree added
+2025-04-30 15:39:55,161 - liono360 -INFO - field of study added
+2025-04-30 15:39:55,347 - liono360 -INFO - sendkeys on Notes
+2025-04-30 15:39:55,504 - liono360 -INFO - click on AdressIcon
+2025-04-30 15:39:55,838 - liono360 -INFO - Address type selected
+2025-04-30 15:39:56,056 - liono360 -INFO - Address class selected
+2025-04-30 15:40:08,916 - liono360 -INFO - street address2 added
+2025-04-30 15:40:12,054 - liono360 -INFO - click on Save button for Address Page
+2025-04-30 15:40:13,320 - liono360 -INFO - Browser Closed
+2025-04-30 15:42:25,779 - liono360 -INFO - URL is opened
+2025-04-30 15:42:25,974 - liono360 -INFO - Username added
+2025-04-30 15:42:26,048 - liono360 -INFO - password added
+2025-04-30 15:42:26,173 - liono360 -INFO - Clicked on submit button
+2025-04-30 15:42:34,437 - liono360 -INFO - Clicked on Account Module
+2025-04-30 15:42:41,599 - liono360 -INFO - Clicked on Account Record
+2025-04-30 15:42:53,376 - liono360 -INFO - Clicked on Opportunity Tab
+2025-04-30 15:43:10,229 - liono360 -INFO - Contact type selected
+2025-04-30 15:43:10,386 - liono360 -INFO - sendkeys on first name
+2025-04-30 15:43:10,488 - liono360 -INFO - sendkeys on middle name
+2025-04-30 15:43:10,578 - liono360 -INFO - sendkeys on last name
+2025-04-30 15:43:10,732 - liono360 -INFO - sendkeys on email adress
+2025-04-30 15:43:12,602 - liono360 -INFO - Phone Number is added
+2025-04-30 15:43:12,906 - liono360 -INFO - Clicked on showmore button
+2025-04-30 15:43:14,228 - liono360 -INFO - Geneder selected
+2025-04-30 15:43:15,337 - liono360 -INFO - Department Added
+2025-04-30 15:43:16,811 - liono360 -INFO - DOB date added
+2025-04-30 15:43:18,494 - liono360 -INFO - selected Language Spoken
+2025-04-30 15:43:19,874 - liono360 -INFO - selected Joining Date
+2025-04-30 15:43:21,231 - liono360 -INFO - Job Function Added
+2025-04-30 15:43:22,566 - liono360 -INFO - Relationship Added
+2025-04-30 15:43:23,905 - liono360 -INFO - marital status Added
+2025-04-30 15:43:26,404 - liono360 -INFO - source of contact Added
+2025-04-30 15:43:27,714 - liono360 -INFO - annual income added
+2025-04-30 15:43:29,017 - liono360 -INFO - degree added
+2025-04-30 15:43:30,347 - liono360 -INFO - field of study added
+2025-04-30 15:43:30,588 - liono360 -INFO - sendkeys on Notes
+2025-04-30 15:43:30,821 - liono360 -INFO - click on AdressIcon
+2025-04-30 15:43:31,223 - liono360 -INFO - Address type selected
+2025-04-30 15:43:31,495 - liono360 -INFO - Address class selected
+2025-04-30 15:43:43,463 - liono360 -INFO - street address2 added
+2025-04-30 15:43:46,678 - liono360 -INFO - click on Save button for Address Page
+2025-04-30 15:43:48,795 - liono360 -INFO - click on Save button for Contact
+2025-04-30 15:43:50,096 - liono360 -INFO - Browser Closed
+2025-04-30 15:48:48,859 - liono360 -INFO - URL is opened
+2025-04-30 15:48:49,029 - liono360 -INFO - Username added
+2025-04-30 15:48:49,085 - liono360 -INFO - password added
+2025-04-30 15:48:49,179 - liono360 -INFO - Clicked on submit button
+2025-04-30 15:48:56,054 - liono360 -INFO - Clicked on Account Module
+2025-04-30 15:49:03,659 - liono360 -INFO - Clicked on Account Record
+2025-04-30 15:49:15,211 - liono360 -INFO - Clicked on Opportunity Tab
+2025-04-30 15:49:32,616 - liono360 -INFO - Contact type selected
+2025-04-30 15:49:32,747 - liono360 -INFO - sendkeys on first name
+2025-04-30 15:49:32,827 - liono360 -INFO - sendkeys on middle name
+2025-04-30 15:49:32,880 - liono360 -INFO - sendkeys on last name
+2025-04-30 15:49:32,989 - liono360 -INFO - sendkeys on email adress
+2025-04-30 15:49:34,522 - liono360 -INFO - Phone Number is added
+2025-04-30 15:49:34,703 - liono360 -INFO - Clicked on showmore button
+2025-04-30 15:49:35,954 - liono360 -INFO - Geneder selected
+2025-04-30 15:49:37,050 - liono360 -INFO - Department Added
+2025-04-30 15:49:38,380 - liono360 -INFO - DOB date added
+2025-04-30 15:49:39,847 - liono360 -INFO - selected Language Spoken
+2025-04-30 15:49:41,199 - liono360 -INFO - selected Joining Date
+2025-04-30 15:49:42,458 - liono360 -INFO - Job Function Added
+2025-04-30 15:49:43,725 - liono360 -INFO - Relationship Added
+2025-04-30 15:49:44,991 - liono360 -INFO - marital status Added
+2025-04-30 15:49:47,270 - liono360 -INFO - source of contact Added
+2025-04-30 15:49:48,568 - liono360 -INFO - annual income added
+2025-04-30 15:49:49,848 - liono360 -INFO - degree added
+2025-04-30 15:49:51,147 - liono360 -INFO - field of study added
+2025-04-30 15:49:51,316 - liono360 -INFO - sendkeys on Notes
+2025-04-30 15:49:51,448 - liono360 -INFO - click on AdressIcon
+2025-04-30 15:49:51,731 - liono360 -INFO - Address type selected
+2025-04-30 15:49:51,952 - liono360 -INFO - Address class selected
+2025-04-30 15:50:03,327 - liono360 -INFO - street address2 added
+2025-04-30 15:50:06,463 - liono360 -INFO - click on Save button for Address Page
+2025-04-30 15:50:08,548 - liono360 -INFO - click on Save button for Contact
+2025-04-30 15:50:09,985 - liono360 -INFO - Browser Closed
+2025-05-01 10:58:09,526 - liono360 -INFO - URL is opened
+2025-05-01 10:58:09,817 - liono360 -INFO - Username added
+2025-05-01 10:58:10,023 - liono360 -INFO - password added
+2025-05-01 10:58:10,196 - liono360 -INFO - Clicked on submit button
+2025-05-01 10:58:20,512 - liono360 -INFO - Clicked on Account Module
+2025-05-01 10:58:28,264 - liono360 -INFO - Clicked on Account Record
+2025-05-01 11:29:17,308 - liono360 -INFO - URL is opened
+2025-05-01 11:29:17,466 - liono360 -INFO - Username added
+2025-05-01 11:29:17,522 - liono360 -INFO - password added
+2025-05-01 11:29:17,586 - liono360 -INFO - Clicked on submit button
+2025-05-01 11:29:24,889 - liono360 -INFO - Clicked on Account Module
+2025-05-01 11:29:32,064 - liono360 -INFO - Clicked on Account Record
+2025-05-01 11:29:43,894 - liono360 -INFO - Clicked on Contact Tab
+2025-05-01 11:30:01,299 - liono360 -INFO - Contact type selected
+2025-05-01 11:30:01,483 - liono360 -INFO - sendkeys on first name
+2025-05-01 11:30:01,697 - liono360 -INFO - sendkeys on middle name
+2025-05-01 11:30:01,824 - liono360 -INFO - sendkeys on last name
+2025-05-01 11:30:02,000 - liono360 -INFO - sendkeys on email adress
+2025-05-01 11:30:04,042 - liono360 -INFO - Phone Number is added
+2025-05-01 11:30:04,433 - liono360 -INFO - Clicked on showmore button
+2025-05-01 11:30:05,880 - liono360 -INFO - Geneder selected
+2025-05-01 11:30:07,026 - liono360 -INFO - Department Added
+2025-05-01 11:30:08,651 - liono360 -INFO - DOB date added
+2025-05-01 11:30:10,485 - liono360 -INFO - selected Language Spoken
+2025-05-01 11:30:12,114 - liono360 -INFO - selected Joining Date
+2025-05-01 11:30:13,653 - liono360 -INFO - Job Function Added
+2025-05-01 11:30:15,132 - liono360 -INFO - Relationship Added
+2025-05-01 11:30:16,603 - liono360 -INFO - marital status Added
+2025-05-01 11:30:19,116 - liono360 -INFO - source of contact Added
+2025-05-01 11:30:20,585 - liono360 -INFO - annual income added
+2025-05-01 11:30:22,044 - liono360 -INFO - degree added
+2025-05-01 11:30:23,538 - liono360 -INFO - field of study added
+2025-05-01 11:30:23,857 - liono360 -INFO - sendkeys on Notes
+2025-05-01 11:30:24,072 - liono360 -INFO - click on AdressIcon
+2025-05-01 11:30:24,644 - liono360 -INFO - Address type selected
+2025-05-01 11:30:25,162 - liono360 -INFO - Address class selected
+2025-05-01 11:30:36,849 - liono360 -INFO - street address2 added
+2025-05-01 11:30:40,023 - liono360 -INFO - click on Save button for Address Page
+2025-05-01 11:30:42,104 - liono360 -INFO - click on Save button for Contact
+2025-05-01 11:33:20,481 - liono360 -INFO - Browser Closed
+2025-05-01 11:37:08,287 - liono360 -INFO - URL is opened
+2025-05-01 11:37:08,443 - liono360 -INFO - Username added
+2025-05-01 11:37:08,507 - liono360 -INFO - password added
+2025-05-01 11:37:08,605 - liono360 -INFO - Clicked on submit button
+2025-05-01 11:37:15,518 - liono360 -INFO - Clicked on Account Module
+2025-05-01 11:37:23,132 - liono360 -INFO - Clicked on Account Record
+2025-05-01 11:37:34,543 - liono360 -INFO - Clicked on Contact Tab
+2025-05-01 11:37:50,978 - liono360 -INFO - Contact type selected
+2025-05-01 11:37:51,106 - liono360 -INFO - sendkeys on first name
+2025-05-01 11:37:51,185 - liono360 -INFO - sendkeys on middle name
+2025-05-01 11:37:51,244 - liono360 -INFO - sendkeys on last name
+2025-05-01 11:37:51,344 - liono360 -INFO - sendkeys on email adress
+2025-05-01 11:37:52,874 - liono360 -INFO - Phone Number is added
+2025-05-01 11:37:53,065 - liono360 -INFO - Clicked on showmore button
+2025-05-01 11:37:54,360 - liono360 -INFO - Geneder selected
+2025-05-01 11:37:55,466 - liono360 -INFO - Department Added
+2025-05-01 11:37:56,789 - liono360 -INFO - DOB date added
+2025-05-01 11:37:58,328 - liono360 -INFO - selected Language Spoken
+2025-05-01 11:37:59,634 - liono360 -INFO - selected Joining Date
+2025-05-01 11:38:00,878 - liono360 -INFO - Job Function Added
+2025-05-01 11:38:02,145 - liono360 -INFO - Relationship Added
+2025-05-01 11:38:03,411 - liono360 -INFO - marital status Added
+2025-05-01 11:38:05,740 - liono360 -INFO - source of contact Added
+2025-05-01 11:38:07,016 - liono360 -INFO - annual income added
+2025-05-01 11:38:08,280 - liono360 -INFO - degree added
+2025-05-01 11:38:09,559 - liono360 -INFO - field of study added
+2025-05-01 11:38:09,727 - liono360 -INFO - sendkeys on Notes
+2025-05-01 11:38:09,889 - liono360 -INFO - click on AdressIcon
+2025-05-01 11:38:10,192 - liono360 -INFO - Address type selected
+2025-05-01 11:38:10,441 - liono360 -INFO - Address class selected
+2025-05-01 11:38:21,809 - liono360 -INFO - street address2 added
+2025-05-01 11:38:24,947 - liono360 -INFO - click on Save button for Address Page
+2025-05-01 11:38:27,040 - liono360 -INFO - click on Save button for Contact
+2025-05-01 11:38:44,587 - liono360 -INFO - click on Edit button
+2025-05-01 11:38:49,215 - liono360 -INFO - Title selected
+2025-05-01 11:38:49,337 - liono360 -INFO - sendkeys on first name
+2025-05-01 11:38:49,440 - liono360 -INFO - sendkeys on middle name
+2025-05-01 11:38:49,560 - liono360 -INFO - sendkeys on last name
+2025-05-01 11:38:49,718 - liono360 -INFO - sendkeys on email adress
+2025-05-01 11:38:49,788 - liono360 -INFO - click on Save button for Contact
+2025-05-01 11:39:06,831 - liono360 -INFO - click on View Contact button
+2025-05-01 11:40:09,498 - liono360 -INFO - Browser Closed
+2025-05-01 11:43:12,497 - liono360 -INFO - URL is opened
+2025-05-01 11:43:12,697 - liono360 -INFO - Username added
+2025-05-01 11:43:12,820 - liono360 -INFO - password added
+2025-05-01 11:43:12,947 - liono360 -INFO - Clicked on submit button
+2025-05-01 11:43:22,357 - liono360 -INFO - Clicked on Account Module
+2025-05-01 11:43:29,958 - liono360 -INFO - Clicked on Account Record
+2025-05-01 11:43:41,969 - liono360 -INFO - Clicked on Contact Tab
+2025-05-01 11:43:58,516 - liono360 -INFO - Contact type selected
+2025-05-01 11:43:58,601 - liono360 -INFO - sendkeys on first name
+2025-05-01 11:43:58,685 - liono360 -INFO - sendkeys on middle name
+2025-05-01 11:43:58,750 - liono360 -INFO - sendkeys on last name
+2025-05-01 11:43:58,851 - liono360 -INFO - sendkeys on email adress
+2025-05-01 11:44:00,371 - liono360 -INFO - Phone Number is added
+2025-05-01 11:44:00,551 - liono360 -INFO - Clicked on showmore button
+2025-05-01 11:44:01,802 - liono360 -INFO - Geneder selected
+2025-05-01 11:44:02,896 - liono360 -INFO - Department Added
+2025-05-01 11:44:04,201 - liono360 -INFO - DOB date added
+2025-05-01 11:44:05,703 - liono360 -INFO - selected Language Spoken
+2025-05-01 11:44:07,065 - liono360 -INFO - selected Joining Date
+2025-05-01 11:44:08,313 - liono360 -INFO - Job Function Added
+2025-05-01 11:44:09,566 - liono360 -INFO - Relationship Added
+2025-05-01 11:44:10,864 - liono360 -INFO - marital status Added
+2025-05-01 11:44:13,391 - liono360 -INFO - source of contact Added
+2025-05-01 11:44:14,724 - liono360 -INFO - annual income added
+2025-05-01 11:44:16,126 - liono360 -INFO - degree added
+2025-05-01 11:44:17,498 - liono360 -INFO - field of study added
+2025-05-01 11:44:17,807 - liono360 -INFO - sendkeys on Notes
+2025-05-01 11:44:18,077 - liono360 -INFO - click on AdressIcon
+2025-05-01 11:44:18,467 - liono360 -INFO - Address type selected
+2025-05-01 11:44:18,684 - liono360 -INFO - Address class selected
+2025-05-01 11:44:29,518 - liono360 -INFO - street address2 added
+2025-05-01 11:44:32,650 - liono360 -INFO - click on Save button for Address Page
+2025-05-01 11:44:34,742 - liono360 -INFO - click on Save button for Contact
+2025-05-01 11:44:53,361 - liono360 -INFO - click on Edit button
+2025-05-01 11:44:58,395 - liono360 -INFO - Title selected
+2025-05-01 11:44:58,498 - liono360 -INFO - sendkeys on first name
+2025-05-01 11:44:58,603 - liono360 -INFO - sendkeys on middle name
+2025-05-01 11:44:58,702 - liono360 -INFO - sendkeys on last name
+2025-05-01 11:44:58,861 - liono360 -INFO - sendkeys on email adress
+2025-05-01 11:44:58,921 - liono360 -INFO - click on Save button for Contact
+2025-05-01 11:45:20,132 - liono360 -INFO - click on View Contact button
+2025-05-01 11:45:25,576 - liono360 -INFO - click on Cancel button
+2025-05-01 11:45:40,412 - liono360 -INFO - click on Primary button
+2025-05-01 11:45:58,541 - liono360 -INFO - click on Delete button
+2025-05-01 11:45:59,677 - liono360 -INFO - click on Yes button
+2025-05-01 11:46:01,104 - liono360 -INFO - Browser Closed
+2025-05-01 12:10:42,362 - liono360 -INFO - URL is opened
+2025-05-01 12:10:42,476 - liono360 -INFO - Username added
+2025-05-01 12:10:42,530 - liono360 -INFO - password added
+2025-05-01 12:10:42,623 - liono360 -INFO - Clicked on submit button
+2025-05-01 12:10:54,476 - liono360 -INFO - Clicked on Lead 
+2025-05-01 12:11:07,757 - liono360 -INFO - clicked on view option
+2025-05-01 12:11:11,170 - liono360 -INFO - clicked on Activity
+2025-05-01 12:11:11,308 - liono360 -INFO - clicked on Add log button
+2025-05-01 12:11:12,590 - liono360 -INFO - Note Log type Selected
+2025-05-01 12:11:12,727 - liono360 -INFO - Comment is added under Note log type
+2025-05-01 12:11:12,851 - liono360 -INFO - Clicked on Save button
+2025-05-01 12:11:18,725 - liono360 -INFO - Clicked on Activity Record
+2025-05-01 12:11:19,492 - liono360 -INFO - Clicked on Edit button
+2025-05-01 12:11:19,701 - liono360 -INFO - Comment is Updated under Note log type
+2025-05-01 12:11:19,920 - liono360 -INFO - New Comment is added under Note log for edit
+2025-05-01 12:13:15,344 - liono360 -INFO - Browser Closed
+2025-05-01 12:13:56,818 - liono360 -INFO - URL is opened
+2025-05-01 12:13:56,953 - liono360 -INFO - Username added
+2025-05-01 12:13:57,011 - liono360 -INFO - password added
+2025-05-01 12:13:57,072 - liono360 -INFO - Clicked on submit button
+2025-05-01 12:14:08,421 - liono360 -INFO - Clicked on Lead 
+2025-05-01 12:14:21,983 - liono360 -INFO - clicked on view option
+2025-05-01 12:14:26,600 - liono360 -INFO - clicked on Activity
+2025-05-01 12:14:26,759 - liono360 -INFO - clicked on Add log button
+2025-05-01 12:14:28,091 - liono360 -INFO - Note Log type Selected
+2025-05-01 12:14:28,250 - liono360 -INFO - Comment is added under Note log type
+2025-05-01 12:14:28,347 - liono360 -INFO - Clicked on Save button
+2025-05-01 12:14:34,824 - liono360 -INFO - Clicked on Activity Record
+2025-05-01 12:14:35,851 - liono360 -INFO - Clicked on Edit button
+2025-05-01 12:14:36,112 - liono360 -INFO - Comment is Updated under Note log type
+2025-05-01 12:14:36,340 - liono360 -INFO - New Comment is added under Note log for edit
+2025-05-01 12:14:36,451 - liono360 -INFO - Clicked on Save button
+2025-05-01 12:14:41,283 - liono360 -INFO - Clicked on Activity Record
+2025-05-01 12:14:42,609 - liono360 -INFO - Clicked on Delete button
+2025-05-01 12:14:42,756 - liono360 -INFO - Clicked on yes button to delete the log
+2025-05-01 12:14:44,169 - liono360 -INFO - Browser Closed
+2025-05-01 12:24:17,876 - liono360 -INFO - URL is opened
+2025-05-01 12:24:18,027 - liono360 -INFO - Username added
+2025-05-01 12:24:18,085 - liono360 -INFO - password added
+2025-05-01 12:24:18,148 - liono360 -INFO - Clicked on submit button
+2025-05-01 12:24:29,765 - liono360 -INFO - Clicked on Lead 
+2025-05-01 12:24:42,581 - liono360 -INFO - clicked on view option
+2025-05-01 12:24:47,197 - liono360 -INFO - clicked on Activity
+2025-05-01 12:24:47,357 - liono360 -INFO - clicked on Add log button
+2025-05-01 12:24:47,388 - liono360 -INFO - Select Log TypeEmail
+2025-05-01 12:24:47,555 - liono360 -INFO - Comment is added under Email log type
+2025-05-01 12:24:47,667 - liono360 -INFO - Clicked on Save button
+2025-05-01 12:24:54,091 - liono360 -INFO - Clicked on Activity Record
+2025-05-01 12:24:55,068 - liono360 -INFO - Clicked on Edit button
+2025-05-01 12:24:55,320 - liono360 -INFO - Comment is Updated under Field Visit log type
+2025-05-01 12:24:55,554 - liono360 -INFO - New Comment is added under Note log for Field Visit
+2025-05-01 12:24:55,660 - liono360 -INFO - Clicked on Save button
+2025-05-01 12:25:01,026 - liono360 -INFO - Clicked on Activity Record
+2025-05-01 12:25:02,518 - liono360 -INFO - Clicked on Delete button
+2025-05-01 12:25:02,627 - liono360 -INFO - Clicked on yes button to delete the log
+2025-05-01 12:25:04,063 - liono360 -INFO - Browser Closed

@@ -1721,6 +1721,52 @@ public WebElement AddLogsbtn() {
 	return AddLogs;
 }
 
+@FindBy(xpath = "//button[@label=\"Emails\"]")
+WebElement Activity_Email;
+
+public WebElement Activity_Emails() {
+	return Activity_Email;
+}
+
+@FindBy(xpath = "//i[@class=\"pi pi-plus\"]")
+WebElement Add_Email;
+
+public WebElement Emails_button() {
+	return Add_Email;
+}
+
+@FindBy(xpath = "//input[@name=\"toRecipients\"]")
+WebElement To_Email;
+
+public WebElement Emails_To() {
+	return To_Email;
+}
+
+@FindBy(xpath = "//span[@aria-label=\"Select Template\"]")
+WebElement Email_Template;
+
+public WebElement Select_Emails_Template() {
+	return Email_Template;
+}
+
+
+
+@FindBy(xpath = "//input[@id=\"subject\"]")
+WebElement Email_Subject;
+
+public WebElement Subjects() {
+	return Email_Subject;
+}
+
+
+@FindBy(xpath = "//span[text()='Send']")
+WebElement Send_Email;
+
+public WebElement Send_Email_button() {
+	return Send_Email;
+}
+
+
 
 @FindBy(xpath = "//div[@id=\"logType\"]//span")
 WebElement LogsOptions;
@@ -1749,6 +1795,23 @@ WebElement Oppty;
 public WebElement Opportunity() {
 	return Oppty;
 }
+
+@FindBy(xpath = "//span[text()=\"Contacts\"]")
+WebElement Contact;
+
+public WebElement Contact_Tab() {
+	return Contact;
+}
+
+@FindBy(xpath = "//i[@class=\"pi pi-plus\"]")
+WebElement AddContact;
+
+public WebElement Add_Contact() {
+	return AddContact;
+}
+
+
+
 
 @FindBy(xpath = "(//p-tabpanel[@header=\"Opportunities\"]//table//tbody//tr//td)[1]")
 WebElement ListedAccountOpportunity;
@@ -2928,12 +2991,28 @@ WebElement listedAccount;
 public WebElement ListedAccount() {
 	return listedAccount;
 	}
+
+@FindBy(xpath="(//div[@class=\"p-d-flex ng-star-inserted\"]//p)[1]")
+WebElement Email_Subject_Account;
+
+public WebElement Email_Subject_Accounts() {
+	return Email_Subject_Account;
+	}
+
 @FindBy(xpath="//p-dropdown[@optionlabel=\"name\"]//div[@id=\"logType\"]")
 WebElement SelectType;
 
 public WebElement SelectLogsType() {
 	return SelectType;
 	}
+
+@FindBy(xpath="//i[@ptooltip=\"Email Sync\"]")
+WebElement Email_Refresh;
+
+public WebElement Email_Refresh_bttn() {
+	return Email_Refresh;
+	}
+
 
 
 @FindBy(xpath="//p-dropdownitem[@class=\"p-element ng-star-inserted\"]//div[text()='Note']")
@@ -3006,6 +3085,43 @@ WebElement SelectActiveReason;
 
 public WebElement SelectActiveReason() {
 	return SelectActiveReason;
+}
+
+@FindBy(xpath = "(//span[@ptooltip=\"View\"])[last()]")
+WebElement View_Contact;
+
+public WebElement View_Contact_bttn() {
+	return View_Contact;
+}
+
+@FindBy(xpath = "(//div[contains(@class,'primary-checkbox')])[last()]")
+WebElement Primary;
+
+public WebElement Primary_bttn() {
+return Primary;	
+}
+
+@FindBy(xpath = "//span[text()=\"Yes\"]")
+WebElement Yes_btn;
+
+public WebElement Yes_bttn() {
+return Yes_btn;	
+}	
+
+@FindBy(xpath = "(//i[@class=\"pi pi-trash\"])[1]")
+WebElement Delete;
+
+public WebElement Delete_bttn() {
+return Delete;	
+}	
+
+
+
+@FindBy(xpath = "(//i[@class=\"pi pi-pencil\"])[last()]")
+WebElement Edit_Contact;
+
+public WebElement Edit_Contact_btn() {
+	return Edit_Contact;
 }
 
 @FindBy(xpath = "//p-multiselect[@id='activatingReason']")

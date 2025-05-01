@@ -35,7 +35,7 @@ public class ContactsPage {
 		
 	}
 	
-	@FindBy(xpath="(//p-dropdown[@placeholder='Select Contact Types ...'])[1]")
+	@FindBy(xpath="//p-dropdown[@formcontrolname=\"contactType\"]")
 	WebElement contacttype;
 	
 	public WebElement ContactType() {
@@ -63,7 +63,7 @@ public class ContactsPage {
 		return Title;
 	
 }
-	@FindBy(xpath="//input[@id='firstName']")
+	@FindBy(xpath="//input[@name=\"firstName\"]")
 	WebElement firstname;
 	
 	public WebElement Fname() {
@@ -83,13 +83,13 @@ public class ContactsPage {
 		return Lastname;	
 }
 	
-	@FindBy(xpath="(//input[@pattern='[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}$'])[2]")
+	@FindBy(xpath="//input[@name=\"email\"]")
 	WebElement Email;
 	
 	public WebElement Email1() {
 		return Email;	
 }
-	@FindBy(xpath="//input[@id='phone0']")
+	@FindBy(xpath="//p-inputmask[@formcontrolname=\"number\"]")
 	WebElement cphone;
 	
 	public WebElement cWorkPhone() {
@@ -101,24 +101,40 @@ public class ContactsPage {
 	public WebElement ShowM() {
 		return showmore;	
 }
-	@FindBy(xpath="//p-dropdown[@placeholder=\"Select Gender ...\"]")
+	@FindBy(xpath="//p-dropdown[@formcontrolname=\"gender\"]")
 	WebElement Gender;
 	
 	public WebElement gender() {
 		return Gender;	
 	}
-	@FindBy(xpath="//input[@id='department']")
+	@FindBy(xpath="//input[@formcontrolname=\"department\"]")
 	WebElement Department;
 	
 	public WebElement Dept() {
 		return Department;	
 }
-	@FindBy(xpath="(//input[@placeholder=\"mm/dd/yy\"])[1]")
+	@FindBy(xpath="(//input[@placeholder=\"mm/dd/yyyy\"])[1]")
 	WebElement DOB;
 	
 	public WebElement Dob() {
 		return DOB;		
 	}	
+	
+	@FindBy(xpath="(//div[contains(@class,'p-datepicker-calendar-container')]//tbody//td)[25]")
+	WebElement DOBDate;
+	
+	public WebElement Dob_Date() {
+		return DOBDate;		
+	}
+	
+	@FindBy(xpath="(//div[contains(@class,'p-datepicker-calendar-container')]//tbody//td)[31]")
+	WebElement JoiningDate;
+	
+	public WebElement Joining_Date() {
+		return JoiningDate;		
+	}
+	
+	
 	@FindBy(xpath="//p-multiselect[@placeholder='Select Language ...']")
 	WebElement LangSpoken;
 	
@@ -126,74 +142,74 @@ public class ContactsPage {
 		return LangSpoken;	
 }
 	
-	@FindBy(xpath="(//input[@placeholder='mm/dd/yy'])[2]")
+	@FindBy(xpath="(//input[@placeholder=\"mm/dd/yyyy\"])[2]")
 	WebElement startdate;
 	
 	public WebElement StartDate() {
 		return startdate;	
 }
-	@FindBy(xpath="//p-multiselect[@placeholder='Select Job Function ...']")
+	@FindBy(xpath="//p-dropdown[@formcontrolname=\"jobFunction\"]")
 	WebElement jobfunction;
 	
 	public WebElement JobF() {
 		return jobfunction;	
 		
 }
-	@FindBy(xpath="//p-dropdown[@placeholder='Select Relationship Status ...']")
+	@FindBy(xpath="//p-dropdown[@formcontrolname=\"relation\"]")
 	WebElement Relationshipsatus;
 	
 	public WebElement RelationshipS() {
 		return Relationshipsatus;	
 	}
-	@FindBy(xpath="//p-dropdown[@placeholder='Select Marital Status ...']")
+	@FindBy(xpath="//p-dropdown[@formcontrolname=\"marital\"]")
 	WebElement Maritalsatus;
 	
 	public WebElement MaritalS() {
 		return Maritalsatus;	
 }
-	@FindBy(xpath="//p-dropdown[@placeholder='Select Source of Contact ...']")
+	@FindBy(xpath="//p-dropdown[@formcontrolname=\"source\"]")
 	WebElement sourceofcontact;
 	
 	public WebElement sourceofcontact() {
 		return sourceofcontact;
 }
-	@FindBy(xpath="//p-dropdown[@placeholder='Select Annual Income ...']")
+	@FindBy(xpath="//p-dropdown[@formcontrolname=\"income\"]")
 	WebElement AnnualIncome;
 	
 	public WebElement AnnualI() {
 		return AnnualIncome;
 	}	
-	@FindBy(xpath="//p-dropdown[@placeholder='Select Degree ...']")
+	@FindBy(xpath="//p-dropdown[@formcontrolname=\"degree\"]")
 	WebElement degree;
 	
 	public WebElement Degree() {
 		return degree;
 }
-	@FindBy(xpath="//p-dropdown[@placeholder='Select Field of Study ...']")
+	@FindBy(xpath="//p-dropdown[@formcontrolname=\"studyField\"]")
 	WebElement FieldOfStudy;
 	
 	public WebElement FieldOfStudy() {
 		return FieldOfStudy;
 }
-	@FindBy(xpath="//input[@id='reportsTo']")
+	@FindBy(xpath="//input[@name=\"seniorityTo\"]")
 	WebElement seniority;
 	
 	public WebElement SeniorityS() {
 		return seniority;
 }
-	@FindBy(xpath="/html/body/app-root/app-main/div/div/div/app-contacts/app-add-edit-contact-modal/p-dialog/div/div/div[2]/form/div[2]/div[11]/div[2]/input")
+	@FindBy(xpath="//input[@name=\"reportsTo\"]")
 	WebElement ReportsTo;
 	
 	public WebElement ReportT() {
 		return ReportsTo;
 }
-	@FindBy(xpath="//input[@id='assistantTo']")
+	@FindBy(xpath="//input[@name=\"assistantTo\"]")
 	WebElement Assistant;
 	
 	public WebElement AssistantA() {
 		return Assistant;
 }
-	@FindBy(xpath="//input[@name='assitphone']")
+	@FindBy(xpath="//input[@placeholder=\"Assistant Phone\"]")
 	WebElement Assiphone;
 	
 	public WebElement AssiP() {
@@ -209,7 +225,7 @@ public class ContactsPage {
 	///..........................Address Details.........................//
 	
 	
-	@FindBy(xpath="//i[@class='pi pi-plus']")
+	@FindBy(xpath="//span//i[@class=\"pi pi-plus\"]")
 	WebElement AdressIcon;
 	
 	public WebElement AdressIcon() {
@@ -223,6 +239,14 @@ public class ContactsPage {
 		return AdressType;
 }
 
+	@FindBy(xpath="//li[@aria-label=\"Billing\"]")
+	WebElement SelectAdressType;
+	
+	public WebElement Select_Adress_Type() {
+		return SelectAdressType;
+}	
+	
+	
 	@FindBy(xpath="//p-dropdown[@placeholder='Select Address Class']")
 	WebElement Adressclass;
 	
@@ -244,7 +268,7 @@ public class ContactsPage {
 		return StreetAdress2;
 }
 	
-	@FindBy(xpath="(//span[text()='Save'])[1]")
+	@FindBy(xpath="//button[@class=\"p-element p-button-success p-button p-component\"]//span[text()='Save']")
 	WebElement Save;
 	
 	public WebElement SaveInf() {
@@ -498,7 +522,7 @@ public class ContactsPage {
 		return txtCE2;
 	}
 	
-	@FindBy(xpath = "(//p-dropdown[@filterby=\"CountryName\"])[1]")
+	@FindBy(xpath = "//p-dropdown[@optionlabel=\"CountryName\"]")
     WebElement Country1;
 
 	public WebElement PhoneCountry1() {
@@ -528,7 +552,7 @@ public class ContactsPage {
 	public WebElement PhoneCountry5() {
 	return Country5;
 	}
-	@FindBy(xpath = "(//p-inputmask//input)[1]")
+	@FindBy(xpath = "//p-inputmask[@formcontrolname=\"number\"]//input")
     WebElement phone;
 
 	public WebElement WorkPhone() {
@@ -542,6 +566,15 @@ public class ContactsPage {
 	public WebElement HomePhone() {
 	return homephone;	
 }
+	
+	
+	@FindBy(xpath = "//button[@label=\"Cancel\"]//span[text()=\"Cancel\"]")
+    WebElement Cancel;
+
+	public WebElement Cancel_Bttn() {
+	return Cancel;	
+}
+	
 	
 	@FindBy(xpath = "(//p-inputmask//input)[3]")
     WebElement mobilephone;
@@ -606,7 +639,7 @@ public class ContactsPage {
 		return clickCheckbox;
 	}
 	
-	@FindBy(xpath = "//p-inputswitch//div")
+	@FindBy(xpath = "//p-inputswitch[@name=\"statusId\"]//span[@class=\"p-inputswitch-slider\"]")
 	WebElement ActiveAddress;
 
 	public WebElement ActiveAddress() {	

@@ -79,6 +79,14 @@ public class LeadPage {
 	public WebElement clickSave() {
 		return btnSaveLead;
 	}
+	
+	@FindBy(xpath = "(//span[text()='Save'])[2]")
+	WebElement SaveAll;
+
+	public WebElement SaveAllDetails() {
+		return SaveAll;
+	}
+	
 	@FindBy(xpath = "//div[@class=\"btnBars\"]//i[@class=\"pi pi-bars\"]")
 	WebElement hamburgerIcon;
 
@@ -1004,7 +1012,70 @@ public class LeadPage {
 		return listedLeads;
 		}
 	
+	@FindBy(xpath="//span[text()=\"Activity\"]")
+	WebElement Activity;
+
+	public WebElement Activity_Lead() {
+		return Activity;
+		}
+		
+	@FindBy(xpath="//i[@class=\"pi pi-plus\"]")
+	WebElement Logs;
+
+	public WebElement Add_Logs() {
+		return Logs;
+		}
 	
+	@FindBy(xpath="//p-dropdown[@placeholder=\"Select log type\"]")
+	WebElement Log_Type;
+
+	public WebElement Log_Types() {
+		return Log_Type;
+		}
+	
+	@FindBy(xpath="//div[@class=\"p-d-flex ng-star-inserted\"]//div[text()=\"Field Visit\"]")
+	WebElement Field_Visit;
+
+	public WebElement Select_Field_Visit() {
+		return Field_Visit;
+		}
+	
+	@FindBy(xpath="//div[@class=\"p-d-flex ng-star-inserted\"]//div[text()=\"Note\"]")
+	WebElement Note;
+
+	public WebElement Select_Note() {
+		return Note;
+		}
+	@FindBy(xpath="(//div[@class=\"activity-content\"])[1]")
+	WebElement ClickActivity;
+
+	public WebElement Click_Activity() {
+		return ClickActivity;
+		}
+	
+	@FindBy(xpath="//i[@class=\"pi pi-pencil\"]")
+	WebElement Pencil;
+
+	public WebElement Edit_Bttn() {
+		return Pencil;
+		}
+	
+	
+	
+	
+	@FindBy(xpath="(//div[@data-placeholder=\"Enter your comment\"])[1]")
+	WebElement Add_Comment;
+
+	public WebElement Add_Comments() {
+		return Add_Comment;
+		}
+	
+	@FindBy(xpath="(//div[@data-placeholder=\"Enter your comment\"])[2]")
+	WebElement Edit_Add_Comment;
+
+	public WebElement Edit_Add_Comments() {
+		return Edit_Add_Comment;
+		}
 	
 	
 	@FindBy(xpath="(//span//div[@class=\"p-element ng-star-inserted\"])[1]")
