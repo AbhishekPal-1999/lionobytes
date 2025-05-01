@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.liono360.accountactioncolumn.TC_002Activity">
+      <class name="com.liono360.leads.TC_006ActivityLogsNote">
         <methods>
-          <include name="TC_002ActivityTest"/>
           <include name="teardown"/>
           <include name="setup"/>
+          <include name="TC006_ActivityLogsNote"/>
         </methods>
-      </class> <!-- com.liono360.accountactioncolumn.TC_002Activity -->
+      </class> <!-- com.liono360.leads.TC_006ActivityLogsNote -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

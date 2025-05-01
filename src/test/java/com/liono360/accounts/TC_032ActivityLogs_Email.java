@@ -10,6 +10,7 @@ import java.awt.event.KeyEvent;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.liono360.loginPage.Baseclass;
@@ -20,7 +21,7 @@ public class TC_032ActivityLogs_Email extends Baseclass {
 	
 	@SuppressWarnings({ "unused"})
 	@Test
-	public void ActivityLogsMobile_InboundCallTest () throws InterruptedException, AWTException {
+	public void ActivityLogs_Email () throws InterruptedException, AWTException {
 		
 
 		Actions action = new Actions(driver);
@@ -43,114 +44,59 @@ public class TC_032ActivityLogs_Email extends Baseclass {
 		
 	
 		waitUntilPageLoad();
-		TryClick(account.AddLogsbtn());
-		logger.info("Clicked on Add logs button");
+		TryClick(account.Activity_Emails());
+		logger.info("Clicked on Email Activity");
 
-//Logs_Mobile Inbound_Add:---------------------------------------------------------------------------------------------------------------------
-		
-		
+//Add Email Details---------------------------------------------------------------------------------------------------------------------
 		waitUntilPageLoad();
 		Thread.sleep(1000);
-		TryClick(account.SelectLogsType());
-		logger.info("Clicked on Selet Type ");
+		
+		TryClick(account.Emails_button());
+		logger.info("Clicked on Add Email button");
 		
 		Thread.sleep(2000);
-		TryClick(account.LogsMobiles());
-		logger.info("Selected Mobile Option");
+		account.Emails_To().sendKeys("abhishek@lionobytes.com");
+		logger.info("Added Recipent Email");
+		
+		Thread.sleep(2000);
+		account.Select_Emails_Template().click();
+		SelectDropdown(account.Select_Emails_Template(),1);
+		logger.info("Email Template Selected");
+		
+		Thread.sleep(2000);
+		account.Subjects().clear();
+		account.Subjects().sendKeys("Account Information"+randomnumber());
+		String Email_Subject = account.Subjects().getAttribute("value");
 		
 		
-		String SubType = account.SubTypes().getText();
-		logger.info("Selected Mobile Option is"+ SubType);
+		TryClick(account.Send_Email_button());
+		logger.info("Clicked on Send button");
 		
-		account.commentsLogs().sendKeys("The Mobile Inbound Logs is Added");
-		logger.info("sendKeys ClickLogs");
-		
-		
-		account.Attachements().click();
+// ASSERTION====================================================================================================
+
 		waitUntilPageLoad();
 		Thread.sleep(2000);
-		StringSelection filepath= new StringSelection("C:\\Users\\Testing\\Documents\\lead_records.xlsx");
-		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(filepath, null);
-		Robot robot=new Robot();	
-		robot.keyPress(KeyEvent.VK_CONTROL);
-        robot.keyPress(KeyEvent.VK_V);  // CTRL+V to paste the file path
-        robot.keyRelease(KeyEvent.VK_V);
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-
-        // Press Enter to upload the file
-        robot.keyPress(KeyEvent.VK_ENTER);  // Press Enter to confirm file upload
-        robot.keyRelease(KeyEvent.VK_ENTER);
-       
-        Thread.sleep(2000);
-        logger.info("Fill Uploaded Successfully");
-   
-        Thread.sleep(2000);
-        TryClick(account.SaveLogs());
-        logger.info("Mobile Inbound Logs Saved Successfully");
-        
- // Logs_Mobile Inbound_Edit -------------------------------------------------------------------------------------------------------------
-        
-        waitUntilPageLoad();
-        TryClick(account.OpenEmailLogs());
-        logger.info("Mobile Inbound Logs Open Successfully");
-        
-        TryClick(account.EditLogs());
-        logger.info("Clicked on Edit Button");
-        
-        waitUntilPageLoad();
-		Thread.sleep(2000);
-		account.commentsLogs().clear();
-		account.commentsLogs().sendKeys("This is the Updated Field Mobile Inbound Logs");
-		logger.info("Mobile Inbound Comment is Updated");
-		
-		account.Attachements().click();
+		TryClick(account.Email_Refresh_bttn());
+		logger.info("Clicked on Refresh button");
 		waitUntilPageLoad();
 		Thread.sleep(2000);
-		StringSelection filepathUpdated= new StringSelection("C:\\Users\\Testing\\Documents\\us_lead_records.xlsx");
-		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(filepathUpdated, null);
-		Robot robotUpdated=new Robot();	
-		robot.keyPress(KeyEvent.VK_CONTROL);
-        robot.keyPress(KeyEvent.VK_V);  // CTRL+V to paste the file path
-        robot.keyRelease(KeyEvent.VK_V);
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        robot.keyPress(KeyEvent.VK_ENTER);  // Press Enter to confirm file upload
-        robot.keyRelease(KeyEvent.VK_ENTER);
-        Thread.sleep(2000);
-        logger.info("Fill Uploaded Successfully");
-        
-       
-        waitUntilPageLoad();
-		Thread.sleep(2000);
-		account.EditcommentsLogs().sendKeys("This is new Edited Comment");
-		logger.info("New Mobile Inbound Comment is added on Editing");
-        
+		String Email_Subject_AfterCreate=account.Email_Subject_Accounts().getText();
+		String Actual_Email_Subject = Email_Subject_AfterCreate.split(":")[1].trim();
+		System.out.println("Provided Email Subject: "+Email_Subject);
+		System.out.println("Listed Email Subject: "+Actual_Email_Subject);
+		if (Email_Subject.contains(Actual_Email_Subject)) {
+		   Assert.assertTrue(true);
+		   logger.info("Email is Sent succcessfully");
+		} 
 
-        Thread.sleep(2000);
-        TryClick(account.SaveEditLog());
-        logger.info("Mobile Inbound Logs is Updated Successfully");
-        
-// Logs_Mobile Inbound_Delete----------------------------------------------------------------------------------------------------------       
-       
-        waitUntilPageLoad();
-        TryClick(account.OpenEmailLogs());
-        logger.info("Mobile Inbound Logs Open Successfully");
-        
-        waitUntilPageLoad();
-        Thread.sleep(1000);
-        TryClick(account.DeleteLogs());
-        logger.info("Click on Delete Button");
-        
-        waitUntilPageLoad();
-        Thread.sleep(1000);
-        TryClick(account.YesDeleteLogs());
-        logger.info("Click on Yes Button & Mobile Inbound Logs Deleted Successfully");
-        
-        waitUntilPageLoad();
-        Thread.sleep(1000);
-        TryClick(account.Corssbtn());
-        logger.info("Account Record is closed");
-        
+		else {
+		       Assert.assertTrue(false);
+	           logger.info("Email is not Sent");
+				}
+				
+		}
+
+     }	
 	
 	
-	}
-}
+

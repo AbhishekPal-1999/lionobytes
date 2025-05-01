@@ -94,31 +94,10 @@ public class TC_001CreateContact extends Baseclass {
 		contacts.CP2().click();
 		contacts.CP2().sendKeys(randomnumber()+"5855"+randomnumber());
 		
-	//	Thread.sleep(2000);
-	//	contacts.Email1().sendKeys("bk123@gmail.com");
-	//  logger.info("sendkeys on email1");
-		
-		
-//		contacts.WorkPhone().sendKeys(randomnumber()+"84392299" + randomnumber());
-//		logger.info("Work Phone Added");
-//		
-//		contacts.HomePhone().sendKeys(randomnumber()+"7338822" + randomnumber());
-//		logger.info("Home Phone Added");
-//		
-//		contacts.MobilePhone().sendKeys(randomnumber()+"443278" + randomnumber());
-//		logger.info("Mobile Phone Added");
-//		
-//		contacts.CP1().sendKeys(randomnumber()+"983833" + randomnumber());
-//		logger.info("Cp1 Phone Added");
-//		
-//		contacts.CP2().sendKeys(randomnumber()+"721293" + randomnumber());
-//		logger.info("CP2 Phone Added");
-		
+
 		TryClick(contacts.ShowMore());
 		logger.info("Clicked on showmore button");
-		
-	Actions action = new Actions(driver);
-		
+	
 	
 		SelectDropdown(contacts.gender(),1);
 		logger.info("Geneder selected");
@@ -157,33 +136,17 @@ public class TC_001CreateContact extends Baseclass {
 
 		SelectDropdown(contacts.FieldOfStudy(),2);
 		logger.info("field of study added");
-//		
-//		
-////		contacts.SeniorityS().sendKeys(" ");
-////		Thread.sleep(3000);
-////		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20)); // 10 seconds timeout
-////		//WebDriverWait wait = new WebDriverWait(driver, 10);
-////		By elementLocator = By.xpath("//ul[@role=\"listbox\"]//li[1]//div//div");
-////		WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(elementLocator));
-////		TryClick(element);
-//		driver.findElement(By.xpath("//ul[@role=\"listbox\"]//li[1]//div//div")).click();
-//		logger.info("Seniority added");
+
 		
 		contacts.ReportT().sendKeys(Firstname);
 		logger.info("reporting added");
 
-//		contacts.AssistantA().sendKeys(" ");
-//		Thread.sleep(3000);
-//
-//		driver.findElement(By.xpath("//ul[@role=\"listbox\"]//li[1]//div//div")).click();
+
 
 		contacts.Notes().sendKeys("all details are filled");
 		logger.info("sendkeys on Notes");
 		
-		//Thread.sleep(2000);
-		//contacts.SaveInf().click();
-		//logger.info("Click on save button");
-		
+	
 		
 // Address details-------------------------------------------
 		
