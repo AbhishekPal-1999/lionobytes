@@ -32,16 +32,18 @@ public class TC_003CreateCaseForOpportunityWithAllFields extends Baseclass{
 		CasesPage cases= new CasesPage(driver);
 		
 		waitUntilPageLoad();
+		Thread.sleep(10000);
+		
+		TryClick(cases.clickCases());
+		logger.info("Clicked on Cases ");
+		
+		waitUntilPageLoad();
 		Thread.sleep(5000);
 		
-		cases.clickCases().click();
-		logger.info("Clicked on Cases ");
-		cases.waitUntilPageLoad();
-		//Thread.sleep(9000);
 		cases.clickAddCase().click();
 		logger.info("Clicked on add case button");
 		cases.waitUntilPageLoad();
-		//Thread.sleep(7000);
+		
 
 		cases.selectCaseAssociation().click();
 		//Thread.sleep(500);

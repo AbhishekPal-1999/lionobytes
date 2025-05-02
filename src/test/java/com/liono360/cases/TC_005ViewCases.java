@@ -25,11 +25,13 @@ public class TC_005ViewCases extends Baseclass {
 		CasesPage cases= new CasesPage(driver);
 		
 		waitUntilPageLoad();
+		Thread.sleep(10000);
+		
 		TryClick(cases.clickCases());
 		logger.info("Clicked on Cases ");
 		
 		waitUntilPageLoad();
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		mouseActionRightClick(driver, cases.addedCase());
 		logger.info("rigt clicked on added case");
 		

@@ -27,6 +27,7 @@ public class TC_001CreateLead extends Baseclass {
 		
 		waitUntilPageLoad();
 		Thread.sleep(10000);
+		
 		TryClick(leads.clickLead());
 		logger.info("Clicked on Lead ");
 		
@@ -147,8 +148,6 @@ public class TC_001CreateLead extends Baseclass {
 		SelectDropdown(leads.selectOwenership(),2);
 		logger.info("Ownership added");
 		
-	//	SelectDropdown(leads.Stage1(),3);	
-	//	logger.info("Stage selected");
 
 		leads.setFoundedYear().sendKeys("1"+randomnumber());
 		logger.info("Founded year added");
@@ -244,7 +243,7 @@ public class TC_001CreateLead extends Baseclass {
 // ASSERTION=======================================================================================
 		
 		waitUntilPageLoad();
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		leads.Refresh();
 		waitUntilPageLoad();
 		Thread.sleep(2000);

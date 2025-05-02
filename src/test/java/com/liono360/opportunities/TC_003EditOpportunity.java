@@ -27,6 +27,8 @@ public class TC_003EditOpportunity extends Baseclass{
 		OpportunitiesPage opp=new OpportunitiesPage(driver);
 		 Actions action = new Actions(driver);
 
+		 waitUntilPageLoad();
+		 Thread.sleep(10000);
 	
 		TryClick(opp.clickOpportunity());
 		logger.info("Clicked on opportunities");

@@ -29,12 +29,12 @@ public class TC_001CreateCaseForAccountWithAllFields extends Baseclass {
 		ExcelDataProvider exceldata=new ExcelDataProvider();
 		
 		waitUntilPageLoad();
-		Thread.sleep(5000);
+		Thread.sleep(10000);
 		TryClick(cases.clickCases());
 		logger.info("Clicked on Cases ");
 		
 		waitUntilPageLoad();
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		action.moveToElement(cases.Actionbttn()).build().perform();
 		logger.info("Mousehover on Action button");
 		

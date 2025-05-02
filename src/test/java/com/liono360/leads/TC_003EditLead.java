@@ -25,7 +25,8 @@ public class TC_003EditLead extends Baseclass {
 		
 		
 		waitUntilPageLoad();
-		Thread.sleep(2000);
+		Thread.sleep(10000);
+		
 		
 		TryClick(leads.clickLead());
 		logger.info("Clicked on Lead ");
@@ -129,7 +130,7 @@ public class TC_003EditLead extends Baseclass {
 
 // ASSERTION=======================================================================================
 		waitUntilPageLoad();
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		leads.Refresh();
 		waitUntilPageLoad();
 		Thread.sleep(5000);

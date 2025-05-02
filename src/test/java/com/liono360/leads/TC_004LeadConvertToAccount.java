@@ -27,7 +27,8 @@ public class TC_004LeadConvertToAccount extends Baseclass {
 		
 		
 		waitUntilPageLoad();
-		Thread.sleep(5000);
+		Thread.sleep(10000);
+		
 		
 		TryClick(leads.clickLead());
 		logger.info("Clicked on Lead ");
@@ -108,14 +109,14 @@ public class TC_004LeadConvertToAccount extends Baseclass {
 // ASSERTION=======================================================================================
 		
 		waitUntilPageLoad();
-		Thread.sleep(4000);
+		Thread.sleep(5000);
 		
 		TryClick(account.clickAccounts());
 		logger.info("Clicked on Account Module");
 		
 
 		waitUntilPageLoad();
-		Thread.sleep(5000);
+		Thread.sleep(10000);
 		
 		String Converted_Lead_To_Account=account.ListedAccount().getText();
 		System.out.println("Listed Lead name: "+Lead_Name);

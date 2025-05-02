@@ -20,13 +20,15 @@ public class TC_004DeleteOpportunity extends Baseclass{
 
 		OpportunitiesPage opp=new OpportunitiesPage(driver);
 		
-		
+		 waitUntilPageLoad();
+		 Thread.sleep(10000);
 	
 		TryClick(opp.clickOpportunity());
 		logger.info("Clicked on opportunities");
 		
-		
-		
+		 waitUntilPageLoad();
+		 Thread.sleep(2000);
+		 
 		String OpportunitybeforeDelete= opp.AddedOpportunity().getText();
 		
 		
