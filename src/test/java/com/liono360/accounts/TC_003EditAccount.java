@@ -25,7 +25,10 @@ public class TC_003EditAccount extends Baseclass{
 		
         TryClick(account.clickAccounts());
 		logger.info("Clicked on Account button");
+		
 		waitUntilPageLoad();
+		Thread.sleep(10000);
+		
 		waitUntilDisplay(account.ListedAccount(), 20);
 		mouseActionRightClick(driver, account.ListedAccount());
 		Thread.sleep(1000);

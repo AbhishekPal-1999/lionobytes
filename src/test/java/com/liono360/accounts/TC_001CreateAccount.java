@@ -27,7 +27,7 @@ public class TC_001CreateAccount extends Baseclass{
 		
 		
 		waitUntilPageLoad();
-		Thread.sleep(5000);
+		Thread.sleep(10000);
 		
 		TryClick(account.clickAccounts());
 		logger.info("Clicked on Account Module");

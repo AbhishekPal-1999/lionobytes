@@ -6600,3 +6600,89 @@
 2025-05-01 12:25:02,518 - liono360 -INFO - Clicked on Delete button
 2025-05-01 12:25:02,627 - liono360 -INFO - Clicked on yes button to delete the log
 2025-05-01 12:25:04,063 - liono360 -INFO - Browser Closed
+2025-05-02 11:34:32,570 - liono360 -INFO - URL is opened
+2025-05-02 11:34:32,783 - liono360 -INFO - Username added
+2025-05-02 11:34:32,951 - liono360 -INFO - password added
+2025-05-02 11:34:33,130 - liono360 -INFO - Clicked on submit button
+2025-05-02 11:34:57,308 - liono360 -INFO - Clicked on Account Module
+2025-05-02 11:35:10,280 - liono360 -INFO - Mousehover on Action button
+2025-05-02 11:35:10,548 - liono360 -INFO - Clicked on new button
+2025-05-02 11:35:15,825 - liono360 -INFO - Clicked on title button and select dropdown value
+2025-05-02 11:35:15,985 - liono360 -INFO - First Name Added
+2025-05-02 11:35:16,082 - liono360 -INFO - Middle Name Added
+2025-05-02 11:35:16,283 - liono360 -INFO - Last Name Added
+2025-05-02 11:35:17,651 - liono360 -INFO - Sendkeys on email
+2025-05-02 11:35:23,447 - liono360 -INFO - Sendkeys on phone1
+2025-05-02 11:35:23,604 - liono360 -INFO - twitter added
+2025-05-02 11:35:23,862 - liono360 -INFO - Facebook added
+2025-05-02 11:35:24,084 - liono360 -INFO - Linkedin added
+2025-05-02 11:35:24,281 - liono360 -INFO - Instagram added
+2025-05-02 11:35:24,452 - liono360 -INFO - Website added
+2025-05-02 11:35:24,728 - liono360 -INFO - sendkeys on accountname
+2025-05-02 11:35:27,161 - liono360 -INFO - job function selected
+2025-05-02 11:35:30,678 - liono360 -INFO - Account type selected
+2025-05-02 11:35:30,807 - liono360 -INFO - Sendkeys on accountNumber
+2025-05-02 11:35:31,272 - liono360 -INFO - Currency selected
+2025-05-02 11:35:31,824 - liono360 -INFO - Click On plus sign to Add Tag
+2025-05-02 11:35:32,218 - liono360 -INFO - Click On Add Tag
+2025-05-02 11:35:32,446 - liono360 -INFO - Tag name added
+2025-05-02 11:35:33,132 - liono360 -INFO - Click On Save
+2025-05-02 11:35:34,449 - liono360 -INFO - Click On Select Tag
+2025-05-02 11:35:34,625 - liono360 -INFO - tag assigned
+2025-05-02 11:35:34,892 - liono360 -INFO - sendkeys on account details
+2025-05-02 11:35:35,088 - liono360 -INFO - sendkeys on doing business
+2025-05-02 11:35:35,761 - liono360 -INFO - select on dropdown NumberOfEmp 
+2025-05-02 11:35:36,401 - liono360 -INFO - select on dropdown EstimatedAnnualRevenue 
+2025-05-02 11:35:36,949 - liono360 -INFO - select on dropdown OwnershipType 
+2025-05-02 11:35:37,520 - liono360 -INFO - select on dropdown BusinessClassification
+2025-05-02 11:35:37,677 - liono360 -INFO - sendkeys on founded years
+2025-05-02 11:35:38,303 - liono360 -INFO - select on dropdown IndustrysI
+2025-05-02 11:35:38,491 - liono360 -INFO - sendkeys on SICCodes
+2025-05-02 11:35:38,646 - liono360 -INFO - sendkeys on SICCodes
+2025-05-02 11:35:39,182 - liono360 -INFO - Account source is selected
+2025-05-02 11:35:39,744 - liono360 -INFO - select on dropdown AccountRating
+2025-05-02 11:35:40,047 - liono360 -INFO - Account email added
+2025-05-02 11:35:41,912 - liono360 -INFO - account phone number added
+2025-05-02 11:35:42,025 - liono360 -INFO - twitter added
+2025-05-02 11:35:42,213 - liono360 -INFO - Facebook added
+2025-05-02 11:35:42,489 - liono360 -INFO - Linkedin added
+2025-05-02 11:35:42,757 - liono360 -INFO - Instagram added
+2025-05-02 11:35:43,008 - liono360 -INFO - Website added
+2025-05-02 11:35:43,197 - liono360 -INFO - sendkeys on Notess
+2025-05-02 11:35:43,371 - liono360 -INFO - click on AdressDetails
+2025-05-02 11:35:43,751 - liono360 -INFO - click on AdressDetails Icon
+2025-05-02 11:35:44,081 - liono360 -INFO - click on ShippingIiIcon
+2025-05-02 11:35:44,648 - liono360 -INFO - select on AddressType
+2025-05-02 11:35:44,921 - liono360 -INFO - click on ShippingIiIcon
+2025-05-02 11:35:45,485 - liono360 -INFO - select on AdressClass
+2025-05-02 11:35:55,386 - liono360 -INFO - sendkeys on StreetAdress2
+2025-05-02 11:35:57,600 - liono360 -INFO - click on SaveAccountDetails button
+2025-05-02 11:36:00,016 - liono360 -INFO - click on SaveAllDeatilsBtn button
+2025-05-02 11:36:28,218 - liono360 -INFO - Create account test passed
+2025-05-02 11:36:30,503 - liono360 -INFO - Clicked on Accounts button
+2025-05-02 11:36:44,466 - liono360 -INFO - Right Clicked on listed accounts
+2025-05-02 11:36:44,738 - liono360 -INFO - clicked on view button
+2025-05-02 11:36:58,078 - liono360 -INFO - View Account test passed
+2025-05-02 11:36:58,284 - liono360 -INFO - clicked on cancel
+2025-05-02 11:36:58,597 - liono360 -INFO - Clicked on Account button
+2025-05-02 11:37:12,782 - liono360 -INFO - Clicked on ClickOnEdit button
+2025-05-02 11:37:24,172 - liono360 -INFO - First Name Added
+2025-05-02 11:37:24,447 - liono360 -INFO - Middle Name Added
+2025-05-02 11:37:24,687 - liono360 -INFO - Last Name Added
+2025-05-02 11:37:25,074 - liono360 -INFO - sendkeys on accountname
+2025-05-02 11:37:25,260 - liono360 -INFO - click on SaveAllDeatilsBtn button
+2025-05-02 11:37:46,916 - liono360 -INFO - Edit account test Passes
+2025-05-02 11:37:47,218 - liono360 -INFO - Clicked on Account button
+2025-05-02 11:38:02,392 - liono360 -INFO - Clicked on clickoneditbtn button
+2025-05-02 11:38:14,996 - liono360 -INFO - Clicked on AddressDetails
+2025-05-02 11:38:15,404 - liono360 -INFO - Clicked on BillingAddessEditbtn
+2025-05-02 11:38:18,584 - liono360 -INFO - Clicked on clickondeletebtn button
+2025-05-02 11:38:20,775 - liono360 -INFO - Clicked on clickOnYesbtn button
+2025-05-02 11:38:21,277 - liono360 -INFO - Clicked on ShippingAddressEdit
+2025-05-02 11:38:24,514 - liono360 -INFO - Clicked on clickondeletebtn button
+2025-05-02 11:38:26,715 - liono360 -INFO - Clicked on clickOnYesbtn button
+2025-05-02 11:38:28,848 - liono360 -INFO - Clicked on SaveAllDeatilsBtn
+2025-05-02 11:38:51,387 - liono360 -INFO - Clicked on clickondeletebtn button
+2025-05-02 11:38:52,181 - liono360 -INFO - Clicked on clickOnYesbtn button
+2025-05-02 11:39:20,112 - liono360 -INFO - Delete account test passed
+2025-05-02 11:39:22,171 - liono360 -INFO - Browser Closed

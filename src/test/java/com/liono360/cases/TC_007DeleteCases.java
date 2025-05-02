@@ -23,11 +23,13 @@ public class TC_007DeleteCases extends Baseclass {
 		
 		
 		waitUntilPageLoad();
+		Thread.sleep(10000);
+		
 		TryClick(cases.clickCases());
 		logger.info("Clicked on Cases ");
 		
 		waitUntilPageLoad();
-	    Thread.sleep(2000);
+		Thread.sleep(5000);
 	    
 	    
 	    String CaseIDBeforeDelete = cases.CaseIDs().getText();

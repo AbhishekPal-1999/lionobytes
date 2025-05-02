@@ -36,6 +36,8 @@ public class TC_001CreateOpportunity extends Baseclass {
 	
 		 
 		waitUntilPageLoad();
+		Thread.sleep(10000);
+		
 		TryClick(opp.clickOpportunity());
 		logger.info("Clicked on opportunities");
 		

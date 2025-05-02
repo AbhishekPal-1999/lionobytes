@@ -22,12 +22,13 @@ public class TC_006EditCase extends Baseclass {
 		
 		
 		waitUntilPageLoad();
-		Thread.sleep(5000);
+		Thread.sleep(10000);
+		
 		TryClick(cases.clickCases());
 		logger.info("Clicked on Cases ");
-	
+		
 		waitUntilPageLoad();
-	    Thread.sleep(2000);
+		Thread.sleep(5000);
 		mouseActionRightClick(driver, cases.addedCase());
 		logger.info("rigt clicked on added case");
 		

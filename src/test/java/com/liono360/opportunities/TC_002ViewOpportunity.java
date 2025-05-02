@@ -20,12 +20,16 @@ public void ViewOpportunityTest() throws InterruptedException, IOException {
 
 	OpportunitiesPage opp=new OpportunitiesPage(driver);
 	
+	waitUntilPageLoad();
+	Thread.sleep(10000);
 
 	TryClick(opp.clickOpportunity());
 	logger.info("Clicked on opportunities");
 	
 
-	Thread.sleep(4000);
+	waitUntilPageLoad();
+	 Thread.sleep(2000);
+	 
 	mouseActionRightClick(driver, opp.AddedOpportunity());
 	logger.info("right clicked on added opportunity");
 	

@@ -20,10 +20,11 @@ public class TC_002ViewAccount extends Baseclass {
 		Thread.sleep(2000);
 	   
 		TryClick(accounts.clickAccounts());
-		
 		logger.info("Clicked on Accounts button");
 		
 		waitUntilPageLoad();
+		Thread.sleep(10000);
+		
 		waitUntilDisplay(accounts.addedAccount(),10);
 		mouseActionRightClick(driver,accounts.addedAccount());
 		Thread.sleep(1000);

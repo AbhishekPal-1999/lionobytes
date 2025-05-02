@@ -21,11 +21,13 @@ public class TC_004DeleteAccount extends Baseclass {
 		AccountsPage account = new AccountsPage(driver);
 		Actions actions = new Actions(driver);
 	    
-		waitUntilPageLoad();
+		
 	    TryClick(account.clickAccounts());
 	  	logger.info("Clicked on Account button");
 		
 	  	waitUntilPageLoad();
+		Thread.sleep(10000);
+		
 		waitUntilDisplay(account.ListedAccount(), 20);
 		String AccountNameBeforeDelete=account.ListedAccount().getText();
 		mouseActionRightClick(driver, account.ListedAccount());
@@ -76,6 +78,7 @@ public class TC_004DeleteAccount extends Baseclass {
 		
 		waitUntilPageLoad();
 		Thread.sleep(10000);
+		
 		mouseActionRightClick(driver, account.ListedAccount());
 		TryClick(account.clickondeletebtn());
 		logger.info("Clicked on clickondeletebtn button");
