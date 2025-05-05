@@ -1,43 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="6" total="10" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-02T11:34:41 IST" name="Suite" finished-at="2025-05-02T11:39:20 IST" duration-ms="278118">
+  <suite started-at="2025-05-05T14:50:09 IST" name="Default suite" finished-at="2025-05-05T14:50:52 IST" duration-ms="42902">
     <groups>
     </groups>
-    <test started-at="2025-05-02T11:34:41 IST" name="Test" finished-at="2025-05-02T11:39:20 IST" duration-ms="278118">
-      <class name="com.liono360.accounts.TC_003EditAccount">
-        <test-method signature="TC003_EditAccount()[pri:0, instance:com.liono360.accounts.TC_003EditAccount@7fd7a283]" started-at="2025-05-02T11:36:58 IST" name="TC003_EditAccount" finished-at="2025-05-02T11:37:46 IST" duration-ms="48630" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC003_EditAccount -->
-      </class> <!-- com.liono360.accounts.TC_003EditAccount -->
-      <class name="com.liono360.accounts.TC_002ViewAccount">
-        <test-method signature="TC002_ViewAccount()[pri:0, instance:com.liono360.accounts.TC_002ViewAccount@7ac296f6]" started-at="2025-05-02T11:36:28 IST" name="TC002_ViewAccount" finished-at="2025-05-02T11:36:58 IST" duration-ms="30055" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC002_ViewAccount -->
-      </class> <!-- com.liono360.accounts.TC_002ViewAccount -->
-      <class name="com.liono360.accounts.TC_001CreateAccount">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.liono360.accounts.TC_001CreateAccount@7d7758be]" started-at="2025-05-02T11:33:30 IST" name="setup" finished-at="2025-05-02T11:34:41 IST" duration-ms="71280" status="PASS">
+    <test started-at="2025-05-05T14:50:09 IST" name="Default test" finished-at="2025-05-05T14:50:52 IST" duration-ms="42902">
+      <class name="com.liono360.leads.TC_0010ActivityLogsPhoneOutboundCall">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.liono360.leads.TC_0010ActivityLogsPhoneOutboundCall@145f66e3]" started-at="2025-05-05T14:49:17 IST" name="setup" finished-at="2025-05-05T14:50:09 IST" duration-ms="51817" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC001CreateAccount()[pri:0, instance:com.liono360.accounts.TC_001CreateAccount@7d7758be]" started-at="2025-05-02T11:34:42 IST" name="TC001CreateAccount" finished-at="2025-05-02T11:36:28 IST" duration-ms="106171" status="PASS">
+        <test-method signature="TC0010_ActivityLogsPhobeInboundCall()[pri:0, instance:com.liono360.leads.TC_0010ActivityLogsPhoneOutboundCall@145f66e3]" started-at="2025-05-05T14:50:09 IST" name="TC0010_ActivityLogsPhobeInboundCall" finished-at="2025-05-05T14:50:52 IST" duration-ms="42871" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC001CreateAccount -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.liono360.accounts.TC_001CreateAccount@7d7758be]" started-at="2025-05-02T11:39:20 IST" name="teardown" finished-at="2025-05-02T11:39:22 IST" duration-ms="1527" status="PASS">
+        </test-method> <!-- TC0010_ActivityLogsPhobeInboundCall -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.liono360.leads.TC_0010ActivityLogsPhoneOutboundCall@145f66e3]" started-at="2025-05-05T14:50:52 IST" name="teardown" finished-at="2025-05-05T14:50:53 IST" duration-ms="1406" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.liono360.accounts.TC_001CreateAccount -->
-      <class name="com.liono360.accounts.TC_004DeleteAccount">
-        <test-method signature="TC004_DeleteAccount()[pri:0, instance:com.liono360.accounts.TC_004DeleteAccount@22f59fa]" started-at="2025-05-02T11:37:46 IST" name="TC004_DeleteAccount" finished-at="2025-05-02T11:39:20 IST" duration-ms="93194" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC004_DeleteAccount -->
-      </class> <!-- com.liono360.accounts.TC_004DeleteAccount -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.liono360.leads.TC_0010ActivityLogsPhoneOutboundCall -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
