@@ -13,10 +13,10 @@ import com.liono360.pageObject.LeadPage;
 import com.liono360.pageObject.LoginPage;
 import com.liono360.utility.ExcelDataProvider;
 
-public class TC_005ActivityLogsFieldVisit extends Baseclass{
+public class TC_0010ActivityLogsPhoneOutboundCall extends Baseclass{
 	
 	@Test
-	public void TC002_ActivityLogsFieldVisit() throws InterruptedException, IOException {
+	public void TC0010_ActivityLogsPhobeInboundCall() throws InterruptedException, IOException {
 		//redirectToCRM();
 
 		LeadPage leads = new LeadPage(driver);
@@ -36,7 +36,7 @@ public class TC_005ActivityLogsFieldVisit extends Baseclass{
 		
 	   
 
-// Activity Field Visit====================================================================================================		
+// Activity Mobile Inbounds Call====================================================================================================		
 		TryClick(leads.Activity_Lead());
 		logger.info("clicked on Activity");
 		
@@ -45,16 +45,23 @@ public class TC_005ActivityLogsFieldVisit extends Baseclass{
 		
 		TryClick(leads.Log_Types());
 		Thread.sleep(1000);
-		TryClick(leads.Select_Field_Visit());
-		logger.info("Field Visit Log type Selected");
+		TryClick(leads.Mobiles());
+		logger.info("Mobile Log type Selected");
 		
-		leads.Add_Comments().sendKeys("This comment represent the Fild Visit");
-		logger.info("Comment is added under field visit log type");
+		
+		Thread.sleep(2000);
+		TryClick(leads.SubTypes());
+		TryClick(leads.Outbound());
+		logger.info("Outbound Call is Selected");
+		
+		
+		leads.Add_Comments().sendKeys("This comment represent the Mobile");
+		logger.info("Comment is added under Mobile log type");
 		
 		TryClick(leads.clickSave());
 		logger.info("Clicked on Save button");
 
-// Edit Field Visit========================================================================================================
+// Edit Mobile Inbounds Call========================================================================================================
 
 		waitUntilPageLoad();
 		Thread.sleep(1000);
@@ -66,16 +73,16 @@ public class TC_005ActivityLogsFieldVisit extends Baseclass{
 		logger.info("Clicked on Edit button");
 				
 		leads.Add_Comments().clear();
-		leads.Add_Comments().sendKeys("This comment represent the Updated Field Visit");
-		logger.info("Comment is Updated under Field Visit log type");
+		leads.Add_Comments().sendKeys("This comment represent the Updated Mobile");
+		logger.info("Comment is Updated under Mobile log type");
 				
-		leads.Edit_Add_Comments().sendKeys("This comment represent the new comment while edit Field Visit");
-		logger.info("New Comment is added under Note log for Field Visit");
+		leads.Edit_Add_Comments().sendKeys("This comment represent the new comment while edit Mobile");
+		logger.info("New Comment is added under for Mobile");
 				
 		TryClick(leads.SaveAllDetails());
 		logger.info("Clicked on Save button");
 
-//Delete Field Visit============================================================================================
+//Delete Mobile Inbounds Call============================================================================================
 		waitUntilPageLoad();
 		Thread.sleep(1000);
 				

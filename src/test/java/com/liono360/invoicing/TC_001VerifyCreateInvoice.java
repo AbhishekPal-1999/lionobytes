@@ -17,6 +17,8 @@ public class TC_001VerifyCreateInvoice extends Baseclass {
 	//	redirectToCRM();
 		Actions action = new Actions(driver);
 		InvoicingPage invoice=new InvoicingPage(driver);
+		waitUntilPageLoad();
+		Thread.sleep(10000);
 		TryClick(invoice.clickInventory());
 
 		logger.info("Clicked on inventory button");

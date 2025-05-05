@@ -17,7 +17,7 @@ public class TC_001CreatePurchase extends Baseclass {
 
 		//redirectToCRM();
 		waitUntilPageLoad();
-		Thread.sleep(4000);
+		Thread.sleep(5000);
 		PurchasePage purchase = new PurchasePage(driver);
 		TryClick(purchase.clickInventory());
 		logger.info("Clicked on inventory button");

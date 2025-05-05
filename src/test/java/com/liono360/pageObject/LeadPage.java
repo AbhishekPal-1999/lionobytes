@@ -1040,6 +1040,28 @@ public class LeadPage {
 		return Field_Visit;
 		}
 	
+	@FindBy(xpath="//div[@class=\"p-d-flex ng-star-inserted\"]//div[text()=\"Mobile\"]")
+	WebElement Mobile;
+
+	public WebElement Mobiles() {
+		return Mobile;
+		}
+	
+	@FindBy(xpath="//div[text()=\"Outbound Call\"]")
+	WebElement OutBound;
+
+	public WebElement Outbound() {
+		return OutBound;
+		}
+	
+	
+	@FindBy(xpath="(//span[@class=\"p-element p-dropdown-label p-inputtext ng-star-inserted\"]//div[text()])[2]")
+	WebElement SubType;
+
+	public WebElement SubTypes() {
+		return SubType;
+		}
+	
 	@FindBy(xpath="//div[@class=\"p-d-flex ng-star-inserted\"]//div[text()=\"Note\"]")
 	WebElement Note;
 
