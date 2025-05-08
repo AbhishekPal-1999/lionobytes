@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-05T14:50:09 IST" name="Default suite" finished-at="2025-05-05T14:50:52 IST" duration-ms="42902">
+  <suite started-at="2025-05-08T11:17:27 IST" name="Default suite" finished-at="2025-05-08T11:18:14 IST" duration-ms="47308">
     <groups>
     </groups>
-    <test started-at="2025-05-05T14:50:09 IST" name="Default test" finished-at="2025-05-05T14:50:52 IST" duration-ms="42902">
-      <class name="com.liono360.leads.TC_0010ActivityLogsPhoneOutboundCall">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.liono360.leads.TC_0010ActivityLogsPhoneOutboundCall@145f66e3]" started-at="2025-05-05T14:49:17 IST" name="setup" finished-at="2025-05-05T14:50:09 IST" duration-ms="51817" status="PASS">
+    <test started-at="2025-05-08T11:17:27 IST" name="Default test" finished-at="2025-05-08T11:18:14 IST" duration-ms="47308">
+      <class name="com.liono360.leads.TC_0012ActivityLogsWorkOutboundCall">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.liono360.leads.TC_0012ActivityLogsWorkOutboundCall@145f66e3]" started-at="2025-05-08T11:15:58 IST" name="setup" finished-at="2025-05-08T11:17:27 IST" duration-ms="89332" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC0010_ActivityLogsPhobeInboundCall()[pri:0, instance:com.liono360.leads.TC_0010ActivityLogsPhoneOutboundCall@145f66e3]" started-at="2025-05-05T14:50:09 IST" name="TC0010_ActivityLogsPhobeInboundCall" finished-at="2025-05-05T14:50:52 IST" duration-ms="42871" status="PASS">
+        <test-method signature="TC0011_ActivityLogsPhobeInboundCall()[pri:0, instance:com.liono360.leads.TC_0012ActivityLogsWorkOutboundCall@145f66e3]" started-at="2025-05-08T11:17:27 IST" name="TC0011_ActivityLogsPhobeInboundCall" finished-at="2025-05-08T11:18:14 IST" duration-ms="47255" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC0010_ActivityLogsPhobeInboundCall -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.liono360.leads.TC_0010ActivityLogsPhoneOutboundCall@145f66e3]" started-at="2025-05-05T14:50:52 IST" name="teardown" finished-at="2025-05-05T14:50:53 IST" duration-ms="1406" status="PASS">
+        </test-method> <!-- TC0011_ActivityLogsPhobeInboundCall -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.liono360.leads.TC_0012ActivityLogsWorkOutboundCall@145f66e3]" started-at="2025-05-08T11:18:14 IST" name="teardown" finished-at="2025-05-08T11:18:16 IST" duration-ms="1743" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.liono360.leads.TC_0010ActivityLogsPhoneOutboundCall -->
+      </class> <!-- com.liono360.leads.TC_0012ActivityLogsWorkOutboundCall -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -6841,3 +6841,81 @@
 2025-05-05 14:50:52,104 - liono360 -INFO - Clicked on Delete button
 2025-05-05 14:50:52,233 - liono360 -INFO - Clicked on yes button to delete the log
 2025-05-05 14:50:53,664 - liono360 -INFO - Browser Closed
+2025-05-05 17:41:42,219 - liono360 -INFO - URL is opened
+2025-05-05 17:41:42,384 - liono360 -INFO - Username added
+2025-05-05 17:41:42,478 - liono360 -INFO - password added
+2025-05-05 17:41:42,606 - liono360 -INFO - Clicked on submit button
+2025-05-05 17:42:03,748 - liono360 -INFO - Browser Closed
+2025-05-08 11:03:00,130 - liono360 -INFO - URL is opened
+2025-05-08 11:03:00,506 - liono360 -INFO - Username added
+2025-05-08 11:03:00,703 - liono360 -INFO - password added
+2025-05-08 11:03:00,930 - liono360 -INFO - Clicked on submit button
+2025-05-08 11:03:17,102 - liono360 -INFO - Clicked on Lead 
+2025-05-08 11:03:31,769 - liono360 -INFO - clicked on view option
+2025-05-08 11:03:36,075 - liono360 -INFO - clicked on Activity
+2025-05-08 11:03:36,537 - liono360 -INFO - clicked on Add log button
+2025-05-08 11:03:38,467 - liono360 -INFO - Mobile Log type Selected
+2025-05-08 11:03:41,334 - liono360 -INFO - Outbound Call is Selected
+2025-05-08 11:09:15,650 - liono360 -INFO - URL is opened
+2025-05-08 11:09:16,063 - liono360 -INFO - Username added
+2025-05-08 11:09:16,285 - liono360 -INFO - password added
+2025-05-08 11:09:16,549 - liono360 -INFO - Clicked on submit button
+2025-05-08 11:09:33,816 - liono360 -INFO - Clicked on Lead 
+2025-05-08 11:09:48,011 - liono360 -INFO - clicked on view option
+2025-05-08 11:09:53,258 - liono360 -INFO - clicked on Activity
+2025-05-08 11:09:53,735 - liono360 -INFO - clicked on Add log button
+2025-05-08 11:09:55,643 - liono360 -INFO - Work Log type Selected
+2025-05-08 11:09:57,721 - liono360 -INFO - Selected Logs SubType is Inbound Call
+2025-05-08 11:09:58,107 - liono360 -INFO - Comment is added under Mobile log type
+2025-05-08 11:09:58,404 - liono360 -INFO - Clicked on Save button
+2025-05-08 11:10:05,186 - liono360 -INFO - Clicked on Activity Record
+2025-05-08 11:10:06,304 - liono360 -INFO - Clicked on Edit button
+2025-05-08 11:10:06,814 - liono360 -INFO - Comment is Updated under Mobile log type
+2025-05-08 11:10:07,254 - liono360 -INFO - New Comment is added under for Mobile
+2025-05-08 11:10:07,722 - liono360 -INFO - Clicked on Save button
+2025-05-08 11:10:13,319 - liono360 -INFO - Clicked on Activity Record
+2025-05-08 11:10:15,328 - liono360 -INFO - Clicked on Delete button
+2025-05-08 11:10:15,728 - liono360 -INFO - Clicked on yes button to delete the log
+2025-05-08 11:10:17,425 - liono360 -INFO - Browser Closed
+2025-05-08 11:12:34,999 - liono360 -INFO - URL is opened
+2025-05-08 11:12:35,374 - liono360 -INFO - Username added
+2025-05-08 11:12:35,609 - liono360 -INFO - password added
+2025-05-08 11:12:35,864 - liono360 -INFO - Clicked on submit button
+2025-05-08 11:12:51,831 - liono360 -INFO - Clicked on Lead 
+2025-05-08 11:13:05,484 - liono360 -INFO - clicked on view option
+2025-05-08 11:13:09,507 - liono360 -INFO - clicked on Activity
+2025-05-08 11:13:09,964 - liono360 -INFO - clicked on Add log button
+2025-05-08 11:13:11,755 - liono360 -INFO - Work Log type Selected
+2025-05-08 11:13:13,837 - liono360 -INFO - Selected Logs SubType is Inbound Call
+2025-05-08 11:13:14,339 - liono360 -INFO - Comment is added under Work log type
+2025-05-08 11:13:14,695 - liono360 -INFO - Clicked on Save button
+2025-05-08 11:13:20,881 - liono360 -INFO - Clicked on Activity Record
+2025-05-08 11:13:21,849 - liono360 -INFO - Clicked on Edit button
+2025-05-08 11:13:22,529 - liono360 -INFO - Comment is Updated under Mobile log type
+2025-05-08 11:13:23,058 - liono360 -INFO - New Comment is added under for Work
+2025-05-08 11:13:23,423 - liono360 -INFO - Clicked on Save button
+2025-05-08 11:13:28,542 - liono360 -INFO - Clicked on Activity Record
+2025-05-08 11:13:29,889 - liono360 -INFO - Clicked on Delete button
+2025-05-08 11:13:30,260 - liono360 -INFO - Clicked on yes button to delete the log
+2025-05-08 11:13:32,246 - liono360 -INFO - Browser Closed
+2025-05-08 11:17:19,483 - liono360 -INFO - URL is opened
+2025-05-08 11:17:19,862 - liono360 -INFO - Username added
+2025-05-08 11:17:20,051 - liono360 -INFO - password added
+2025-05-08 11:17:20,289 - liono360 -INFO - Clicked on submit button
+2025-05-08 11:17:35,936 - liono360 -INFO - Clicked on Lead 
+2025-05-08 11:17:49,771 - liono360 -INFO - clicked on view option
+2025-05-08 11:17:53,998 - liono360 -INFO - clicked on Activity
+2025-05-08 11:17:54,432 - liono360 -INFO - clicked on Add log button
+2025-05-08 11:17:56,379 - liono360 -INFO - Works Log type Selected
+2025-05-08 11:17:59,158 - liono360 -INFO - Outbound Call is Selected
+2025-05-08 11:17:59,559 - liono360 -INFO - Comment is added under Works log type
+2025-05-08 11:17:59,914 - liono360 -INFO - Clicked on Save button
+2025-05-08 11:18:05,629 - liono360 -INFO - Clicked on Activity Record
+2025-05-08 11:18:06,532 - liono360 -INFO - Clicked on Edit button
+2025-05-08 11:18:07,062 - liono360 -INFO - Comment is Updated under Works log type
+2025-05-08 11:18:07,653 - liono360 -INFO - New Comment is added under for Works
+2025-05-08 11:18:08,013 - liono360 -INFO - Clicked on Save button
+2025-05-08 11:18:13,127 - liono360 -INFO - Clicked on Activity Record
+2025-05-08 11:18:14,282 - liono360 -INFO - Clicked on Delete button
+2025-05-08 11:18:14,661 - liono360 -INFO - Clicked on yes button to delete the log
+2025-05-08 11:18:16,457 - liono360 -INFO - Browser Closed

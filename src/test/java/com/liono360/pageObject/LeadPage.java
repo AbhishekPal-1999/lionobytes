@@ -1047,6 +1047,13 @@ public class LeadPage {
 		return Mobile;
 		}
 	
+	@FindBy(xpath="//div[@class=\"p-d-flex ng-star-inserted\"]//div[text()=\"Work\"]")
+	WebElement Work;
+
+	public WebElement Works() {
+		return Work;
+		}
+	
 	@FindBy(xpath="//div[text()=\"Outbound Call\"]")
 	WebElement OutBound;
 
