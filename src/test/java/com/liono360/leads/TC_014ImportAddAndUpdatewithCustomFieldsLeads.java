@@ -8,7 +8,6 @@ import org.testng.annotations.Test;
 import com.liono360.loginPage.Baseclass;
 import com.liono360.pageObject.Import;
 
-import ExcelWriteCodeImports.TC_003AddAndUpdateDataExcelFileLead;
 
 
 public class TC_014ImportAddAndUpdatewithCustomFieldsLeads extends Baseclass {
@@ -54,8 +53,6 @@ public class TC_014ImportAddAndUpdatewithCustomFieldsLeads extends Baseclass {
 		
 		
 		Thread.sleep(5000);
-		TC_003AddAndUpdateDataExcelFileLead addupdate = new TC_003AddAndUpdateDataExcelFileLead();
-		addupdate.AddAndUpdateWithCustom();
 		logger.info("Add And Update  Default Data In Excel File");
 		
 		

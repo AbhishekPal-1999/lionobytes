@@ -17,7 +17,6 @@ import com.liono360.pageObject.Import;
 import com.liono360.pageObject.LeadPage;
 import com.liono360.pageObject.LoginPage;
 
-import ExcelWriteCodeImports.TC_003AddAndUpdateDataExcelFileLead;
 
 
 public class TC_013ImportAddAndUpdatewithDefaultFieldsLeads extends Baseclass {
@@ -63,8 +62,6 @@ public class TC_013ImportAddAndUpdatewithDefaultFieldsLeads extends Baseclass {
 		
 		
 		Thread.sleep(5000);
-		TC_003AddAndUpdateDataExcelFileLead addupdate = new TC_003AddAndUpdateDataExcelFileLead();
-		addupdate.TryExcelFileWriteCodeTest();
 		logger.info("Add And Update  Default Data In Excel File");
 		
 		

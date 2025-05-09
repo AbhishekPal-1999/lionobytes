@@ -9,7 +9,7 @@ import com.liono360.loginPage.Baseclass;
 import com.liono360.pageObject.Import;
 import com.liono360.pageObject.LeadPage;
 
-import ExcelWriteCodeImports.TC_001AddDataExcelFileLead;
+
 
 
 public class TC_010ImportAddwithCustomFieldsLeads extends Baseclass{
@@ -50,8 +50,7 @@ Import leads = new Import(driver);
 		
 		
 		Thread.sleep(5000);
-		TC_001AddDataExcelFileLead add = new TC_001AddDataExcelFileLead ();
-		add.AddwithcustomFileds();
+		
 		logger.info("Excel Data Write");
 		
 		 

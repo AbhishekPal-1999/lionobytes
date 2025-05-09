@@ -50,8 +50,7 @@ public class TC_009ImportAddWithDefaultFiledLeads extends Baseclass {
 		
 		
 		Thread.sleep(5000);
-		ExcelWriteCodeImports.TC_001AddDataExcelFileLead add1 = new ExcelWriteCodeImports.TC_001AddDataExcelFileLead();
-		add1.TryExcelFileWriteCodeTest();
+		
 		logger.info("Excel Data Write");
 		
 	

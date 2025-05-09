@@ -18,7 +18,6 @@ import com.liono360.pageObject.Import;
 import com.liono360.pageObject.LeadPage;
 import com.liono360.pageObject.LoginPage;
 
-import ExcelWriteCodeImports.TC_002UpadteDataExcelFileLead;
 
 public class TC_012ImportUpdatedwithCustomFieldsLeads extends Baseclass {
 
@@ -64,8 +63,6 @@ public class TC_012ImportUpdatedwithCustomFieldsLeads extends Baseclass {
 		
 		
 		Thread.sleep(5000);
-		TC_002UpadteDataExcelFileLead upadteDefault = new TC_002UpadteDataExcelFileLead();
-		upadteDefault.UpdateWithCustomFileds();
 		logger.info("Update  Default Data In Excel File");
 		
 		

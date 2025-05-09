@@ -14,7 +14,6 @@ import com.liono360.pageObject.Import;
 import com.liono360.pageObject.LeadPage;
 import com.liono360.pageObject.LoginPage;
 
-import ExcelWriteCodeImports.TC_018AppendUpdateExcelcodeOnLeads;
 
 
 
@@ -78,8 +77,6 @@ public class TC_019UpdateAppendOnLeads extends Baseclass{
 		
 		
 		Thread.sleep(5000);
-		TC_018AppendUpdateExcelcodeOnLeads upadteAppend= new TC_018AppendUpdateExcelcodeOnLeads();
-		upadteAppend.TryExcelFileWriteCodeTest();
 		logger.info("Update  Default Data In Excel File");
 		
 		

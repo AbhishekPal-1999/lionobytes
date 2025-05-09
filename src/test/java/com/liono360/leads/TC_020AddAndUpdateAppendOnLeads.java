@@ -12,7 +12,6 @@ import com.liono360.pageObject.Import;
 import com.liono360.pageObject.LeadPage;
 import com.liono360.pageObject.LoginPage;
 
-import ExcelWriteCodeImports.TC_019AppendAddAndUpdateExcelCodeOnLeads;
 
 
 public class TC_020AddAndUpdateAppendOnLeads extends Baseclass{
@@ -74,8 +73,7 @@ public class TC_020AddAndUpdateAppendOnLeads extends Baseclass{
 		
 		
 		Thread.sleep(5000);
-		TC_019AppendAddAndUpdateExcelCodeOnLeads AddupadteAppend = new TC_019AppendAddAndUpdateExcelCodeOnLeads();
-		AddupadteAppend.TryExcelFileWriteCodeTest();
+		
 		logger.info("Update  Default Data In Excel File");
 		
 		
@@ -125,8 +123,6 @@ public class TC_020AddAndUpdateAppendOnLeads extends Baseclass{
 		Thread.sleep(5000);
 		leads.ContactsClick().click();
 		logger.info("Clicked on Contacts tab");
-		
-		
 		
 		
 	}
