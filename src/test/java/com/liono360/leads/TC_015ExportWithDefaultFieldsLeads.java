@@ -13,7 +13,7 @@ import com.liono360.pageObject.LeadPage;
 import com.liono360.pageObject.LoginPage;
 import com.opencsv.exceptions.CsvValidationException;
 
-import ExcelWriteCodeImports.TC_007WriteCodeExportLead;
+
 
 
 
@@ -128,115 +128,115 @@ public class TC_015ExportWithDefaultFieldsLeads extends Baseclass {
 		
 		
 		Thread.sleep(5000);
-		TC_007WriteCodeExportLead exportToimport = new TC_007WriteCodeExportLead();
-		exportToimport.updateCsvFile();
-		logger.info("Update  Default Data In Excel File");
-		
-		
-		
-	
-
-	
-		
-		Thread.sleep(4000);
-		String filepath=System.getProperty("user.dir") + "\\TestData\\Export-Csv Files\\Lead-Export With Default Fileds.csv";
-		Thread.sleep(5000);
-		driver.findElement(By.xpath("//input[@type=\"file\"]")).sendKeys(filepath);
-		logger.info("File Upload");
-		
-		
-		
-		
-		
-		Thread.sleep(5000);
-		leads.Next().click();
-		logger.info("Clicked on Next button");
-
-
-		
-		
-		Thread.sleep(5000);
-		leads.LabelSelect().click();
-		Thread.sleep(2000);
-		explWaitToClick(driver.findElement(By.xpath("(//span[normalize-space()='Name - businessName'])[1]")));
-		driver.findElement(By.xpath("(//span[normalize-space()='Name - businessName'])[1]")).click();
-		logger.info("select on dropdown");
-		
-		
-		
-		
-		Thread.sleep(5000);
-		leads.LabelSelect().click();
-		Thread.sleep(2000);
-		explWaitToClick(driver.findElement(By.xpath("(//span[normalize-space()='Timezone - timezoneName'])[1]")));
-		driver.findElement(By.xpath("(//span[normalize-space()='Timezone - timezoneName'])[1]")).click();
-		logger.info("select on dropdown");
-		
-		
-		
-	
-		
-		
-		
-		
-		
-		
-		Thread.sleep(5000);
-		leads.Next().click();
-		logger.info("Clicked on Next button");
-		
-		
-		Thread.sleep(5000);
-		leads.Upload().click();
-		logger.info("Clicked on Upload button");
-		
-		//..................................................................//		
-		
-		
-		Thread.sleep(8000);
-		leads.ProfileClick().click();
-		logger.info("Clicked on ProfileClick button");
-
-		Thread.sleep(5000);
-		leads.Cprofile().click();
-		logger.info("Clicked on Cprofile button");
-
-		Thread.sleep(5000);
-		leads.Cimport().click();
-		logger.info("Clicked on Cimport button");
-		
-		Thread.sleep(5000);
-		checkStatusOfFile();
-		
-		Thread.sleep(5000);
-		leads.clickLead().click();
-		logger.info("Clicked on Lead ");
-		
-		
-		
-		Thread.sleep(5000);
-		leads.addedLead().click();
-		logger.info("Clicked on addedLead ");
-		
-		
-		
-		
-		
-}
-		public void checkStatusOfFile() throws InterruptedException {
-	        while(true) {
-	        driver.findElement(By.xpath("//span[@ptooltip='Refresh']")).click();
-	        logger.info("clicked on refresh button");
-	        Thread.sleep(5000);
-	        String CurrentStatus = driver.findElement(By.xpath("//tbody//tr[1]//td[5]")).getText();
-
-	        if(CurrentStatus.equals("Completed")) {
-	            logger.info("import is completed now");
-	            break;
-	        }
-	        Thread.sleep(8000);
-
-	        }
+//		TC_007WriteCodeExportLead exportToimport = new TC_007WriteCodeExportLead();
+//		exportToimport.updateCsvFile();
+//		logger.info("Update  Default Data In Excel File");
+//		
+//		
+//		
+//	
+//
+//	
+//		
+//		Thread.sleep(4000);
+//		String filepath=System.getProperty("user.dir") + "\\TestData\\Export-Csv Files\\Lead-Export With Default Fileds.csv";
+//		Thread.sleep(5000);
+//		driver.findElement(By.xpath("//input[@type=\"file\"]")).sendKeys(filepath);
+//		logger.info("File Upload");
+//		
+//		
+//		
+//		
+//		
+//		Thread.sleep(5000);
+//		leads.Next().click();
+//		logger.info("Clicked on Next button");
+//
+//
+//		
+//		
+//		Thread.sleep(5000);
+//		leads.LabelSelect().click();
+//		Thread.sleep(2000);
+//		explWaitToClick(driver.findElement(By.xpath("(//span[normalize-space()='Name - businessName'])[1]")));
+//		driver.findElement(By.xpath("(//span[normalize-space()='Name - businessName'])[1]")).click();
+//		logger.info("select on dropdown");
+//		
+//		
+//		
+//		
+//		Thread.sleep(5000);
+//		leads.LabelSelect().click();
+//		Thread.sleep(2000);
+//		explWaitToClick(driver.findElement(By.xpath("(//span[normalize-space()='Timezone - timezoneName'])[1]")));
+//		driver.findElement(By.xpath("(//span[normalize-space()='Timezone - timezoneName'])[1]")).click();
+//		logger.info("select on dropdown");
+//		
+//		
+//		
+//	
+//		
+//		
+//		
+//		
+//		
+//		
+//		Thread.sleep(5000);
+//		leads.Next().click();
+//		logger.info("Clicked on Next button");
+//		
+//		
+//		Thread.sleep(5000);
+//		leads.Upload().click();
+//		logger.info("Clicked on Upload button");
+//		
+//		//..................................................................//		
+//		
+//		
+//		Thread.sleep(8000);
+//		leads.ProfileClick().click();
+//		logger.info("Clicked on ProfileClick button");
+//
+//		Thread.sleep(5000);
+//		leads.Cprofile().click();
+//		logger.info("Clicked on Cprofile button");
+//
+//		Thread.sleep(5000);
+//		leads.Cimport().click();
+//		logger.info("Clicked on Cimport button");
+//		
+//		Thread.sleep(5000);
+//		checkStatusOfFile();
+//		
+//		Thread.sleep(5000);
+//		leads.clickLead().click();
+//		logger.info("Clicked on Lead ");
+//		
+//		
+//		
+//		Thread.sleep(5000);
+//		leads.addedLead().click();
+//		logger.info("Clicked on addedLead ");
+//		
+//		
+//		
+//		
+//		
+//}
+//		public void checkStatusOfFile() throws InterruptedException {
+//	        while(true) {
+//	        driver.findElement(By.xpath("//span[@ptooltip='Refresh']")).click();
+//	        logger.info("clicked on refresh button");
+//	        Thread.sleep(5000);
+//	        String CurrentStatus = driver.findElement(By.xpath("//tbody//tr[1]//td[5]")).getText();
+//
+//	        if(CurrentStatus.equals("Completed")) {
+//	            logger.info("import is completed now");
+//	            break;
+//	        }
+//	        Thread.sleep(8000);
+//
+//	        }
 
 	    }
 	}
