@@ -13,7 +13,7 @@ import com.liono360.pageObject.LeadPage;
 import com.liono360.pageObject.LoginPage;
 import com.liono360.utility.ExcelDataProvider;
 
-public class TC_0012ActivityLogsWorkOutboundCall extends Baseclass{
+public class TC_0021ActivityLogsPhoneOutboundCall extends Baseclass{
 	
 	@Test
 	public void TC0011_ActivityLogsPhobeInboundCall() throws InterruptedException, IOException {
@@ -33,9 +33,10 @@ public class TC_0012ActivityLogsWorkOutboundCall extends Baseclass{
 		
 		TryClick(leads.listedLeads());
 		logger.info("clicked on view option");
-			   
+		
+	   
 
-// Activity Works Inbounds Call====================================================================================================		
+// Activity Mobile Inbounds Call====================================================================================================		
 		TryClick(leads.Activity_Lead());
 		logger.info("clicked on Activity");
 		
@@ -44,8 +45,8 @@ public class TC_0012ActivityLogsWorkOutboundCall extends Baseclass{
 		
 		TryClick(leads.Log_Types());
 		Thread.sleep(1000);
-		TryClick(leads.Works());
-		logger.info("Works Log type Selected");
+		TryClick(leads.Mobiles());
+		logger.info("Mobile Log type Selected");
 		
 		
 		Thread.sleep(2000);
@@ -54,13 +55,13 @@ public class TC_0012ActivityLogsWorkOutboundCall extends Baseclass{
 		logger.info("Outbound Call is Selected");
 		
 		
-		leads.Add_Comments().sendKeys("This comment represent the Works");
-		logger.info("Comment is added under Works log type");
+		leads.Add_Comments().sendKeys("This comment represent the Mobile");
+		logger.info("Comment is added under Mobile log type");
 		
 		TryClick(leads.clickSave());
 		logger.info("Clicked on Save button");
 
-// Edit Works Inbounds Call========================================================================================================
+// Edit Mobile Inbounds Call========================================================================================================
 
 		waitUntilPageLoad();
 		Thread.sleep(1000);
@@ -72,17 +73,16 @@ public class TC_0012ActivityLogsWorkOutboundCall extends Baseclass{
 		logger.info("Clicked on Edit button");
 				
 		leads.Add_Comments().clear();
-		leads.Add_Comments().sendKeys("This comment represent the Updated Works");
-		logger.info("Comment is Updated under Works log type");
+		leads.Add_Comments().sendKeys("This comment represent the Updated Mobile");
+		logger.info("Comment is Updated under Mobile log type");
 				
-		leads.Edit_Add_Comments().sendKeys("This comment represent the new comment while edit Works");
-		logger.info("New Comment is added under for Works");
+		leads.Edit_Add_Comments().sendKeys("This comment represent the new comment while edit Mobile");
+		logger.info("New Comment is added under for Mobile");
 				
 		TryClick(leads.SaveAllDetails());
 		logger.info("Clicked on Save button");
 
-//Delete Works Inbounds Call============================================================================================
-		
+//Delete Mobile Inbounds Call============================================================================================
 		waitUntilPageLoad();
 		Thread.sleep(1000);
 				

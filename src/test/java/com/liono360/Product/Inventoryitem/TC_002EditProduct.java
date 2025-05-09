@@ -16,22 +16,29 @@ public class TC_002EditProduct extends Baseclass{
 	//	redirectToCRM();
 		
 		ProductPage products = new ProductPage(driver);
+		
+		waitUntilPageLoad();
+		Thread.sleep(10000);
 		TryClick(products.clickInventory());
 		logger.info("Clicked on inventory button");
 		
+		
 		TryClick(products.clickProduct());
 		logger.info("Clicked on product to load the list");
-		Thread.sleep(10000);
 		
 		
-		mouseActionRightClick(driver, products.listedProductIs());
+		TryClick(products.btnInventoryItems());
+		logger.info("Clicked on inventory Item button");
+		
+		
+		waitUntilPageLoad();
+		Thread.sleep(2000);
+		mouseActionRightClick(driver,products.listedProductIs());
 		Thread.sleep(2000);
 		
 		TryClick(products.clickEditOption());
-	    
 	    logger.info("Clicked on edit button for the product");
 
-	    // Make the necessary changes to the product
 	  
 	    TryClick(products.setItemNo());
 	    products.setItemNo().clear();

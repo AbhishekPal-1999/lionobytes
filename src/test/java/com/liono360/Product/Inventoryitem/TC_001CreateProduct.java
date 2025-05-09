@@ -18,30 +18,33 @@ public class TC_001CreateProduct extends Baseclass {
 
 
 		//redirectToCRM();
-		waitUntilPageLoad();
-		Thread.sleep(4000);
 		ProductPage products = new ProductPage(driver);
-		TryClick(products.clickInventory());
-		logger.info("Clicked on inventory button");
-		waitUntilPageLoad();
-		TryClick(products.clickProduct());
-		logger.info("Clicked on product to load the list");
+		
 		waitUntilPageLoad();
 		Thread.sleep(10000);
-
+		TryClick(products.clickInventory());
+		logger.info("Clicked on inventory button");
+		
+		
+		TryClick(products.clickProduct());
+		logger.info("Clicked on product to load the list");
+		
+		
+		TryClick(products.btnInventoryItems());
+		logger.info("Clicked on inventory Item button");
+		
+		waitUntilPageLoad();
+		Thread.sleep(2000);
 		TryClick(products.clickAddNewProduct());
 		logger.info("Clicked on add new product button");
-		waitUntilPageLoad();
+		
 
-		products.setItemNo().sendKeys("item"+ randomnumber());
+		products.setItemNo().sendKeys("item No "+ randomnumber());
 
 		String addedProduct = products.setItemNo().getAttribute("value");
 
 		logger.info("Added product item no.");
 
-		/*
-		 * SelectDropdown(products.clickcolor(),2); logger.info("click item color");
-		 */
 		TryClick(products.setManugacturerItemNo());
 		logger.info("click manufacturer no");
 
@@ -50,28 +53,23 @@ public class TC_001CreateProduct extends Baseclass {
 
 
 		TryClick(products.selectCategory());
-		logger.info("click category");
 		TryClick(products.clickdrpchoicecategory());
+		logger.info("click category");
+		
 
-		TryClick(products.setManugacturerItemNo());
-		logger.info("click manufacturer no");
-
-		TryClick(products.selectVariant());
+		SelectDropdown(products.selectVariant(),1);
 		logger.info("select variant no");
-		TryClick(products.clickdrpVarientchoice());
-		logger.info("click varient");
-
-		//	Thread.sleep(1000);
+	
 
 		TryClick(products.clickUOM());
 		logger.info("click UOM");
 
-		//	Thread.sleep(1000);
+		
 		TryClick(driver.findElement(By.xpath("(//li[@aria-label='Each'])")));
 		logger.info("click UOM Each");
 		TryClick(products.clickBarcode());
 		logger.info("click Barcode");
-		//	Thread.sleep(1000);
+		
 		products.clickBarcode().sendKeys("Product789"+randomnumber());
 		logger.info("fill barcode no");
 
@@ -80,18 +78,18 @@ public class TC_001CreateProduct extends Baseclass {
 
 		products.clicklength().clear();
 		logger.info("click length");
-		//	Thread.sleep(1000);
+		
 		products.clicklength().sendKeys("19");
 		logger.info("fill length");
-		//Thread.sleep(1000);
+	
 		TryClick(products.clickWidth());
-		//	Thread.sleep(1000);
+	
 		products.clickWidth().clear();
 		logger.info("click width");
-		//	Thread.sleep(1000);
+	
 		products.clickWidth().sendKeys("6");
 		logger.info("fill width");
-		//	Thread.sleep(1000);
+		
 		TryClick(products.clickHeight());
 		//Thread.sleep(1000);
 		products.clickHeight().clear();
@@ -134,12 +132,7 @@ public class TC_001CreateProduct extends Baseclass {
 		//		Thread.sleep(1000);
 		jsScroll(driver,products.selectCustomerTypeList());
 
-		/*
-		 * TryClick(products.clickmanufacturervendor());
-		 * logger.info("select manufacturer vendor"); // Thread.sleep(1000);
-		 * Tryciproducts.clickselectVendor().click(); logger.info("select vendor"); //
-		 * Thread.sleep(1000);
-		 */				
+		
 		TryClick(products.clickManufacturerCountry());
 
 		logger.info("select manufacturer country");
@@ -156,34 +149,41 @@ public class TC_001CreateProduct extends Baseclass {
 		//	Thread.sleep(2000);
 
 		TryClick(products.clicksales());
-
-
-
 		logger.info("click sales"); 
-		TryClick(products.clickcost());
+		
+		Thread.sleep(1000);
 		products.clickcost().clear();
-		products.clickcost().sendKeys("7"+randomnumber()); logger.info("fill cost");
-		TryClick(products.clickSaleprizze());
+		products.clickcost().sendKeys("50"); 
+		logger.info("fill cost");
+		
+		Thread.sleep(1000);
 		products.clickSaleprizze().clear();
-		products.clickSaleprizze().sendKeys("7"+randomnumber()); logger.info("fill cost");
+		products.clickSaleprizze().sendKeys("50");
+		logger.info("Sales Price");
 
+		TryClick(products.click_Finance());
+		logger.info("click Finance"); 
+		
 		TryClick(products.clickSelectClass());
+		
 		TryClick(products.clickdrpchoicecategory());
-		logger.info("selected warranty");
+		logger.info("selected Class");
+		
+		TryClick(products.click_Location());
+		logger.info("click Location"); 
+		
+//		products.AddQtyOnHand().sendKeys("30");
+//		logger.info("Add QtyOnHand");
 
-			Thread.sleep(2000);
+		Thread.sleep(2000);
 		TryClick(products.clickSave());
-
-		Thread.sleep(5000);
 		logger.info("Clicked on save");
+		
 		waitUntilPageLoad();
-	
-
+		Thread.sleep(2000);
+// Assertions===========================================================================================================
 
 		String listedProduct = products.listedProductIs().getText();
-
-
-
 		System.out.println("Provided Lead name to create: "+addedProduct);
 		System.out.println("Listed Lead name after create: "+listedProduct);
 		if (addedProduct.equalsIgnoreCase(listedProduct)) {

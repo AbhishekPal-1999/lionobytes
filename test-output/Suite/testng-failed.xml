@@ -6,13 +6,20 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.liono360.leads.TC_003EditLead">
+      <class name="com.liono360.Product.Inventoryitem.TC_004DeleteProduct">
         <methods>
-          <include name="TC003_EditLead"/>
+          <include name="DeleteProductTest"/>
           <include name="teardown"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.liono360.leads.TC_003EditLead -->
+      </class> <!-- com.liono360.Product.Inventoryitem.TC_004DeleteProduct -->
+      <class name="com.liono360.Product.Inventoryitem.TC_003ViewProduct">
+        <methods>
+          <include name="teardown"/>
+          <include name="ViewProductTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.liono360.Product.Inventoryitem.TC_003ViewProduct -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
