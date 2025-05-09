@@ -55,6 +55,13 @@ public class ProductPage extends Baseclass{
 		return btnInventory;
 	}
 	
+	@FindBy(xpath = "//*[text()='Inventory Item']")
+	WebElement btnInventoryItem;
+
+	public WebElement btnInventoryItems() {
+		return btnInventoryItem;
+	}
+	
 	@FindBy(xpath = "//*[text()='Products']")
 	WebElement btnProduct;
 
@@ -122,7 +129,7 @@ public class ProductPage extends Baseclass{
 	public WebElement ClickBill() {
 		return textBill;
 	}
-	@FindBy(xpath = "//p-dropdown[@placeholder='Select Variant']//div//div[@aria-label='dropdown trigger']")
+	@FindBy(xpath = "//span[@aria-label=\"Select Variant\"]")
 	WebElement drpVariant;
 
 	public WebElement selectVariant() {
@@ -158,7 +165,7 @@ public class ProductPage extends Baseclass{
 		return btncreatebill;
 	}
 	
-	@FindBy(xpath = "//div[contains(text(),'Select Category')]")
+	@FindBy(xpath = "//liono-treeselect[@placeholder=\"Select Category\"]//div[contains(@class,'p-treeselect p-component p-inputwrapper')]")
 	WebElement drpCategory;
 
 	public WebElement selectCategory() {
@@ -172,7 +179,7 @@ public class ProductPage extends Baseclass{
 		return drpshippingbtn;
 	}
 	
-	@FindBy(xpath="(//div[@role='treeitem'])[1]")
+	@FindBy(xpath="(//span[@class=\"p-treenode-label\"])[1]")
 	WebElement drpchoicecategory;
 	
 	public WebElement clickdrpchoicecategory() {
@@ -230,12 +237,20 @@ public class ProductPage extends Baseclass{
 	public WebElement clickNoninvendescription() {
 		return nonivendescription;
 	}
+	@FindBy(xpath="//span[text()='Cancel']")
+	WebElement Cancel;
+	
+	public WebElement Cancel_bttn() {
+		return Cancel;
+	}
+	
 	@FindBy(xpath="//tbody/tr[1]/td[2]")
 	WebElement listedProductName;
 	
 	public WebElement listedProductIs() {
 		return listedProductName;
 	}
+	
 	@FindBy(xpath="//input[@id='barcode']")
 	WebElement txtbarcode;
 	
@@ -257,7 +272,7 @@ public class ProductPage extends Baseclass{
 		return txtcolor;
 	}
 	
-	@FindBy (xpath="//button[@label='Save']")
+	@FindBy (xpath="//span[text()='Save']")
 	WebElement btnSave;
 	
 	public WebElement clickSave() {
@@ -286,6 +301,23 @@ public class ProductPage extends Baseclass{
 	public WebElement clicksales() {
 		return btnSales;
 	}
+	
+	@FindBy(xpath="//span[text()='Location']")
+	WebElement btnLocation;
+	
+	public WebElement click_Location() {
+		return btnLocation;
+	}
+	
+	@FindBy(xpath="(//span[text()='Finance'])[2]")
+	WebElement btnFinances;
+	
+	public WebElement click_Finance() {
+		return btnFinances;
+	}
+	
+	
+	
 	@FindBy(xpath="(//input[@inputmode='decimal'])[2]")
 	WebElement btnWidth;
 	
@@ -419,6 +451,17 @@ public class ProductPage extends Baseclass{
 	public WebElement clickDeleteOption() {
 		return btnDelete;
 	}
+	
+	@FindBy(xpath="//p-inputnumber[@formcontrolname=\"totalQty\"]//input[@role=\"spinbutton\"]")
+	WebElement QtyOnHand;
+	
+	public WebElement AddQtyOnHand() {
+		return QtyOnHand;
+	}
+	
+	
+	
+	
 	@FindBy(xpath="//liono-treeselect[@placeholder='Select Class']//div//div//span")
 	WebElement btnclass;
 	

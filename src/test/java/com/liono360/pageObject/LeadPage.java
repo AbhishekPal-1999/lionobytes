@@ -121,6 +121,13 @@ public class LeadPage {
 	public WebElement clickViewLead() {
 		return btnViewLead;
 	}
+	
+	@FindBy(xpath = "//i[@class=\"pi pi-eye\"]")
+	WebElement btnViewContact;
+
+	public WebElement btn_View_Contact() {
+		return btnViewContact;
+	}
 
 	@FindBy(xpath = "//h5[contains(text(),'View Lead')]")
 	WebElement txtViewLeadHeader;
@@ -294,76 +301,7 @@ public class LeadPage {
 		return drpCurrency;
 	}
 
-	// @FindBy(xpath = "//div[@id='p-tabpanel-0']//p-checkbox[1]")
-	// WebElement leadnarjulcustomcheckbox;
 
-	// public WebElement Leadnarjulcustomcheckbox() {
-	// return leadnarjulcustomcheckbox;
-	// }
-
-	// @FindBy(xpath = "(//p-dropdown[@datakey='name'])[1]")
-	// WebElement leadFildDDL;
-
-	// public WebElement LeadFildDDL() {
-	// return leadFildDDL;
-	// }
-
-	// @FindBy(xpath = "(//p-multiselect[@datakey='name'])[1]")
-	// WebElement leadFildMDDL;
-
-	// public WebElement leadFildMDDL() {
-	// return leadFildMDDL;
-	// }
-
-	// @FindBy(xpath = "(//div[@class='p-radiobutton-box'])[2]")
-	// WebElement leadFildRatio;
-
-	// public WebElement LeadFildRatio() {
-	// return leadFildRatio;
-	// }
-
-	// @FindBy(xpath = "//p-calendar[@placeholder='dd/mm/yyyy']")
-	// WebElement leaddatepicker;
-
-	// public WebElement leadDatepicker() {
-	// return leaddatepicker;
-	// }
-
-	// @FindBy(xpath = "(//input[@type='text'])[30]")
-	// WebElement Leadinputinfo1;
-
-	// public WebElement Leadinputinfo1() {
-	// return Leadinputinfo1;
-	// }
-
-	// @FindBy(xpath =
-	// "//body[1]/app-root[1]/app-main[1]/div[1]/div[1]/div[1]/app-leads[1]/app-add-update-view-lead[1]/p-dialog[1]/div[1]/div[1]/div[2]/form[1]/p-tabview[1]/div[1]/div[2]/p-tabpanel[1]/div[1]/div[1]/app-shared-custom-fields-template[1]/div[1]/div[7]/input[1]")
-	// WebElement Leadinputinfo2;
-
-	// public WebElement Leadinputinfo2() {
-	// return Leadinputinfo2;
-	// }
-
-	// @FindBy(xpath = "(//p-dropdown[@appendto='body'])[7]")
-	// WebElement DDinfoR;
-
-	// public WebElement DDinfoR() {
-	// return DDinfoR;
-	// }
-
-	// @FindBy(xpath = "(//p-dropdown[@appendto='body'])[8]")
-	// WebElement DDinfo;
-
-	// public WebElement DDinfo() {
-	// return DDinfo;
-	// }
-
-	// @FindBy(xpath = "(//p-multiselect[@appendto='body'])[3]")
-	// WebElement MultiDD1;
-
-	// public WebElement MultiDD1() {
-	// return MultiDD1;
-	// }
 
 	@FindBy(xpath = "//span[text()='Lead Details']")
 	WebElement clickonleadDetails;
@@ -387,12 +325,33 @@ public class LeadPage {
 	public WebElement setTaxId() {
 		return txtTaxId;
 	}
+	
+	@FindBy(xpath = "")
+	WebElement PrimaryBttn;
+
+	public WebElement Primary_Bttn() {
+		return PrimaryBttn;
+	}
+	
+	@FindBy(xpath = "//i[@class=\"pi pi-trash\"]")
+	WebElement DeleteBttn;
+
+	public WebElement Delete_Bttn() {
+		return DeleteBttn;
+	}
 
 	@FindBy(xpath = "//p-dropdown[@placeholder=\"Select Employee\"]")
 	WebElement drpEmployee;
 
 	public WebElement selectEmployee() {
 		return drpEmployee;
+	}
+	
+	@FindBy(xpath = "//span[text()=\"Yes\"]")
+	WebElement YesBttn;
+
+	public WebElement Yes_Bttn() {
+		return YesBttn;
 	}
 
 	@FindBy(xpath = "//p-dropdown[@placeholder='Select Revenue']")
@@ -982,12 +941,20 @@ public class LeadPage {
 		return btnAction;	
 	}
 	
+	@FindBy(xpath = "//span[text()='Import']")
+    WebElement Import;
+
+	public WebElement Imports() {
+	return Import;	
+	}
+	
 	@FindBy(xpath = "//span[text()='New']")
     WebElement NewLead;
 
 	public WebElement NewLead() {
 	return NewLead;	
 	}
+	
 	
 	@FindBy(xpath="//input[@placeholder=\"Search...\"]")
 	WebElement btnSearch;
@@ -1053,6 +1020,30 @@ public class LeadPage {
 	public WebElement Works() {
 		return Work;
 		}
+	
+
+	@FindBy(xpath="//span[text()=\"Contacts\"]")
+	WebElement Contacts;
+
+	public WebElement Contact_Tab() {
+		return Contacts;
+		}
+	
+	@FindBy(xpath="//i[@class=\"pi pi-plus\"]")
+	WebElement AddContact;
+
+	public WebElement Add_Contact() {
+		return AddContact;
+		}
+	
+	@FindBy(xpath="//i[@class=\"pi pi-pencil\"]")
+	WebElement EditContact;
+
+	public WebElement Edit_Contact() {
+		return EditContact;
+		}
+	
+	
 	
 	@FindBy(xpath="//div[text()=\"Outbound Call\"]")
 	WebElement OutBound;

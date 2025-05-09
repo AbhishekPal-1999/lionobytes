@@ -16,13 +16,22 @@ public class TC_004DeleteProduct extends Baseclass{
 	//	redirectToCRM();
 		
 		ProductPage products = new ProductPage(driver);
+		waitUntilPageLoad();
+		Thread.sleep(10000);
 		TryClick(products.clickInventory());
 		logger.info("Clicked on inventory button");
 		
+		
 		TryClick(products.clickProduct());
 		logger.info("Clicked on product to load the list");
+		
+		
+		TryClick(products.btnInventoryItems());
+		logger.info("Clicked on inventory Item button");
+		
+		
 		waitUntilPageLoad();
-		Thread.sleep(10000);
+		Thread.sleep(2000);
 		
 		
 		mouseActionRightClick(driver, products.listedProductIs());

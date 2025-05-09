@@ -6919,3 +6919,842 @@
 2025-05-08 11:18:14,282 - liono360 -INFO - Clicked on Delete button
 2025-05-08 11:18:14,661 - liono360 -INFO - Clicked on yes button to delete the log
 2025-05-08 11:18:16,457 - liono360 -INFO - Browser Closed
+2025-05-08 11:32:43,365 - liono360 -INFO - URL is opened
+2025-05-08 11:32:43,726 - liono360 -INFO - Username added
+2025-05-08 11:32:43,946 - liono360 -INFO - password added
+2025-05-08 11:32:44,189 - liono360 -INFO - Clicked on submit button
+2025-05-08 11:33:07,775 - liono360 -INFO - Clicked on Lead 
+2025-05-08 12:01:21,885 - liono360 -INFO - URL is opened
+2025-05-08 12:01:22,338 - liono360 -INFO - Username added
+2025-05-08 12:01:22,559 - liono360 -INFO - password added
+2025-05-08 12:01:22,786 - liono360 -INFO - Clicked on submit button
+2025-05-08 12:01:38,692 - liono360 -INFO - Clicked on Lead 
+2025-05-08 12:01:52,658 - liono360 -INFO - clicked on view option
+2025-05-08 12:01:58,252 - liono360 -INFO - Clicked on Contact Tab
+2025-05-08 12:02:13,915 - liono360 -INFO - Contact type selected
+2025-05-08 12:02:14,181 - liono360 -INFO - sendkeys on first name
+2025-05-08 12:02:14,484 - liono360 -INFO - sendkeys on middle name
+2025-05-08 12:02:14,749 - liono360 -INFO - sendkeys on last name
+2025-05-08 12:02:15,139 - liono360 -INFO - sendkeys on email adress
+2025-05-08 12:02:17,689 - liono360 -INFO - Phone Number is added
+2025-05-08 12:02:18,253 - liono360 -INFO - Clicked on showmore button
+2025-05-08 12:02:19,976 - liono360 -INFO - Geneder selected
+2025-05-08 12:02:21,357 - liono360 -INFO - Department Added
+2025-05-08 12:02:23,382 - liono360 -INFO - DOB date added
+2025-05-08 12:02:25,761 - liono360 -INFO - selected Language Spoken
+2025-05-08 12:02:27,734 - liono360 -INFO - selected Joining Date
+2025-05-08 12:02:29,456 - liono360 -INFO - Job Function Added
+2025-05-08 12:02:31,223 - liono360 -INFO - Relationship Added
+2025-05-08 12:02:32,940 - liono360 -INFO - marital status Added
+2025-05-08 12:02:35,740 - liono360 -INFO - source of contact Added
+2025-05-08 12:02:37,470 - liono360 -INFO - annual income added
+2025-05-08 12:02:39,181 - liono360 -INFO - degree added
+2025-05-08 12:02:40,978 - liono360 -INFO - field of study added
+2025-05-08 12:02:41,351 - liono360 -INFO - sendkeys on Notes
+2025-05-08 12:02:41,797 - liono360 -INFO - click on AdressIcon
+2025-05-08 12:02:42,685 - liono360 -INFO - Address type selected
+2025-05-08 12:02:43,355 - liono360 -INFO - Address class selected
+2025-05-08 12:02:57,187 - liono360 -INFO - street address2 added
+2025-05-08 12:03:00,504 - liono360 -INFO - click on Save button for Address Page
+2025-05-08 12:03:02,751 - liono360 -INFO - click on Save button for Contact
+2025-05-08 12:03:16,352 - liono360 -INFO - click on Edit button
+2025-05-08 12:03:22,822 - liono360 -INFO - Title selected
+2025-05-08 12:03:23,206 - liono360 -INFO - sendkeys on first name
+2025-05-08 12:03:23,642 - liono360 -INFO - sendkeys on middle name
+2025-05-08 12:03:23,946 - liono360 -INFO - sendkeys on last name
+2025-05-08 12:03:24,390 - liono360 -INFO - sendkeys on email adress
+2025-05-08 12:03:24,615 - liono360 -INFO - click on Save button for Contact
+2025-05-08 12:03:38,424 - liono360 -INFO - Browser Closed
+2025-05-08 12:07:49,777 - liono360 -INFO - URL is opened
+2025-05-08 12:07:50,226 - liono360 -INFO - Username added
+2025-05-08 12:07:50,432 - liono360 -INFO - password added
+2025-05-08 12:07:50,641 - liono360 -INFO - Clicked on submit button
+2025-05-08 12:08:06,196 - liono360 -INFO - Clicked on Lead 
+2025-05-08 12:08:19,868 - liono360 -INFO - clicked on view option
+2025-05-08 12:08:23,637 - liono360 -INFO - Clicked on Contact Tab
+2025-05-08 12:08:36,832 - liono360 -INFO - Contact type selected
+2025-05-08 12:08:37,119 - liono360 -INFO - sendkeys on first name
+2025-05-08 12:08:37,395 - liono360 -INFO - sendkeys on middle name
+2025-05-08 12:08:37,630 - liono360 -INFO - sendkeys on last name
+2025-05-08 12:08:37,962 - liono360 -INFO - sendkeys on email adress
+2025-05-08 12:08:40,536 - liono360 -INFO - Phone Number is added
+2025-05-08 12:08:41,093 - liono360 -INFO - Clicked on showmore button
+2025-05-08 12:08:42,795 - liono360 -INFO - Geneder selected
+2025-05-08 12:08:44,034 - liono360 -INFO - Department Added
+2025-05-08 12:08:45,946 - liono360 -INFO - DOB date added
+2025-05-08 12:08:48,504 - liono360 -INFO - selected Language Spoken
+2025-05-08 12:08:50,470 - liono360 -INFO - selected Joining Date
+2025-05-08 12:08:52,259 - liono360 -INFO - Job Function Added
+2025-05-08 12:08:54,052 - liono360 -INFO - Relationship Added
+2025-05-08 12:08:55,884 - liono360 -INFO - marital status Added
+2025-05-08 12:08:58,718 - liono360 -INFO - source of contact Added
+2025-05-08 12:09:00,428 - liono360 -INFO - annual income added
+2025-05-08 12:09:02,181 - liono360 -INFO - degree added
+2025-05-08 12:09:03,979 - liono360 -INFO - field of study added
+2025-05-08 12:09:04,457 - liono360 -INFO - sendkeys on Notes
+2025-05-08 12:09:04,813 - liono360 -INFO - click on AdressIcon
+2025-05-08 12:09:05,678 - liono360 -INFO - Address type selected
+2025-05-08 12:09:06,391 - liono360 -INFO - Address class selected
+2025-05-08 12:09:18,780 - liono360 -INFO - street address2 added
+2025-05-08 12:09:22,150 - liono360 -INFO - click on Save button for Address Page
+2025-05-08 12:09:24,394 - liono360 -INFO - click on Save button for Contact
+2025-05-08 12:09:35,015 - liono360 -INFO - click on Edit button
+2025-05-08 12:09:40,185 - liono360 -INFO - Title selected
+2025-05-08 12:09:40,565 - liono360 -INFO - sendkeys on first name
+2025-05-08 12:09:41,005 - liono360 -INFO - sendkeys on middle name
+2025-05-08 12:09:41,456 - liono360 -INFO - sendkeys on last name
+2025-05-08 12:09:42,094 - liono360 -INFO - sendkeys on email adress
+2025-05-08 12:09:42,315 - liono360 -INFO - click on Save button for Contact
+2025-05-08 12:09:52,794 - liono360 -INFO - click on View Contact button
+2025-05-08 12:09:58,843 - liono360 -INFO - click on Cancel button
+2025-05-08 12:10:07,189 - liono360 -INFO - click on Primary button
+2025-05-08 12:10:11,289 - liono360 -INFO - click on Delete button
+2025-05-08 12:10:12,699 - liono360 -INFO - click on Yes button
+2025-05-08 12:10:14,591 - liono360 -INFO - Browser Closed
+2025-05-08 12:13:19,210 - liono360 -INFO - URL is opened
+2025-05-08 12:13:19,655 - liono360 -INFO - Username added
+2025-05-08 12:13:19,847 - liono360 -INFO - password added
+2025-05-08 12:13:20,056 - liono360 -INFO - Clicked on submit button
+2025-05-08 12:13:37,254 - liono360 -INFO - Clicked on Lead 
+2025-05-08 12:13:51,648 - liono360 -INFO - clicked on view option
+2025-05-08 12:13:58,477 - liono360 -INFO - Clicked on Contact Tab
+2025-05-08 12:14:18,474 - liono360 -INFO - Contact type selected
+2025-05-08 12:14:18,791 - liono360 -INFO - sendkeys on first name
+2025-05-08 12:14:19,075 - liono360 -INFO - sendkeys on middle name
+2025-05-08 12:14:19,323 - liono360 -INFO - sendkeys on last name
+2025-05-08 12:14:19,757 - liono360 -INFO - sendkeys on email adress
+2025-05-08 12:14:22,341 - liono360 -INFO - Phone Number is added
+2025-05-08 12:14:22,943 - liono360 -INFO - Clicked on showmore button
+2025-05-08 12:14:24,729 - liono360 -INFO - Geneder selected
+2025-05-08 12:14:25,982 - liono360 -INFO - Department Added
+2025-05-08 12:14:27,904 - liono360 -INFO - DOB date added
+2025-05-08 12:14:30,335 - liono360 -INFO - selected Language Spoken
+2025-05-08 12:14:32,208 - liono360 -INFO - selected Joining Date
+2025-05-08 12:14:33,969 - liono360 -INFO - Job Function Added
+2025-05-08 12:14:35,768 - liono360 -INFO - Relationship Added
+2025-05-08 12:14:37,512 - liono360 -INFO - marital status Added
+2025-05-08 12:14:40,377 - liono360 -INFO - source of contact Added
+2025-05-08 12:14:42,192 - liono360 -INFO - annual income added
+2025-05-08 12:14:43,903 - liono360 -INFO - degree added
+2025-05-08 12:14:45,648 - liono360 -INFO - field of study added
+2025-05-08 12:14:46,129 - liono360 -INFO - sendkeys on Notes
+2025-05-08 12:14:46,546 - liono360 -INFO - click on AdressIcon
+2025-05-08 12:14:47,474 - liono360 -INFO - Address type selected
+2025-05-08 12:14:48,185 - liono360 -INFO - Address class selected
+2025-05-08 12:15:00,616 - liono360 -INFO - street address2 added
+2025-05-08 12:15:03,937 - liono360 -INFO - click on Save button for Address Page
+2025-05-08 12:15:06,181 - liono360 -INFO - click on Save button for Contact
+2025-05-08 12:15:20,753 - liono360 -INFO - click on Edit button
+2025-05-08 12:15:26,285 - liono360 -INFO - Title selected
+2025-05-08 12:15:26,788 - liono360 -INFO - sendkeys on first name
+2025-05-08 12:15:27,232 - liono360 -INFO - sendkeys on middle name
+2025-05-08 12:15:27,805 - liono360 -INFO - sendkeys on last name
+2025-05-08 12:15:28,466 - liono360 -INFO - sendkeys on email adress
+2025-05-08 12:15:28,803 - liono360 -INFO - click on Save button for Contact
+2025-05-08 12:15:41,570 - liono360 -INFO - click on View Contact button
+2025-05-08 12:15:47,163 - liono360 -INFO - click on Cancel button
+2025-05-08 12:15:57,669 - liono360 -INFO - click on Primary button
+2025-05-08 12:16:01,721 - liono360 -INFO - click on Delete button
+2025-05-08 12:16:03,127 - liono360 -INFO - click on Yes button
+2025-05-08 12:16:05,134 - liono360 -INFO - Browser Closed
+2025-05-08 12:19:26,048 - liono360 -INFO - URL is opened
+2025-05-08 12:19:26,489 - liono360 -INFO - Username added
+2025-05-08 12:19:26,732 - liono360 -INFO - password added
+2025-05-08 12:19:27,171 - liono360 -INFO - Clicked on submit button
+2025-05-08 12:19:45,681 - liono360 -INFO - Clicked on Lead 
+2025-05-08 12:20:00,185 - liono360 -INFO - clicked on view option
+2025-05-08 12:20:05,006 - liono360 -INFO - Clicked on Contact Tab
+2025-05-08 12:20:20,074 - liono360 -INFO - Contact type selected
+2025-05-08 12:20:20,380 - liono360 -INFO - sendkeys on first name
+2025-05-08 12:20:20,680 - liono360 -INFO - sendkeys on middle name
+2025-05-08 12:20:20,907 - liono360 -INFO - sendkeys on last name
+2025-05-08 12:20:21,273 - liono360 -INFO - sendkeys on email adress
+2025-05-08 12:20:24,211 - liono360 -INFO - Phone Number is added
+2025-05-08 12:20:25,092 - liono360 -INFO - Clicked on showmore button
+2025-05-08 12:20:26,998 - liono360 -INFO - Geneder selected
+2025-05-08 12:20:28,243 - liono360 -INFO - Department Added
+2025-05-08 12:20:30,275 - liono360 -INFO - DOB date added
+2025-05-08 12:20:33,026 - liono360 -INFO - selected Language Spoken
+2025-05-08 12:20:35,076 - liono360 -INFO - selected Joining Date
+2025-05-08 12:20:36,929 - liono360 -INFO - Job Function Added
+2025-05-08 12:20:38,808 - liono360 -INFO - Relationship Added
+2025-05-08 12:20:40,631 - liono360 -INFO - marital status Added
+2025-05-08 12:20:43,580 - liono360 -INFO - source of contact Added
+2025-05-08 12:20:45,442 - liono360 -INFO - annual income added
+2025-05-08 12:20:47,261 - liono360 -INFO - degree added
+2025-05-08 12:20:49,360 - liono360 -INFO - field of study added
+2025-05-08 12:20:50,035 - liono360 -INFO - sendkeys on Notes
+2025-05-08 12:20:50,505 - liono360 -INFO - click on AdressIcon
+2025-05-08 12:20:51,529 - liono360 -INFO - Address type selected
+2025-05-08 12:20:52,300 - liono360 -INFO - Address class selected
+2025-05-08 12:21:04,886 - liono360 -INFO - street address2 added
+2025-05-08 12:21:08,348 - liono360 -INFO - click on Save button for Address Page
+2025-05-08 12:21:10,606 - liono360 -INFO - click on Save button for Contact
+2025-05-08 12:21:22,750 - liono360 -INFO - click on Edit button
+2025-05-08 12:21:28,427 - liono360 -INFO - Title selected
+2025-05-08 12:21:28,890 - liono360 -INFO - sendkeys on first name
+2025-05-08 12:21:29,327 - liono360 -INFO - sendkeys on middle name
+2025-05-08 12:21:29,765 - liono360 -INFO - sendkeys on last name
+2025-05-08 12:21:30,467 - liono360 -INFO - sendkeys on email adress
+2025-05-08 12:21:30,787 - liono360 -INFO - click on Save button for Contact
+2025-05-08 12:21:43,576 - liono360 -INFO - click on View Contact button
+2025-05-08 12:21:49,029 - liono360 -INFO - click on Cancel button
+2025-05-08 12:21:57,376 - liono360 -INFO - click on Primary button
+2025-05-08 12:22:01,475 - liono360 -INFO - click on Delete button
+2025-05-08 12:22:02,877 - liono360 -INFO - click on Yes button
+2025-05-08 12:22:04,828 - liono360 -INFO - Browser Closed
+2025-05-08 16:19:03,892 - liono360 -INFO - URL is opened
+2025-05-08 16:19:04,035 - liono360 -INFO - Username added
+2025-05-08 16:19:04,113 - liono360 -INFO - password added
+2025-05-08 16:19:04,236 - liono360 -INFO - Clicked on submit button
+2025-05-08 16:19:10,838 - liono360 -INFO - Clicked on Lead 
+2025-05-08 16:19:18,660 - liono360 -INFO - select on Imports Channel
+2025-05-08 16:19:22,744 - liono360 -INFO - Clicked on Action
+2025-05-08 16:19:31,013 - liono360 -INFO - Clicked on clickImport button
+2025-05-08 16:23:33,273 - liono360 -INFO - Browser Closed
+2025-05-08 16:25:14,950 - liono360 -INFO - URL is opened
+2025-05-08 16:25:15,108 - liono360 -INFO - Username added
+2025-05-08 16:25:15,197 - liono360 -INFO - password added
+2025-05-08 16:25:15,305 - liono360 -INFO - Clicked on submit button
+2025-05-08 16:25:21,665 - liono360 -INFO - Clicked on Lead Module
+2025-05-08 16:25:35,269 - liono360 -INFO - select on Imports Channel
+2025-05-08 16:26:16,581 - liono360 -INFO - Clicked on clickImport button
+2025-05-08 16:26:23,640 - liono360 -INFO - Excel Data Write
+2025-05-08 16:26:33,747 - liono360 -INFO - Browser Closed
+2025-05-08 16:32:29,365 - liono360 -INFO - URL is opened
+2025-05-08 16:32:29,530 - liono360 -INFO - Username added
+2025-05-08 16:32:29,622 - liono360 -INFO - password added
+2025-05-08 16:32:29,748 - liono360 -INFO - Clicked on submit button
+2025-05-08 16:32:48,871 - liono360 -INFO - Clicked on Lead 
+2025-05-08 16:33:02,004 - liono360 -INFO - Mousehover on Action button
+2025-05-08 16:33:02,248 - liono360 -INFO - Clicked on clickImport button
+2025-05-08 16:33:08,565 - liono360 -INFO - Excel Data Write
+2025-05-08 16:33:17,659 - liono360 -INFO - File Upload
+2025-05-08 16:33:17,811 - liono360 -INFO - Clicked on Next button
+2025-05-08 16:33:45,310 - liono360 -INFO - Clicked on Next button
+2025-05-08 16:33:58,956 - liono360 -INFO - Browser Closed
+2025-05-09 12:08:24,673 - liono360 -INFO - URL is opened
+2025-05-09 12:08:24,818 - liono360 -INFO - Username added
+2025-05-09 12:08:24,876 - liono360 -INFO - password added
+2025-05-09 12:08:24,942 - liono360 -INFO - Clicked on submit button
+2025-05-09 12:08:37,231 - liono360 -INFO - Clicked on inventory button
+2025-05-09 12:08:40,021 - liono360 -INFO - Clicked on product to load the list
+2025-05-09 12:10:54,205 - liono360 -INFO - Browser Closed
+2025-05-09 12:14:39,308 - liono360 -INFO - URL is opened
+2025-05-09 12:14:39,449 - liono360 -INFO - Username added
+2025-05-09 12:14:39,507 - liono360 -INFO - password added
+2025-05-09 12:14:39,571 - liono360 -INFO - Clicked on submit button
+2025-05-09 12:14:51,334 - liono360 -INFO - Clicked on inventory button
+2025-05-09 12:14:54,144 - liono360 -INFO - Clicked on product to load the list
+2025-05-09 12:17:08,700 - liono360 -INFO - Browser Closed
+2025-05-09 12:18:41,241 - liono360 -INFO - URL is opened
+2025-05-09 12:18:41,407 - liono360 -INFO - Username added
+2025-05-09 12:18:41,469 - liono360 -INFO - password added
+2025-05-09 12:18:41,541 - liono360 -INFO - Clicked on submit button
+2025-05-09 12:18:55,546 - liono360 -INFO - Clicked on inventory button
+2025-05-09 12:18:58,363 - liono360 -INFO - Clicked on product to load the list
+2025-05-09 12:22:16,352 - liono360 -INFO - URL is opened
+2025-05-09 12:22:16,508 - liono360 -INFO - Username added
+2025-05-09 12:22:16,566 - liono360 -INFO - password added
+2025-05-09 12:22:16,633 - liono360 -INFO - Clicked on submit button
+2025-05-09 12:24:38,008 - liono360 -INFO - Browser Closed
+2025-05-09 12:27:58,119 - liono360 -INFO - URL is opened
+2025-05-09 12:27:58,270 - liono360 -INFO - Username added
+2025-05-09 12:27:58,334 - liono360 -INFO - password added
+2025-05-09 12:27:58,400 - liono360 -INFO - Clicked on submit button
+2025-05-09 12:28:16,980 - liono360 -INFO - Clicked on inventory button
+2025-05-09 12:28:17,654 - liono360 -INFO - Clicked on product to load the list
+2025-05-09 12:28:18,338 - liono360 -INFO - Clicked on inventory Item button
+2025-05-09 12:28:28,095 - liono360 -INFO - Clicked on add new product button
+2025-05-09 12:28:28,327 - liono360 -INFO - Added product item no.
+2025-05-09 12:28:28,500 - liono360 -INFO - click manufacturer no
+2025-05-09 12:28:28,578 - liono360 -INFO - set manufacturer no
+2025-05-09 12:28:28,731 - liono360 -INFO - click category
+2025-05-09 12:30:30,038 - liono360 -INFO - Browser Closed
+2025-05-09 12:31:53,311 - liono360 -INFO - URL is opened
+2025-05-09 12:31:53,450 - liono360 -INFO - Username added
+2025-05-09 12:31:53,508 - liono360 -INFO - password added
+2025-05-09 12:31:53,572 - liono360 -INFO - Clicked on submit button
+2025-05-09 12:32:11,610 - liono360 -INFO - Clicked on inventory button
+2025-05-09 12:32:12,312 - liono360 -INFO - Clicked on product to load the list
+2025-05-09 12:32:12,984 - liono360 -INFO - Clicked on inventory Item button
+2025-05-09 12:38:24,720 - liono360 -INFO - URL is opened
+2025-05-09 12:38:24,873 - liono360 -INFO - Username added
+2025-05-09 12:38:24,937 - liono360 -INFO - password added
+2025-05-09 12:38:25,026 - liono360 -INFO - Clicked on submit button
+2025-05-09 12:38:45,015 - liono360 -INFO - Clicked on inventory button
+2025-05-09 12:38:45,699 - liono360 -INFO - Clicked on product to load the list
+2025-05-09 12:38:46,355 - liono360 -INFO - Clicked on inventory Item button
+2025-05-09 12:38:57,844 - liono360 -INFO - Clicked on add new product button
+2025-05-09 12:38:58,015 - liono360 -INFO - Added product item no.
+2025-05-09 12:38:58,174 - liono360 -INFO - click manufacturer no
+2025-05-09 12:38:58,252 - liono360 -INFO - set manufacturer no
+2025-05-09 12:43:00,130 - liono360 -INFO - Browser Closed
+2025-05-09 12:43:34,859 - liono360 -INFO - URL is opened
+2025-05-09 12:43:34,975 - liono360 -INFO - Username added
+2025-05-09 12:43:35,034 - liono360 -INFO - password added
+2025-05-09 12:43:35,108 - liono360 -INFO - Clicked on submit button
+2025-05-09 12:43:56,683 - liono360 -INFO - Clicked on inventory button
+2025-05-09 12:43:57,316 - liono360 -INFO - Clicked on product to load the list
+2025-05-09 12:43:57,955 - liono360 -INFO - Clicked on inventory Item button
+2025-05-09 12:44:10,421 - liono360 -INFO - Clicked on add new product button
+2025-05-09 12:44:10,627 - liono360 -INFO - Added product item no.
+2025-05-09 12:44:10,738 - liono360 -INFO - click manufacturer no
+2025-05-09 12:44:10,808 - liono360 -INFO - set manufacturer no
+2025-05-09 12:48:02,386 - liono360 -INFO - URL is opened
+2025-05-09 12:48:02,543 - liono360 -INFO - Username added
+2025-05-09 12:48:02,637 - liono360 -INFO - password added
+2025-05-09 12:48:02,705 - liono360 -INFO - Clicked on submit button
+2025-05-09 12:48:12,732 - liono360 -INFO - Browser Closed
+2025-05-09 12:48:21,728 - liono360 -INFO - Clicked on inventory button
+2025-05-09 12:48:22,409 - liono360 -INFO - Clicked on product to load the list
+2025-05-09 12:48:23,128 - liono360 -INFO - Clicked on inventory Item button
+2025-05-09 12:48:28,381 - liono360 -INFO - Clicked on add new product button
+2025-05-09 12:48:28,914 - liono360 -INFO - Added product item no.
+2025-05-09 12:48:29,145 - liono360 -INFO - click manufacturer no
+2025-05-09 12:48:29,219 - liono360 -INFO - set manufacturer no
+2025-05-09 12:50:08,728 - liono360 -INFO - Browser Closed
+2025-05-09 12:50:30,030 - liono360 -INFO - URL is opened
+2025-05-09 12:50:30,181 - liono360 -INFO - Username added
+2025-05-09 12:50:30,244 - liono360 -INFO - password added
+2025-05-09 12:50:30,323 - liono360 -INFO - Clicked on submit button
+2025-05-09 12:50:48,882 - liono360 -INFO - Clicked on inventory button
+2025-05-09 12:50:49,569 - liono360 -INFO - Clicked on product to load the list
+2025-05-09 12:50:50,254 - liono360 -INFO - Clicked on inventory Item button
+2025-05-09 12:51:00,464 - liono360 -INFO - Clicked on add new product button
+2025-05-09 12:51:00,723 - liono360 -INFO - Added product item no.
+2025-05-09 12:51:00,857 - liono360 -INFO - click manufacturer no
+2025-05-09 12:51:00,969 - liono360 -INFO - set manufacturer no
+2025-05-09 12:53:03,024 - liono360 -INFO - Browser Closed
+2025-05-09 12:55:16,576 - liono360 -INFO - URL is opened
+2025-05-09 12:55:16,732 - liono360 -INFO - Username added
+2025-05-09 12:55:16,806 - liono360 -INFO - password added
+2025-05-09 12:55:16,885 - liono360 -INFO - Clicked on submit button
+2025-05-09 12:55:34,673 - liono360 -INFO - Clicked on inventory button
+2025-05-09 12:55:35,352 - liono360 -INFO - Clicked on product to load the list
+2025-05-09 12:55:35,996 - liono360 -INFO - Clicked on inventory Item button
+2025-05-09 12:55:44,943 - liono360 -INFO - Clicked on add new product button
+2025-05-09 12:55:45,157 - liono360 -INFO - Added product item no.
+2025-05-09 12:55:45,294 - liono360 -INFO - click manufacturer no
+2025-05-09 12:55:45,379 - liono360 -INFO - set manufacturer no
+2025-05-09 12:55:45,692 - liono360 -INFO - click category
+2025-05-09 12:55:46,044 - liono360 -INFO - select variant no
+2025-05-09 12:55:46,254 - liono360 -INFO - click UOM
+2025-05-09 12:55:46,393 - liono360 -INFO - click UOM Each
+2025-05-09 12:55:46,544 - liono360 -INFO - click Barcode
+2025-05-09 12:55:46,725 - liono360 -INFO - fill barcode no
+2025-05-09 12:55:46,969 - liono360 -INFO - click length
+2025-05-09 12:55:47,045 - liono360 -INFO - fill length
+2025-05-09 12:55:47,233 - liono360 -INFO - click width
+2025-05-09 12:55:47,326 - liono360 -INFO - fill width
+2025-05-09 12:55:47,566 - liono360 -INFO - click height
+2025-05-09 12:55:47,649 - liono360 -INFO - fill height
+2025-05-09 12:55:47,981 - liono360 -INFO - click unit
+2025-05-09 12:55:48,187 - liono360 -INFO - click weight
+2025-05-09 12:55:48,275 - liono360 -INFO - fill weight
+2025-05-09 12:55:48,572 - liono360 -INFO - click unit
+2025-05-09 12:55:48,920 - liono360 -INFO - click vendor
+2025-05-09 12:55:49,099 - liono360 -INFO - click brand
+2025-05-09 12:55:49,263 - liono360 -INFO - select Brand
+2025-05-09 12:55:49,581 - liono360 -INFO - select manufacturer country
+2025-05-09 12:55:49,787 - liono360 -INFO - selected manufacturer country vendor
+2025-05-09 12:55:49,985 - liono360 -INFO - click warranty
+2025-05-09 12:55:50,162 - liono360 -INFO - selected warranty
+2025-05-09 12:55:50,351 - liono360 -INFO - click sales
+2025-05-09 12:55:50,662 - liono360 -INFO - fill cost
+2025-05-09 12:55:50,937 - liono360 -INFO - fill cost
+2025-05-09 12:57:53,296 - liono360 -INFO - Browser Closed
+2025-05-09 13:03:41,974 - liono360 -INFO - URL is opened
+2025-05-09 13:03:42,125 - liono360 -INFO - Username added
+2025-05-09 13:03:42,197 - liono360 -INFO - password added
+2025-05-09 13:03:42,264 - liono360 -INFO - Clicked on submit button
+2025-05-09 13:04:04,813 - liono360 -INFO - Clicked on inventory button
+2025-05-09 13:04:05,623 - liono360 -INFO - Clicked on product to load the list
+2025-05-09 13:04:06,446 - liono360 -INFO - Clicked on inventory Item button
+2025-05-09 13:04:22,801 - liono360 -INFO - Clicked on add new product button
+2025-05-09 13:04:23,159 - liono360 -INFO - Added product item no.
+2025-05-09 13:04:23,401 - liono360 -INFO - click manufacturer no
+2025-05-09 13:04:23,546 - liono360 -INFO - set manufacturer no
+2025-05-09 13:04:24,110 - liono360 -INFO - click category
+2025-05-09 13:04:24,670 - liono360 -INFO - select variant no
+2025-05-09 13:04:24,970 - liono360 -INFO - click UOM
+2025-05-09 13:04:25,220 - liono360 -INFO - click UOM Each
+2025-05-09 13:04:25,494 - liono360 -INFO - click Barcode
+2025-05-09 13:04:25,800 - liono360 -INFO - fill barcode no
+2025-05-09 13:04:26,188 - liono360 -INFO - click length
+2025-05-09 13:04:26,375 - liono360 -INFO - fill length
+2025-05-09 13:04:26,835 - liono360 -INFO - click width
+2025-05-09 13:04:26,924 - liono360 -INFO - fill width
+2025-05-09 13:04:27,213 - liono360 -INFO - click height
+2025-05-09 13:04:27,362 - liono360 -INFO - fill height
+2025-05-09 13:04:27,865 - liono360 -INFO - click unit
+2025-05-09 13:04:28,146 - liono360 -INFO - click weight
+2025-05-09 13:04:28,289 - liono360 -INFO - fill weight
+2025-05-09 13:04:28,873 - liono360 -INFO - click unit
+2025-05-09 13:04:29,455 - liono360 -INFO - click vendor
+2025-05-09 13:04:29,729 - liono360 -INFO - click brand
+2025-05-09 13:04:30,044 - liono360 -INFO - select Brand
+2025-05-09 13:04:30,640 - liono360 -INFO - select manufacturer country
+2025-05-09 13:04:31,022 - liono360 -INFO - selected manufacturer country vendor
+2025-05-09 13:04:31,288 - liono360 -INFO - click warranty
+2025-05-09 13:04:31,547 - liono360 -INFO - selected warranty
+2025-05-09 13:04:31,817 - liono360 -INFO - click sales
+2025-05-09 13:04:32,286 - liono360 -INFO - fill cost
+2025-05-09 13:04:32,722 - liono360 -INFO - fill cost
+2025-05-09 13:04:53,099 - liono360 -INFO - selected warranty
+2025-05-09 13:05:00,247 - liono360 -INFO - Clicked on save
+2025-05-09 13:05:02,952 - liono360 -INFO - Create product test passed
+2025-05-09 13:05:04,402 - liono360 -INFO - Browser Closed
+2025-05-09 13:18:10,766 - liono360 -INFO - URL is opened
+2025-05-09 13:18:10,899 - liono360 -INFO - Username added
+2025-05-09 13:18:10,956 - liono360 -INFO - password added
+2025-05-09 13:18:11,017 - liono360 -INFO - Clicked on submit button
+2025-05-09 13:18:29,844 - liono360 -INFO - Clicked on inventory button
+2025-05-09 13:18:30,469 - liono360 -INFO - Clicked on product to load the list
+2025-05-09 13:18:31,101 - liono360 -INFO - Clicked on inventory Item button
+2025-05-09 13:18:38,495 - liono360 -INFO - Clicked on add new product button
+2025-05-09 13:18:38,700 - liono360 -INFO - Added product item no.
+2025-05-09 13:18:38,804 - liono360 -INFO - click manufacturer no
+2025-05-09 13:18:38,881 - liono360 -INFO - set manufacturer no
+2025-05-09 13:18:39,140 - liono360 -INFO - click category
+2025-05-09 13:18:39,448 - liono360 -INFO - select variant no
+2025-05-09 13:18:39,592 - liono360 -INFO - click UOM
+2025-05-09 13:18:39,714 - liono360 -INFO - click UOM Each
+2025-05-09 13:18:39,833 - liono360 -INFO - click Barcode
+2025-05-09 13:18:40,101 - liono360 -INFO - fill barcode no
+2025-05-09 13:18:40,333 - liono360 -INFO - click length
+2025-05-09 13:18:40,421 - liono360 -INFO - fill length
+2025-05-09 13:18:40,564 - liono360 -INFO - click width
+2025-05-09 13:18:40,633 - liono360 -INFO - fill width
+2025-05-09 13:18:40,815 - liono360 -INFO - click height
+2025-05-09 13:18:40,883 - liono360 -INFO - fill height
+2025-05-09 13:18:41,095 - liono360 -INFO - click unit
+2025-05-09 13:18:41,246 - liono360 -INFO - click weight
+2025-05-09 13:18:41,318 - liono360 -INFO - fill weight
+2025-05-09 13:18:41,556 - liono360 -INFO - click unit
+2025-05-09 13:18:41,828 - liono360 -INFO - click vendor
+2025-05-09 13:18:41,977 - liono360 -INFO - click brand
+2025-05-09 13:18:42,115 - liono360 -INFO - select Brand
+2025-05-09 13:18:42,357 - liono360 -INFO - select manufacturer country
+2025-05-09 13:18:42,532 - liono360 -INFO - selected manufacturer country vendor
+2025-05-09 13:18:42,668 - liono360 -INFO - click warranty
+2025-05-09 13:18:42,827 - liono360 -INFO - selected warranty
+2025-05-09 13:18:42,948 - liono360 -INFO - click sales
+2025-05-09 13:18:43,115 - liono360 -INFO - fill cost
+2025-05-09 13:18:43,290 - liono360 -INFO - Sales Price
+2025-05-09 13:19:15,761 - liono360 -INFO - Browser Closed
+2025-05-09 13:21:50,676 - liono360 -INFO - URL is opened
+2025-05-09 13:21:50,819 - liono360 -INFO - Username added
+2025-05-09 13:21:50,877 - liono360 -INFO - password added
+2025-05-09 13:21:50,940 - liono360 -INFO - Clicked on submit button
+2025-05-09 13:22:10,108 - liono360 -INFO - Clicked on inventory button
+2025-05-09 13:22:10,779 - liono360 -INFO - Clicked on product to load the list
+2025-05-09 13:22:11,473 - liono360 -INFO - Clicked on inventory Item button
+2025-05-09 13:22:23,904 - liono360 -INFO - Clicked on add new product button
+2025-05-09 13:22:24,125 - liono360 -INFO - Added product item no.
+2025-05-09 13:22:24,344 - liono360 -INFO - click manufacturer no
+2025-05-09 13:22:24,428 - liono360 -INFO - set manufacturer no
+2025-05-09 13:22:24,755 - liono360 -INFO - click category
+2025-05-09 13:22:25,037 - liono360 -INFO - select variant no
+2025-05-09 13:22:25,243 - liono360 -INFO - click UOM
+2025-05-09 13:22:25,370 - liono360 -INFO - click UOM Each
+2025-05-09 13:22:25,528 - liono360 -INFO - click Barcode
+2025-05-09 13:22:25,668 - liono360 -INFO - fill barcode no
+2025-05-09 13:22:25,874 - liono360 -INFO - click length
+2025-05-09 13:22:25,946 - liono360 -INFO - fill length
+2025-05-09 13:22:26,116 - liono360 -INFO - click width
+2025-05-09 13:22:26,192 - liono360 -INFO - fill width
+2025-05-09 13:22:26,376 - liono360 -INFO - click height
+2025-05-09 13:22:26,467 - liono360 -INFO - fill height
+2025-05-09 13:22:26,760 - liono360 -INFO - click unit
+2025-05-09 13:22:26,938 - liono360 -INFO - click weight
+2025-05-09 13:22:27,011 - liono360 -INFO - fill weight
+2025-05-09 13:22:27,246 - liono360 -INFO - click unit
+2025-05-09 13:22:29,113 - liono360 -INFO - click vendor
+2025-05-09 13:22:29,260 - liono360 -INFO - click brand
+2025-05-09 13:22:29,398 - liono360 -INFO - select Brand
+2025-05-09 13:22:29,673 - liono360 -INFO - select manufacturer country
+2025-05-09 13:22:29,891 - liono360 -INFO - selected manufacturer country vendor
+2025-05-09 13:22:30,072 - liono360 -INFO - click warranty
+2025-05-09 13:22:30,207 - liono360 -INFO - selected warranty
+2025-05-09 13:22:30,369 - liono360 -INFO - click sales
+2025-05-09 13:22:31,506 - liono360 -INFO - fill cost
+2025-05-09 13:22:32,631 - liono360 -INFO - Sales Price
+2025-05-09 13:23:04,390 - liono360 -INFO - Browser Closed
+2025-05-09 13:29:59,160 - liono360 -INFO - URL is opened
+2025-05-09 13:29:59,345 - liono360 -INFO - Username added
+2025-05-09 13:29:59,545 - liono360 -INFO - password added
+2025-05-09 13:29:59,680 - liono360 -INFO - Clicked on submit button
+2025-05-09 13:30:18,796 - liono360 -INFO - Clicked on inventory button
+2025-05-09 13:30:19,453 - liono360 -INFO - Clicked on product to load the list
+2025-05-09 13:30:20,120 - liono360 -INFO - Clicked on inventory Item button
+2025-05-09 13:30:32,196 - liono360 -INFO - Clicked on add new product button
+2025-05-09 13:30:32,410 - liono360 -INFO - Added product item no.
+2025-05-09 13:30:32,550 - liono360 -INFO - click manufacturer no
+2025-05-09 13:30:32,625 - liono360 -INFO - set manufacturer no
+2025-05-09 13:30:32,903 - liono360 -INFO - click category
+2025-05-09 13:30:33,190 - liono360 -INFO - select variant no
+2025-05-09 13:30:33,354 - liono360 -INFO - click UOM
+2025-05-09 13:30:33,478 - liono360 -INFO - click UOM Each
+2025-05-09 13:30:33,641 - liono360 -INFO - click Barcode
+2025-05-09 13:30:33,782 - liono360 -INFO - fill barcode no
+2025-05-09 13:30:33,968 - liono360 -INFO - click length
+2025-05-09 13:30:34,038 - liono360 -INFO - fill length
+2025-05-09 13:30:34,237 - liono360 -INFO - click width
+2025-05-09 13:30:34,312 - liono360 -INFO - fill width
+2025-05-09 13:30:34,488 - liono360 -INFO - click height
+2025-05-09 13:30:34,557 - liono360 -INFO - fill height
+2025-05-09 13:30:34,806 - liono360 -INFO - click unit
+2025-05-09 13:30:34,998 - liono360 -INFO - click weight
+2025-05-09 13:30:35,068 - liono360 -INFO - fill weight
+2025-05-09 13:30:35,303 - liono360 -INFO - click unit
+2025-05-09 13:30:35,568 - liono360 -INFO - click vendor
+2025-05-09 13:30:35,728 - liono360 -INFO - click brand
+2025-05-09 13:30:35,870 - liono360 -INFO - select Brand
+2025-05-09 13:30:36,139 - liono360 -INFO - select manufacturer country
+2025-05-09 13:30:36,333 - liono360 -INFO - selected manufacturer country vendor
+2025-05-09 13:30:36,523 - liono360 -INFO - click warranty
+2025-05-09 13:30:36,657 - liono360 -INFO - selected warranty
+2025-05-09 13:30:36,813 - liono360 -INFO - click sales
+2025-05-09 13:30:37,956 - liono360 -INFO - fill cost
+2025-05-09 13:30:39,095 - liono360 -INFO - Sales Price
+2025-05-09 13:30:39,238 - liono360 -INFO - click Finance
+2025-05-09 13:30:39,513 - liono360 -INFO - selected Class
+2025-05-09 13:30:39,673 - liono360 -INFO - click Location
+2025-05-09 13:30:39,779 - liono360 -INFO - Add QtyOnHand
+2025-05-09 13:30:41,928 - liono360 -INFO - Clicked on save
+2025-05-09 13:30:48,799 - liono360 -INFO - Create product test passed
+2025-05-09 13:30:50,214 - liono360 -INFO - Browser Closed
+2025-05-09 13:33:05,842 - liono360 -INFO - URL is opened
+2025-05-09 13:33:05,987 - liono360 -INFO - Username added
+2025-05-09 13:33:06,043 - liono360 -INFO - password added
+2025-05-09 13:33:06,103 - liono360 -INFO - Clicked on submit button
+2025-05-09 13:33:25,420 - liono360 -INFO - Clicked on inventory button
+2025-05-09 13:33:26,054 - liono360 -INFO - Clicked on product to load the list
+2025-05-09 13:33:26,682 - liono360 -INFO - Clicked on inventory Item button
+2025-05-09 13:33:37,542 - liono360 -INFO - Clicked on add new product button
+2025-05-09 13:33:37,646 - liono360 -INFO - Added product item no.
+2025-05-09 13:33:37,765 - liono360 -INFO - click manufacturer no
+2025-05-09 13:33:37,841 - liono360 -INFO - set manufacturer no
+2025-05-09 13:33:38,116 - liono360 -INFO - click category
+2025-05-09 13:33:38,368 - liono360 -INFO - select variant no
+2025-05-09 13:33:38,590 - liono360 -INFO - click UOM
+2025-05-09 13:33:38,706 - liono360 -INFO - click UOM Each
+2025-05-09 13:33:38,821 - liono360 -INFO - click Barcode
+2025-05-09 13:33:38,958 - liono360 -INFO - fill barcode no
+2025-05-09 13:33:39,125 - liono360 -INFO - click length
+2025-05-09 13:33:39,193 - liono360 -INFO - fill length
+2025-05-09 13:33:39,332 - liono360 -INFO - click width
+2025-05-09 13:33:39,446 - liono360 -INFO - fill width
+2025-05-09 13:33:39,585 - liono360 -INFO - click height
+2025-05-09 13:33:39,652 - liono360 -INFO - fill height
+2025-05-09 13:33:39,872 - liono360 -INFO - click unit
+2025-05-09 13:33:40,026 - liono360 -INFO - click weight
+2025-05-09 13:33:40,094 - liono360 -INFO - fill weight
+2025-05-09 13:33:40,298 - liono360 -INFO - click unit
+2025-05-09 13:33:40,551 - liono360 -INFO - click vendor
+2025-05-09 13:33:40,688 - liono360 -INFO - click brand
+2025-05-09 13:33:40,824 - liono360 -INFO - select Brand
+2025-05-09 13:33:41,062 - liono360 -INFO - select manufacturer country
+2025-05-09 13:33:41,223 - liono360 -INFO - selected manufacturer country vendor
+2025-05-09 13:33:41,365 - liono360 -INFO - click warranty
+2025-05-09 13:33:41,497 - liono360 -INFO - selected warranty
+2025-05-09 13:33:41,618 - liono360 -INFO - click sales
+2025-05-09 13:33:42,741 - liono360 -INFO - fill cost
+2025-05-09 13:33:43,852 - liono360 -INFO - Sales Price
+2025-05-09 13:33:43,959 - liono360 -INFO - click Finance
+2025-05-09 13:33:44,208 - liono360 -INFO - selected Class
+2025-05-09 13:33:44,328 - liono360 -INFO - click Location
+2025-05-09 13:33:44,454 - liono360 -INFO - Add QtyOnHand
+2025-05-09 13:35:48,432 - liono360 -INFO - Browser Closed
+2025-05-09 14:23:17,047 - liono360 -INFO - URL is opened
+2025-05-09 14:24:12,532 - liono360 -INFO - URL is opened
+2025-05-09 14:24:12,706 - liono360 -INFO - Username added
+2025-05-09 14:24:12,764 - liono360 -INFO - password added
+2025-05-09 14:24:12,825 - liono360 -INFO - Clicked on submit button
+2025-05-09 14:24:31,005 - liono360 -INFO - Clicked on inventory button
+2025-05-09 14:24:31,676 - liono360 -INFO - Clicked on product to load the list
+2025-05-09 14:24:32,351 - liono360 -INFO - Clicked on inventory Item button
+2025-05-09 14:24:38,009 - liono360 -INFO - Clicked on add new product button
+2025-05-09 14:24:38,222 - liono360 -INFO - Added product item no.
+2025-05-09 14:24:38,565 - liono360 -INFO - click manufacturer no
+2025-05-09 14:24:38,647 - liono360 -INFO - set manufacturer no
+2025-05-09 14:24:38,981 - liono360 -INFO - click category
+2025-05-09 14:24:39,297 - liono360 -INFO - select variant no
+2025-05-09 14:24:39,532 - liono360 -INFO - click UOM
+2025-05-09 14:24:39,650 - liono360 -INFO - click UOM Each
+2025-05-09 14:24:39,791 - liono360 -INFO - click Barcode
+2025-05-09 14:24:39,934 - liono360 -INFO - fill barcode no
+2025-05-09 14:24:40,111 - liono360 -INFO - click length
+2025-05-09 14:24:40,191 - liono360 -INFO - fill length
+2025-05-09 14:24:40,361 - liono360 -INFO - click width
+2025-05-09 14:24:40,418 - liono360 -INFO - fill width
+2025-05-09 14:24:40,648 - liono360 -INFO - click height
+2025-05-09 14:24:40,719 - liono360 -INFO - fill height
+2025-05-09 14:24:40,950 - liono360 -INFO - click unit
+2025-05-09 14:24:41,116 - liono360 -INFO - click weight
+2025-05-09 14:24:41,187 - liono360 -INFO - fill weight
+2025-05-09 14:24:41,411 - liono360 -INFO - click unit
+2025-05-09 14:24:41,690 - liono360 -INFO - click vendor
+2025-05-09 14:24:41,841 - liono360 -INFO - click brand
+2025-05-09 14:24:41,978 - liono360 -INFO - select Brand
+2025-05-09 14:24:42,239 - liono360 -INFO - select manufacturer country
+2025-05-09 14:24:42,413 - liono360 -INFO - selected manufacturer country vendor
+2025-05-09 14:24:42,591 - liono360 -INFO - click warranty
+2025-05-09 14:24:42,717 - liono360 -INFO - selected warranty
+2025-05-09 14:24:42,863 - liono360 -INFO - click sales
+2025-05-09 14:24:44,006 - liono360 -INFO - fill cost
+2025-05-09 14:24:45,154 - liono360 -INFO - Sales Price
+2025-05-09 14:24:45,269 - liono360 -INFO - click Finance
+2025-05-09 14:24:45,552 - liono360 -INFO - selected Class
+2025-05-09 14:24:45,687 - liono360 -INFO - click Location
+2025-05-09 14:24:45,795 - liono360 -INFO - Add QtyOnHand
+2025-05-09 14:24:47,933 - liono360 -INFO - Clicked on save
+2025-05-09 14:24:54,055 - liono360 -INFO - Create product test passed
+2025-05-09 14:24:55,470 - liono360 -INFO - Browser Closed
+2025-05-09 14:26:46,630 - liono360 -INFO - URL is opened
+2025-05-09 14:26:46,793 - liono360 -INFO - Username added
+2025-05-09 14:26:46,857 - liono360 -INFO - password added
+2025-05-09 14:26:46,919 - liono360 -INFO - Clicked on submit button
+2025-05-09 14:27:04,913 - liono360 -INFO - Clicked on inventory button
+2025-05-09 14:27:05,609 - liono360 -INFO - Clicked on product to load the list
+2025-05-09 14:27:06,279 - liono360 -INFO - Clicked on inventory Item button
+2025-05-09 14:29:06,812 - liono360 -INFO - Browser Closed
+2025-05-09 14:37:13,035 - liono360 -INFO - URL is opened
+2025-05-09 14:37:13,182 - liono360 -INFO - Username added
+2025-05-09 14:37:13,251 - liono360 -INFO - password added
+2025-05-09 14:37:13,331 - liono360 -INFO - Clicked on submit button
+2025-05-09 14:37:31,903 - liono360 -INFO - Clicked on inventory button
+2025-05-09 14:37:32,564 - liono360 -INFO - Clicked on product to load the list
+2025-05-09 14:37:33,249 - liono360 -INFO - Clicked on inventory Item button
+2025-05-09 14:37:45,466 - liono360 -INFO - Clicked on edit button for the product
+2025-05-09 14:37:46,368 - liono360 -INFO - Updated product item no.
+2025-05-09 14:37:46,481 - liono360 -INFO - Clicked on save button to save the changes
+2025-05-09 14:37:49,533 - liono360 -INFO - Edit product test passed
+2025-05-09 14:37:50,932 - liono360 -INFO - Browser Closed
+2025-05-09 14:40:44,240 - liono360 -INFO - URL is opened
+2025-05-09 14:40:44,381 - liono360 -INFO - Username added
+2025-05-09 14:40:44,442 - liono360 -INFO - password added
+2025-05-09 14:40:44,513 - liono360 -INFO - Clicked on submit button
+2025-05-09 14:41:02,975 - liono360 -INFO - Clicked on inventory button
+2025-05-09 14:41:03,649 - liono360 -INFO - Clicked on product to load the list
+2025-05-09 14:41:04,313 - liono360 -INFO - Clicked on inventory Item button
+2025-05-09 14:41:11,248 - liono360 -INFO - Clicked on delete button
+2025-05-09 14:41:57,647 - liono360 -INFO - Clicked on confirm delete
+2025-05-09 14:41:59,101 - liono360 -INFO - Browser Closed
+2025-05-09 14:44:06,455 - liono360 -INFO - URL is opened
+2025-05-09 14:44:06,621 - liono360 -INFO - Username added
+2025-05-09 14:44:06,732 - liono360 -INFO - password added
+2025-05-09 14:44:06,843 - liono360 -INFO - Clicked on submit button
+2025-05-09 14:44:25,736 - liono360 -INFO - Clicked on inventory button
+2025-05-09 14:44:26,415 - liono360 -INFO - Clicked on product to load the list
+2025-05-09 14:44:27,131 - liono360 -INFO - Clicked on inventory Item button
+2025-05-09 14:44:33,975 - liono360 -INFO - Clicked on add new product button
+2025-05-09 14:44:34,305 - liono360 -INFO - Added product item no.
+2025-05-09 14:44:34,452 - liono360 -INFO - click manufacturer no
+2025-05-09 14:44:34,577 - liono360 -INFO - set manufacturer no
+2025-05-09 14:44:34,907 - liono360 -INFO - click category
+2025-05-09 14:44:35,225 - liono360 -INFO - select variant no
+2025-05-09 14:44:35,430 - liono360 -INFO - click UOM
+2025-05-09 14:44:35,553 - liono360 -INFO - click UOM Each
+2025-05-09 14:44:35,714 - liono360 -INFO - click Barcode
+2025-05-09 14:44:35,860 - liono360 -INFO - fill barcode no
+2025-05-09 14:44:36,062 - liono360 -INFO - click length
+2025-05-09 14:44:36,161 - liono360 -INFO - fill length
+2025-05-09 14:44:36,331 - liono360 -INFO - click width
+2025-05-09 14:44:36,393 - liono360 -INFO - fill width
+2025-05-09 14:44:36,554 - liono360 -INFO - click height
+2025-05-09 14:44:36,644 - liono360 -INFO - fill height
+2025-05-09 14:44:36,871 - liono360 -INFO - click unit
+2025-05-09 14:44:37,051 - liono360 -INFO - click weight
+2025-05-09 14:44:37,123 - liono360 -INFO - fill weight
+2025-05-09 14:44:37,352 - liono360 -INFO - click unit
+2025-05-09 14:44:37,698 - liono360 -INFO - click vendor
+2025-05-09 14:44:37,857 - liono360 -INFO - click brand
+2025-05-09 14:44:38,001 - liono360 -INFO - select Brand
+2025-05-09 14:44:38,295 - liono360 -INFO - select manufacturer country
+2025-05-09 14:44:38,467 - liono360 -INFO - selected manufacturer country vendor
+2025-05-09 14:44:38,634 - liono360 -INFO - click warranty
+2025-05-09 14:44:38,766 - liono360 -INFO - selected warranty
+2025-05-09 14:44:38,907 - liono360 -INFO - click sales
+2025-05-09 14:44:40,066 - liono360 -INFO - fill cost
+2025-05-09 14:44:41,196 - liono360 -INFO - Sales Price
+2025-05-09 14:44:41,334 - liono360 -INFO - click Finance
+2025-05-09 14:44:41,613 - liono360 -INFO - selected Class
+2025-05-09 14:44:41,759 - liono360 -INFO - click Location
+2025-05-09 14:44:43,919 - liono360 -INFO - Clicked on save
+2025-05-09 14:45:06,063 - liono360 -INFO - Clicked on inventory button
+2025-05-09 14:45:06,721 - liono360 -INFO - Clicked on product to load the list
+2025-05-09 14:45:07,416 - liono360 -INFO - Clicked on inventory Item button
+2025-05-09 14:45:14,431 - liono360 -INFO - Clicked on edit button for the product
+2025-05-09 14:45:15,295 - liono360 -INFO - Updated product item no.
+2025-05-09 14:45:15,377 - liono360 -INFO - Clicked on save button to save the changes
+2025-05-09 14:45:18,418 - liono360 -INFO - Edit product test passed
+2025-05-09 14:45:18,569 - liono360 -INFO - Clicked on inventory button
+2025-05-09 14:45:19,330 - liono360 -INFO - Clicked on product to load the list
+2025-05-09 14:45:32,377 - liono360 -INFO - Clicked on view button
+2025-05-09 14:45:32,966 - liono360 -INFO - View product test passed
+2025-05-09 14:45:33,132 - liono360 -INFO - Clicked on cancel button
+2025-05-09 14:45:48,007 - liono360 -INFO - Clicked on inventory button
+2025-05-09 14:45:48,721 - liono360 -INFO - Clicked on product to load the list
+2025-05-09 14:45:49,394 - liono360 -INFO - Clicked on inventory Item button
+2025-05-09 14:45:54,464 - liono360 -INFO - Clicked on delete button
+2025-05-09 14:45:55,165 - liono360 -INFO - Clicked on confirm delete
+2025-05-09 14:45:56,755 - liono360 -INFO - Browser Closed
+2025-05-09 14:48:19,747 - liono360 -INFO - URL is opened
+2025-05-09 14:49:31,513 - liono360 -INFO - URL is opened
+2025-05-09 14:49:31,663 - liono360 -INFO - Username added
+2025-05-09 14:49:31,722 - liono360 -INFO - password added
+2025-05-09 14:49:31,786 - liono360 -INFO - Clicked on submit button
+2025-05-09 14:49:50,487 - liono360 -INFO - Clicked on inventory button
+2025-05-09 14:49:51,165 - liono360 -INFO - Clicked on product to load the list
+2025-05-09 14:49:51,842 - liono360 -INFO - Clicked on inventory Item button
+2025-05-09 14:49:58,327 - liono360 -INFO - Clicked on add new product button
+2025-05-09 14:49:58,668 - liono360 -INFO - Added product item no.
+2025-05-09 14:49:58,785 - liono360 -INFO - click manufacturer no
+2025-05-09 14:49:58,862 - liono360 -INFO - set manufacturer no
+2025-05-09 14:49:59,151 - liono360 -INFO - click category
+2025-05-09 14:49:59,458 - liono360 -INFO - select variant no
+2025-05-09 14:49:59,632 - liono360 -INFO - click UOM
+2025-05-09 14:49:59,764 - liono360 -INFO - click UOM Each
+2025-05-09 14:49:59,896 - liono360 -INFO - click Barcode
+2025-05-09 14:50:00,045 - liono360 -INFO - fill barcode no
+2025-05-09 14:50:00,222 - liono360 -INFO - click length
+2025-05-09 14:50:00,291 - liono360 -INFO - fill length
+2025-05-09 14:50:00,460 - liono360 -INFO - click width
+2025-05-09 14:50:00,521 - liono360 -INFO - fill width
+2025-05-09 14:50:00,692 - liono360 -INFO - click height
+2025-05-09 14:50:00,765 - liono360 -INFO - fill height
+2025-05-09 14:50:01,043 - liono360 -INFO - click unit
+2025-05-09 14:50:01,226 - liono360 -INFO - click weight
+2025-05-09 14:50:01,295 - liono360 -INFO - fill weight
+2025-05-09 14:50:01,529 - liono360 -INFO - click unit
+2025-05-09 14:50:01,804 - liono360 -INFO - click vendor
+2025-05-09 14:50:01,959 - liono360 -INFO - click brand
+2025-05-09 14:50:02,105 - liono360 -INFO - select Brand
+2025-05-09 14:50:02,384 - liono360 -INFO - select manufacturer country
+2025-05-09 14:50:02,570 - liono360 -INFO - selected manufacturer country vendor
+2025-05-09 14:50:02,726 - liono360 -INFO - click warranty
+2025-05-09 14:50:02,873 - liono360 -INFO - selected warranty
+2025-05-09 14:50:03,022 - liono360 -INFO - click sales
+2025-05-09 14:50:04,168 - liono360 -INFO - fill cost
+2025-05-09 14:50:05,290 - liono360 -INFO - Sales Price
+2025-05-09 14:50:05,418 - liono360 -INFO - click Finance
+2025-05-09 14:50:05,696 - liono360 -INFO - selected Class
+2025-05-09 14:50:05,890 - liono360 -INFO - click Location
+2025-05-09 14:50:08,055 - liono360 -INFO - Clicked on save
+2025-05-09 14:50:13,706 - liono360 -INFO - Create product test passed
+2025-05-09 14:50:15,267 - liono360 -INFO - Browser Closed
+2025-05-09 14:50:48,786 - liono360 -INFO - URL is opened
+2025-05-09 14:50:48,936 - liono360 -INFO - Username added
+2025-05-09 14:50:48,993 - liono360 -INFO - password added
+2025-05-09 14:50:49,057 - liono360 -INFO - Clicked on submit button
+2025-05-09 14:51:09,324 - liono360 -INFO - Clicked on inventory button
+2025-05-09 14:51:10,011 - liono360 -INFO - Clicked on product to load the list
+2025-05-09 14:51:10,700 - liono360 -INFO - Clicked on inventory Item button
+2025-05-09 14:51:23,151 - liono360 -INFO - Clicked on add new product button
+2025-05-09 14:51:23,399 - liono360 -INFO - Added product item no.
+2025-05-09 14:51:23,546 - liono360 -INFO - click manufacturer no
+2025-05-09 14:51:23,623 - liono360 -INFO - set manufacturer no
+2025-05-09 14:51:23,904 - liono360 -INFO - click category
+2025-05-09 14:51:24,192 - liono360 -INFO - select variant no
+2025-05-09 14:51:33,164 - liono360 -INFO - click UOM
+2025-05-09 14:51:33,299 - liono360 -INFO - click UOM Each
+2025-05-09 14:51:33,417 - liono360 -INFO - click Barcode
+2025-05-09 14:51:33,575 - liono360 -INFO - fill barcode no
+2025-05-09 14:51:33,802 - liono360 -INFO - click length
+2025-05-09 14:51:33,879 - liono360 -INFO - fill length
+2025-05-09 14:51:34,101 - liono360 -INFO - click width
+2025-05-09 14:51:34,183 - liono360 -INFO - fill width
+2025-05-09 14:51:34,351 - liono360 -INFO - click height
+2025-05-09 14:51:34,425 - liono360 -INFO - fill height
+2025-05-09 14:51:34,655 - liono360 -INFO - click unit
+2025-05-09 14:51:34,854 - liono360 -INFO - click weight
+2025-05-09 14:51:34,929 - liono360 -INFO - fill weight
+2025-05-09 14:51:35,179 - liono360 -INFO - click unit
+2025-05-09 14:51:35,454 - liono360 -INFO - click vendor
+2025-05-09 14:51:35,625 - liono360 -INFO - click brand
+2025-05-09 14:51:35,772 - liono360 -INFO - select Brand
+2025-05-09 14:51:36,052 - liono360 -INFO - select manufacturer country
+2025-05-09 14:51:36,278 - liono360 -INFO - selected manufacturer country vendor
+2025-05-09 14:51:36,454 - liono360 -INFO - click warranty
+2025-05-09 14:51:36,580 - liono360 -INFO - selected warranty
+2025-05-09 14:51:36,743 - liono360 -INFO - click sales
+2025-05-09 14:51:37,860 - liono360 -INFO - fill cost
+2025-05-09 14:51:38,999 - liono360 -INFO - Sales Price
+2025-05-09 14:51:39,115 - liono360 -INFO - click Finance
+2025-05-09 14:51:39,399 - liono360 -INFO - selected Class
+2025-05-09 14:51:39,524 - liono360 -INFO - click Location
+2025-05-09 14:51:41,670 - liono360 -INFO - Clicked on save
+2025-05-09 14:51:47,449 - liono360 -INFO - Create product test passed
+2025-05-09 14:52:00,338 - liono360 -INFO - Clicked on inventory button
+2025-05-09 14:52:01,051 - liono360 -INFO - Clicked on product to load the list
+2025-05-09 14:52:01,750 - liono360 -INFO - Clicked on inventory Item button
+2025-05-09 14:52:08,815 - liono360 -INFO - Clicked on edit button for the product
+2025-05-09 14:52:09,611 - liono360 -INFO - Updated product item no.
+2025-05-09 14:52:09,712 - liono360 -INFO - Clicked on save button to save the changes
+2025-05-09 14:52:12,763 - liono360 -INFO - Edit product test passed
+2025-05-09 14:52:12,912 - liono360 -INFO - Clicked on inventory button
+2025-05-09 14:52:13,600 - liono360 -INFO - Clicked on product to load the list
+2025-05-09 14:52:26,617 - liono360 -INFO - Clicked on view button
+2025-05-09 14:53:11,869 - liono360 -INFO - Browser Closed
+2025-05-09 14:59:00,613 - liono360 -INFO - URL is opened
+2025-05-09 14:59:00,780 - liono360 -INFO - Username added
+2025-05-09 14:59:00,853 - liono360 -INFO - password added
+2025-05-09 14:59:00,922 - liono360 -INFO - Clicked on submit button
+2025-05-09 14:59:20,367 - liono360 -INFO - Clicked on inventory button
+2025-05-09 14:59:21,037 - liono360 -INFO - Clicked on product to load the list
+2025-05-09 14:59:21,707 - liono360 -INFO - Clicked on inventory Item button
+2025-05-09 14:59:33,380 - liono360 -INFO - Clicked on add new product button
+2025-05-09 14:59:33,604 - liono360 -INFO - Added product item no.
+2025-05-09 14:59:33,810 - liono360 -INFO - click manufacturer no
+2025-05-09 14:59:33,903 - liono360 -INFO - set manufacturer no
+2025-05-09 14:59:34,914 - liono360 -INFO - click category
+2025-05-09 14:59:35,321 - liono360 -INFO - select variant no
+2025-05-09 14:59:35,544 - liono360 -INFO - click UOM
+2025-05-09 14:59:35,706 - liono360 -INFO - click UOM Each
+2025-05-09 14:59:35,935 - liono360 -INFO - click Barcode
+2025-05-09 14:59:36,128 - liono360 -INFO - fill barcode no
+2025-05-09 14:59:36,405 - liono360 -INFO - click length
+2025-05-09 14:59:36,498 - liono360 -INFO - fill length
+2025-05-09 14:59:36,781 - liono360 -INFO - click width
+2025-05-09 14:59:36,864 - liono360 -INFO - fill width
+2025-05-09 14:59:37,100 - liono360 -INFO - click height
+2025-05-09 14:59:37,206 - liono360 -INFO - fill height
+2025-05-09 14:59:37,580 - liono360 -INFO - click unit
+2025-05-09 14:59:37,830 - liono360 -INFO - click weight
+2025-05-09 14:59:37,918 - liono360 -INFO - fill weight
+2025-05-09 14:59:38,227 - liono360 -INFO - click unit
+2025-05-09 14:59:38,616 - liono360 -INFO - click vendor
+2025-05-09 14:59:38,865 - liono360 -INFO - click brand
+2025-05-09 14:59:39,051 - liono360 -INFO - select Brand
+2025-05-09 14:59:39,381 - liono360 -INFO - select manufacturer country
+2025-05-09 14:59:39,615 - liono360 -INFO - selected manufacturer country vendor
+2025-05-09 14:59:39,833 - liono360 -INFO - click warranty
+2025-05-09 14:59:40,002 - liono360 -INFO - selected warranty
+2025-05-09 14:59:40,205 - liono360 -INFO - click sales
+2025-05-09 14:59:41,394 - liono360 -INFO - fill cost
+2025-05-09 14:59:42,569 - liono360 -INFO - Sales Price
+2025-05-09 14:59:42,696 - liono360 -INFO - click Finance
+2025-05-09 14:59:43,016 - liono360 -INFO - selected Class
+2025-05-09 14:59:43,176 - liono360 -INFO - click Location
+2025-05-09 14:59:45,289 - liono360 -INFO - Clicked on save
+2025-05-09 14:59:51,109 - liono360 -INFO - Create product test passed
+2025-05-09 15:00:03,937 - liono360 -INFO - Clicked on inventory button
+2025-05-09 15:00:04,665 - liono360 -INFO - Clicked on product to load the list
+2025-05-09 15:00:05,362 - liono360 -INFO - Clicked on inventory Item button
+2025-05-09 15:00:12,425 - liono360 -INFO - Clicked on edit button for the product
+2025-05-09 15:00:13,176 - liono360 -INFO - Updated product item no.
+2025-05-09 15:00:13,289 - liono360 -INFO - Clicked on save button to save the changes
+2025-05-09 15:00:16,343 - liono360 -INFO - Edit product test passed
+2025-05-09 15:00:16,483 - liono360 -INFO - Clicked on inventory button
+2025-05-09 15:00:17,197 - liono360 -INFO - Clicked on product to load the list
+2025-05-09 15:00:30,169 - liono360 -INFO - Clicked on view button
+2025-05-09 15:00:30,686 - liono360 -INFO - View product test passed
+2025-05-09 15:00:32,814 - liono360 -INFO - Clicked on cancel button
+2025-05-09 15:00:45,621 - liono360 -INFO - Clicked on inventory button
+2025-05-09 15:00:46,302 - liono360 -INFO - Clicked on product to load the list
+2025-05-09 15:00:46,984 - liono360 -INFO - Clicked on inventory Item button
+2025-05-09 15:00:52,030 - liono360 -INFO - Clicked on delete button
+2025-05-09 15:00:52,624 - liono360 -INFO - Clicked on confirm delete
+2025-05-09 15:00:54,465 - liono360 -INFO - Browser Closed

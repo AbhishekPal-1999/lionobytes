@@ -48,9 +48,10 @@ public class TC_003ViewProduct extends Baseclass {
  			logger.info("view product test failed");
  		}
 		
-		driver.findElement(By.xpath("//span[normalize-space()='Cancel']")).click();
-		logger.info("Clicked on cancel button");
 		Thread.sleep(2000);
+		TryClick(products.Cancel_bttn());
+		logger.info("Clicked on cancel button");
+		
 		
 		
 		
