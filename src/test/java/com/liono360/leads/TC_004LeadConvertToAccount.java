@@ -41,6 +41,7 @@ public class TC_004LeadConvertToAccount extends Baseclass {
 		leads.listedLeads().click();
 		
 		Thread.sleep(1000);
+		
 		leads.listedLeads().click();
 		logger.info("Clicked on Lead Record");
 		

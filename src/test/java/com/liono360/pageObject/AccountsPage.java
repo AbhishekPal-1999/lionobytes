@@ -62,12 +62,13 @@ public class AccountsPage extends Baseclass{
 	}
 	
 	
-	@FindBy(xpath = "//p-dropdown[@placeholder='Select Title...']")
+	@FindBy(xpath = "//p-dropdown[@placeholder='Select Title']//span")
     WebElement title;
 
 	public WebElement Title1() {
 	return title;	
    }
+	
 	@FindBy(xpath = "(//li[@role='option'])[5]")
     WebElement slectopt;
 
@@ -97,8 +98,6 @@ public class AccountsPage extends Baseclass{
 	public WebElement ViewCasebtn() {
 	return ViewCase;		
     }
-	
-	
 	
 	
 	@FindBy(xpath = "//input[@formcontrolname='contactFirstName']")
@@ -156,12 +155,29 @@ public class AccountsPage extends Baseclass{
 	return email;	
     }
 	
+	@FindBy(xpath = "(//input[@type=\"email\"])[1]")
+    WebElement Editemail;
+
+	public WebElement EditEmail() {
+	return Editemail;	
+    }
+	
+	
 	@FindBy(xpath = "//input[@formcontrolname=\"contactHomeEmail\"]")
     WebElement Homeemail;
 
 	public WebElement HomeEmail() {
 	return Homeemail;	
     }
+	
+	
+	@FindBy(xpath = "(//input[@type=\"email\"])[2]")
+    WebElement EditHomeemail;
+
+	public WebElement EditHomeEmail() {
+	return EditHomeemail;	
+    }
+	
 	
 	@FindBy(xpath = "//input[@formcontrolname=\"contactCE1Email\"]")
     WebElement CE1email;
@@ -170,12 +186,29 @@ public class AccountsPage extends Baseclass{
 	return CE1email;	
     }
 	
+	
+	@FindBy(xpath = "(//input[@type=\"email\"])[3]")
+    WebElement EditCE1email;
+
+	public WebElement EditCE1Email() {
+	return EditCE1email;	
+    }
+	
+	
 	@FindBy(xpath = "//input[@formcontrolname=\"contactCE2Email\"]")
     WebElement ce2email;
 
 	public WebElement CE2Email() {
 	return ce2email;	
     }
+	
+	@FindBy(xpath = "(//input[@type=\"email\"])[4]")
+    WebElement Editce2email;
+
+	public WebElement EditCE2Email() {
+	return Editce2email;	
+    }
+	
 	@FindBy(xpath = "(//p-dropdown[@filterby=\"CountryName\"])[1]")
     WebElement Country1;
 
@@ -206,7 +239,7 @@ public class AccountsPage extends Baseclass{
 	public WebElement PhoneCountry5() {
 	return Country5;
 	}
-	@FindBy(xpath = "//p-inputmask[@formcontrolname=\"contactWorkPhone\"]//input")
+	@FindBy(xpath = "//input[@placeholder=\"Work Phone\"]")
     WebElement phone;
 
 	public WebElement WorkPhone() {
@@ -214,28 +247,28 @@ public class AccountsPage extends Baseclass{
 }
 
 	
-	@FindBy(xpath = "//p-inputmask[@formcontrolname=\"contactHomePhone\"]//input")
+	@FindBy(xpath = "//input[@placeholder=\"Home Phone\"]")
     WebElement homephone;
 
 	public WebElement HomePhone() {
 	return homephone;	
 }
 	
-	@FindBy(xpath = "//p-inputmask[@formcontrolname=\"contactMobilePhone\"]//input")
+	@FindBy(xpath = "//input[@placeholder=\"Mobile Phone\"]")
     WebElement mobilephone;
 
 	public WebElement MobilePhone() {
 	return mobilephone;	
 }
 	
-	@FindBy(xpath = "//p-inputmask[@formcontrolname=\"contactCP1Phone\"]//input")
+	@FindBy(xpath = "//input[@placeholder=\"CP1\"]")
     WebElement CP1phone;
 
 	public WebElement CP1() {
 	return CP1phone;	
 }
 	
-	@FindBy(xpath = "//p-inputmask[@formcontrolname=\"contactCP2Phone\"]//input")
+	@FindBy(xpath = "//input[@placeholder=\"CP2\"]")
     WebElement cp2phone;
 
 	public WebElement CP2() {

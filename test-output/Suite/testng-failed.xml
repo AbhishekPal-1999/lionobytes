@@ -6,20 +6,34 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.liono360.Product.Inventoryitem.TC_004DeleteProduct">
+      <class name="com.liono360.accounts.TC_004DeleteAccount">
         <methods>
-          <include name="DeleteProductTest"/>
+          <include name="TC004_DeleteAccount"/>
           <include name="teardown"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.liono360.Product.Inventoryitem.TC_004DeleteProduct -->
-      <class name="com.liono360.Product.Inventoryitem.TC_003ViewProduct">
+      </class> <!-- com.liono360.accounts.TC_004DeleteAccount -->
+      <class name="com.liono360.accounts.TC_001CreateAccount">
         <methods>
+          <include name="TC001CreateAccount"/>
           <include name="teardown"/>
-          <include name="ViewProductTest"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.liono360.Product.Inventoryitem.TC_003ViewProduct -->
+      </class> <!-- com.liono360.accounts.TC_001CreateAccount -->
+      <class name="com.liono360.accounts.TC_003EditAccount">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="TC003_EditAccount"/>
+        </methods>
+      </class> <!-- com.liono360.accounts.TC_003EditAccount -->
+      <class name="com.liono360.accounts.TC_002ViewAccount">
+        <methods>
+          <include name="TC002_ViewAccount"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.liono360.accounts.TC_002ViewAccount -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
