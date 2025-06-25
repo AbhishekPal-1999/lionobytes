@@ -15,9 +15,16 @@ public class LoginPage {
 		PageFactory.initElements(rdriver, this);
 	}
 
-	@FindBy(xpath="//input[@type='text']")
+	
+	@FindBy(xpath="//input[@formcontrolname=\"organizationCode\"]")
+	WebElement txtOrgID;
+	
+	@FindBy(xpath="//input[@formcontrolname=\"emailId\"]")
 	WebElement txtUsername;
 
+	@FindBy(xpath="//span[text()='Next']")
+	WebElement BtnNext;
+	
 	@FindBy(xpath="//input[@type='password']")
 	WebElement txtPassword;
 
@@ -26,6 +33,12 @@ public class LoginPage {
 	
 	@FindBy(xpath="//a[@id='user-display']//img[@alt='main logo']")
 	WebElement btnProfileImg;
+	
+	
+	public void setOrgid(String OrgId)
+	{
+		txtOrgID.sendKeys(OrgId);
+	}
 
 	public void setUserName(String uname)
 	{
@@ -35,6 +48,12 @@ public class LoginPage {
 	{
 		txtPassword.sendKeys(Password);
 	}
+	
+	public void clickNext()
+	{
+		BtnNext.click();
+	}
+	
 	public void clickSubmit()
 	{
 		btnLogIn.click();

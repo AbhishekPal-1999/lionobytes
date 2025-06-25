@@ -47,7 +47,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 	public static String baseURL = readconfig.getApplicationURL();
 	public static String username = readconfig.getUsername();
 	public static String password = readconfig.getPassword();
-	
+	public static String organizationID = readconfig.getOrganizationID();
 
 
 	
@@ -186,8 +186,15 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 		logger.info("URL is opened");
 		LoginPage lp = new LoginPage(driver);
 
+		lp.setOrgid(organizationID);
+		logger.info("Organization ID added");
+		
 		lp.setUserName(username);
 		logger.info("Username added");
+		
+		lp.clickNext();
+		logger.info("Clicked on Next button");
+		
 		lp.setPassword(password);
 		logger.info("password added");
 		//Thread.sleep(2000);

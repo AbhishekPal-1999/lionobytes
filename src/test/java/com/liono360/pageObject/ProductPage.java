@@ -108,7 +108,7 @@ public class ProductPage extends Baseclass{
 	public WebElement setSearch() {
 		return txtSearch;
 	}
-	@FindBy(xpath = "//li[@aria-label='Non Inventory Item']")
+	@FindBy(xpath = "//span[text()='Non Inventory Item']")
 	WebElement dropdownnoninven;
 
 	
@@ -256,6 +256,13 @@ public class ProductPage extends Baseclass{
 	
 	public WebElement clickBarcode() {
 		return txtbarcode;
+	}
+	
+	@FindBy(xpath="(//div[@class=\"p-dropdown-trigger\"]//chevrondownicon)[3]")
+	WebElement UnitofMeasure;
+	
+	public WebElement Unit_of_Measure() {
+		return UnitofMeasure;
 	}
 	
 	@FindBy(xpath="(//p-dropdown[@optionlabel='name'])[5]")

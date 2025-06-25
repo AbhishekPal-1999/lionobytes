@@ -40,6 +40,11 @@ public class ReadConfig {
 		String password = pro.getProperty("password");
 		return password;
 	}
+	
+	public String getOrganizationID() {
+		String OrganizationID = pro.getProperty("organizationID");
+		return OrganizationID;
+	}
 
 	public String getChromePath() {
 		String chromepath = pro.getProperty("chromepath");

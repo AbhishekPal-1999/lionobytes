@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.liono360.Product.Inventoryitem.TC_001CreateProduct">
+      <class name="com.liono360.leads.TC_021Lead_Account_Field_Data_Validation">
         <methods>
-          <include name="CreateProductwithRequiredfieldTest"/>
           <include name="teardown"/>
           <include name="setup"/>
+          <include name="TC021_Lead_Account_Field_Data_Validation"/>
         </methods>
-      </class> <!-- com.liono360.Product.Inventoryitem.TC_001CreateProduct -->
+      </class> <!-- com.liono360.leads.TC_021Lead_Account_Field_Data_Validation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
